@@ -1,0 +1,28 @@
+QPushButton#connect_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+QPushButton#disconnect_button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+QTableWidget#dataTable {
+    gridline-color: #d0d0d0;
+    border: 1px solid #d0d0d0;
+}
+
+QTableWidget#dataTable::item {
+    padding: 5px;
+    text-align: right;  /* 숫자 우측 정렬 */
+}
+
+QGroupBox {
+    margin-top: 1ex;
+    font-weight: bold;
+}
