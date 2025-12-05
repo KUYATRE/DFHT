@@ -1,0 +1,157 @@
+[INFO] 2025-11-13 07:39:01,596 [main_window:main_window.py:15] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 07:39:01,736 [main_window:main_window.py:81] - 윈도우 크기: 1920x1080
+[INFO] 2025-11-13 07:39:01,737 [main_window:main_window.py:82] - UI 초기화 완료
+[INFO] 2025-11-13 07:39:04,137 [main_window:main_window.py:87] - 모니터링 시작
+[INFO] 2025-11-13 07:53:35,509 [main_window:main_window.py:15] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 07:53:35,655 [main_window:main_window.py:81] - 윈도우 크기: 1920x1080
+[INFO] 2025-11-13 07:53:35,655 [main_window:main_window.py:82] - UI 초기화 완료
+[INFO] 2025-11-13 07:53:37,435 [main_window:main_window.py:87] - 모니터링 시작
+[INFO] 2025-11-13 07:56:49,347 [main_window:main_window.py:15] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 07:56:49,506 [main_window:main_window.py:81] - 윈도우 크기: 1920x1080
+[INFO] 2025-11-13 07:56:49,507 [main_window:main_window.py:82] - UI 초기화 완료
+[INFO] 2025-11-13 07:56:50,970 [main_window:main_window.py:87] - 모니터링 시작
+[INFO] 2025-11-13 07:57:22,214 [main_window:main_window.py:15] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 07:57:22,417 [main_window:main_window.py:81] - 윈도우 크기: 1920x1080
+[INFO] 2025-11-13 07:57:22,418 [main_window:main_window.py:82] - UI 초기화 완료
+[INFO] 2025-11-13 07:57:24,282 [main_window:main_window.py:87] - 모니터링 시작
+[INFO] 2025-11-13 07:59:53,716 [main_window:main_window.py:15] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 07:59:53,853 [main_window:main_window.py:81] - 윈도우 크기: 1920x1080
+[INFO] 2025-11-13 07:59:53,854 [main_window:main_window.py:82] - UI 초기화 완료
+[INFO] 2025-11-13 07:59:55,514 [main_window:main_window.py:87] - 모니터링 시작
+[INFO] 2025-11-13 08:01:08,031 [main_window:main_window.py:15] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 08:01:08,210 [main_window:main_window.py:81] - 윈도우 크기: 1920x1080
+[INFO] 2025-11-13 08:01:08,210 [main_window:main_window.py:82] - UI 초기화 완료
+[INFO] 2025-11-13 08:01:11,016 [main_window:main_window.py:87] - 모니터링 시작
+[INFO] 2025-11-13 08:08:56,398 [main_window:main_window.py:15] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 08:08:56,537 [main_window:main_window.py:81] - 윈도우 크기: 1920x1080
+[INFO] 2025-11-13 08:08:56,537 [main_window:main_window.py:82] - UI 초기화 완료
+[INFO] 2025-11-13 08:08:58,274 [main_window:main_window.py:87] - 모니터링 시작
+[INFO] 2025-11-13 08:10:23,066 [main_window:main_window.py:15] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 08:10:23,218 [main_window:main_window.py:81] - 윈도우 크기: 1920x1080
+[INFO] 2025-11-13 08:10:23,218 [main_window:main_window.py:82] - UI 초기화 완료
+[INFO] 2025-11-13 08:22:01,151 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 08:22:01,316 [main_window:main_window.py:84] - 윈도우 크기: 1920x1080
+[INFO] 2025-11-13 08:22:01,316 [main_window:main_window.py:85] - UI 초기화 완료
+[INFO] 2025-11-13 08:22:02,703 [main_window:main_window.py:90] - 모니터링 시작
+[INFO] 2025-11-13 08:45:28,045 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 08:45:28,169 [main_window:main_window.py:83] - 윈도우 크기: 1920x1080
+[INFO] 2025-11-13 08:45:28,169 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 08:45:30,394 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 09:56:24,838 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 09:56:24,945 [main_window:main_window.py:83] - 윈도우 크기: 1920x1080
+[INFO] 2025-11-13 09:56:24,945 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 09:56:57,521 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 09:56:57,629 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 09:56:57,629 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 10:02:26,887 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 10:02:27,001 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 10:02:27,001 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 10:02:46,417 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 10:02:46,529 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 10:02:46,529 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 10:02:47,837 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 10:12:15,157 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 10:12:15,270 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 10:12:15,270 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 10:12:16,852 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 10:19:38,172 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 10:19:38,285 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 10:19:38,285 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 10:19:40,445 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 10:28:48,222 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 10:28:48,335 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 10:28:48,336 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 10:28:49,510 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 10:31:18,018 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 10:31:18,124 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 10:31:18,125 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 10:49:51,489 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 10:49:51,595 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 10:49:51,595 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 10:49:53,721 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 10:55:51,583 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 10:55:51,691 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 10:55:51,692 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 10:55:53,651 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 11:10:28,679 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 11:10:28,798 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 11:10:28,798 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 11:10:31,151 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 11:35:10,733 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 11:35:10,842 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 11:35:10,842 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 11:35:26,608 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 11:37:30,420 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 11:37:30,526 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 11:37:30,526 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 11:38:30,245 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 15:07:37,360 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:07:37,553 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:07:37,554 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:14:06,675 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:20:09,584 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:20:09,703 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:20:09,703 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:20:23,084 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:20:23,219 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:20:23,220 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:20:40,755 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:20:40,885 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:20:40,885 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:25:04,065 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 15:26:25,918 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:26:26,045 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:26:26,045 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:26:27,661 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 15:26:41,030 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:26:41,152 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:26:41,152 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:26:47,865 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 15:26:52,461 [main_window:main_window.py:92] - 모니터링 중지
+[INFO] 2025-11-13 15:26:54,026 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 15:27:02,722 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:27:02,863 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:27:02,863 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:27:04,260 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 15:28:10,033 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:28:10,158 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:28:10,159 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:28:12,107 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 15:38:00,581 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:38:00,716 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:38:00,716 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:39:35,675 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 15:41:11,815 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:41:11,943 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:41:11,943 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:41:17,112 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 15:51:13,953 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:51:14,078 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:51:14,078 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:51:16,595 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 15:56:16,522 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 15:56:16,646 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 15:56:16,646 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 15:56:18,663 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 18:38:40,070 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 18:38:40,341 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 18:38:40,342 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 18:41:55,734 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 18:41:55,849 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 18:41:55,850 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 18:41:57,645 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 18:49:00,296 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 18:49:00,419 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 18:49:00,419 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 18:49:06,611 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 18:50:20,818 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 18:50:20,932 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 18:50:20,933 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 18:50:23,136 [main_window:main_window.py:89] - 모니터링 시작
+[INFO] 2025-11-13 19:30:06,587 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 19:30:06,706 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 19:30:06,706 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 19:33:22,049 [main_window:main_window.py:17] - PLC 모니터링 애플리케이션 시작
+[INFO] 2025-11-13 19:33:22,169 [main_window:main_window.py:83] - 윈도우 크기: 1920x900
+[INFO] 2025-11-13 19:33:22,169 [main_window:main_window.py:84] - UI 초기화 완료
+[INFO] 2025-11-13 19:33:46,087 [main_window:main_window.py:89] - 모니터링 시작

@@ -1,0 +1,2212 @@
+[INFO] 2025-11-12 15:18:58,942 [trigger_monitor:trigger_monitor_widget.py:35]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 15:24:30,326 [trigger_monitor:trigger_monitor_widget.py:35]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 15:24:54,332 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[INFO] 2025-11-12 15:24:54,332 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:25:13,335 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[INFO] 2025-11-12 15:25:13,348 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:26:37,343 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 3)
+
+[INFO] 2025-11-12 15:26:37,343 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:29:51,367 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 4)
+
+[INFO] 2025-11-12 15:29:51,367 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:29:56,358 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 5)
+
+[INFO] 2025-11-12 15:29:56,358 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:34:13,144 [trigger_monitor:trigger_monitor_widget.py:35]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 15:34:18,143 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[INFO] 2025-11-12 15:34:18,143 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:34:23,152 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[INFO] 2025-11-12 15:34:23,152 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:35:05,170 [trigger_monitor:trigger_monitor_widget.py:35]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 15:35:11,174 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[INFO] 2025-11-12 15:35:11,175 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:35:21,175 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[INFO] 2025-11-12 15:35:21,175 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:36:17,177 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 3)
+
+[INFO] 2025-11-12 15:36:17,177 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:36:25,171 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 4)
+
+[INFO] 2025-11-12 15:36:25,171 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:39:35,469 [trigger_monitor:trigger_monitor_widget.py:35]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 15:39:40,476 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[INFO] 2025-11-12 15:39:40,477 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 15:40:03,468 [trigger_monitor:trigger_monitor_widget.py:63]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[INFO] 2025-11-12 15:40:03,468 [trigger_monitor:trigger_monitor_widget.py:73]
+Thread: MainThread
+Message: 데이터 읽기 시작
+
+[INFO] 2025-11-12 18:31:28,512 [trigger_monitor:trigger_monitor_widget.py:139]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 18:32:10,510 [trigger_monitor:trigger_monitor_widget.py:167]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[ERROR] 2025-11-12 18:32:10,510 [trigger_monitor:trigger_monitor_widget.py:118]
+Thread: MainThread
+Message: PLC 데이터 읽기 실패: 'PLCConnector' object has no attribute 'read_word'
+
+[INFO] 2025-11-12 18:34:46,538 [trigger_monitor:trigger_monitor_widget.py:167]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[ERROR] 2025-11-12 18:34:46,538 [trigger_monitor:trigger_monitor_widget.py:118]
+Thread: MainThread
+Message: PLC 데이터 읽기 실패: 'PLCConnector' object has no attribute 'read_word'
+
+[INFO] 2025-11-12 18:37:20,996 [trigger_monitor:trigger_monitor_widget.py:139]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 18:37:22,001 [trigger_monitor:trigger_monitor_widget.py:167]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[ERROR] 2025-11-12 18:37:22,004 [trigger_monitor:trigger_monitor_widget.py:118]
+Thread: MainThread
+Message: PLC 데이터 읽기 실패: 'int' object is not subscriptable
+
+[INFO] 2025-11-12 18:41:34,466 [trigger_monitor:trigger_monitor_widget.py:140]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 18:41:48,470 [trigger_monitor:trigger_monitor_widget.py:168]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[INFO] 2025-11-12 18:42:50,474 [trigger_monitor:trigger_monitor_widget.py:168]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[INFO] 2025-11-12 18:45:44,975 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 18:45:49,992 [trigger_monitor:trigger_monitor_widget.py:176]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[INFO] 2025-11-12 18:46:24,001 [trigger_monitor:trigger_monitor_widget.py:176]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[INFO] 2025-11-12 19:09:08,781 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 19:13:28,385 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 19:53:54,842 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-12 19:56:38,312 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 07:39:04,133 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 07:53:37,434 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 07:56:50,970 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 07:57:24,282 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 07:59:55,514 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 08:01:11,015 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 08:08:58,273 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 08:22:02,702 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 08:45:30,393 [trigger_monitor:trigger_monitor_widget.py:148]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 08:46:50,388 [trigger_monitor:trigger_monitor_widget.py:176]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[INFO] 2025-11-13 08:46:56,391 [trigger_monitor:trigger_monitor_widget.py:176]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[INFO] 2025-11-13 10:02:47,836 [trigger_monitor:trigger_monitor_widget.py:173]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 10:12:16,851 [trigger_monitor:trigger_monitor_widget.py:177]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 10:12:23,867 [trigger_monitor:trigger_monitor_widget.py:205]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 10:12:23,994 [trigger_monitor:trigger_monitor_widget.py:151]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 10:12:23,994 [trigger_monitor:trigger_monitor_widget.py:153]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 10:19:40,444 [trigger_monitor:trigger_monitor_widget.py:182]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 10:19:44,443 [trigger_monitor:trigger_monitor_widget.py:210]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 10:19:44,592 [trigger_monitor:trigger_monitor_widget.py:154]
+Thread: MainThread
+Message: left_values: <PyQt6.QtWidgets.QTableWidget object at 0x000001D252CD80F0>
+
+[DEBUG] 2025-11-13 10:19:44,592 [trigger_monitor:trigger_monitor_widget.py:156]
+Thread: MainThread
+Message: right_values: <PyQt6.QtWidgets.QTableWidget object at 0x000001D252CD8FF0>
+
+[INFO] 2025-11-13 10:28:49,510 [trigger_monitor:trigger_monitor_widget.py:194]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 10:28:53,315 [trigger_monitor:trigger_monitor_widget.py:125]
+Thread: MainThread
+Message: ary: [['0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0']]
+
+[INFO] 2025-11-13 10:29:50,537 [trigger_monitor:trigger_monitor_widget.py:222]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 10:29:50,667 [trigger_monitor:trigger_monitor_widget.py:166]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 10:29:50,668 [trigger_monitor:trigger_monitor_widget.py:168]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 10:29:56,697 [trigger_monitor:trigger_monitor_widget.py:125]
+Thread: MainThread
+Message: ary: [['1', '5', '11', '14', '18', '23', '27', '31'], ['2', '6', '10', '14', '18', '22', '28', '32']]
+
+[INFO] 2025-11-13 10:49:53,721 [trigger_monitor:trigger_monitor_widget.py:214]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 10:49:59,725 [trigger_monitor:trigger_monitor_widget.py:242]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 10:49:59,855 [trigger_monitor:trigger_monitor_widget.py:186]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 10:49:59,855 [trigger_monitor:trigger_monitor_widget.py:188]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 10:50:33,003 [trigger_monitor:trigger_monitor_widget.py:125]
+Thread: MainThread
+Message: ary: [['1', '5', '11', '14', '18', '23', '27', '31'], ['2', '6', '10', '14', '18', '22', '28', '32']]
+
+[INFO] 2025-11-13 10:55:53,651 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 10:55:58,670 [trigger_monitor:trigger_monitor_widget.py:268]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 10:55:58,838 [trigger_monitor:trigger_monitor_widget.py:212]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 10:55:58,838 [trigger_monitor:trigger_monitor_widget.py:214]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 10:57:05,658 [trigger_monitor:trigger_monitor_widget.py:268]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[DEBUG] 2025-11-13 10:57:05,784 [trigger_monitor:trigger_monitor_widget.py:212]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 10:57:05,785 [trigger_monitor:trigger_monitor_widget.py:214]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 10:57:41,663 [trigger_monitor:trigger_monitor_widget.py:268]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 3)
+
+[DEBUG] 2025-11-13 10:57:41,810 [trigger_monitor:trigger_monitor_widget.py:212]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 10:57:41,810 [trigger_monitor:trigger_monitor_widget.py:214]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 11:00:07,658 [trigger_monitor:trigger_monitor_widget.py:268]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 4)
+
+[DEBUG] 2025-11-13 11:00:07,787 [trigger_monitor:trigger_monitor_widget.py:212]
+Thread: MainThread
+Message: left_values: [5, 5, 11, 14, 18, 23, 27, 31, 6, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 11:00:07,787 [trigger_monitor:trigger_monitor_widget.py:214]
+Thread: MainThread
+Message: right_values: [7, 7, 13, 17, 21, 26, 29, 33, 8, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 11:00:17,939 [trigger_monitor:trigger_monitor_widget.py:132]
+Thread: MainThread
+Message: restore_table - title=Normal temperature, ary=[[5, 5, 11, 14, 18, 23, 27, 31], [6, 6, 10, 14, 18, 22, 28, 32]]
+
+[DEBUG] 2025-11-13 11:00:17,939 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=0, mem_area=0xA0, word_addr=840, value=5
+
+[DEBUG] 2025-11-13 11:00:17,940 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=1, mem_area=0xA0, word_addr=845, value=5
+
+[DEBUG] 2025-11-13 11:00:17,940 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=2, mem_area=0xA0, word_addr=850, value=11
+
+[DEBUG] 2025-11-13 11:00:17,940 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=3, mem_area=0xA0, word_addr=855, value=14
+
+[DEBUG] 2025-11-13 11:00:17,940 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=4, mem_area=0xA0, word_addr=860, value=18
+
+[DEBUG] 2025-11-13 11:00:17,941 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=5, mem_area=0xA0, word_addr=865, value=23
+
+[DEBUG] 2025-11-13 11:00:17,941 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=6, mem_area=0xA0, word_addr=870, value=27
+
+[DEBUG] 2025-11-13 11:00:17,941 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=7, mem_area=0xA0, word_addr=875, value=31
+
+[DEBUG] 2025-11-13 11:00:17,941 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=0, mem_area=0xA0, word_addr=841, value=6
+
+[DEBUG] 2025-11-13 11:00:17,942 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=1, mem_area=0xA0, word_addr=846, value=6
+
+[DEBUG] 2025-11-13 11:00:17,942 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=2, mem_area=0xA0, word_addr=851, value=10
+
+[DEBUG] 2025-11-13 11:00:17,942 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=3, mem_area=0xA0, word_addr=856, value=14
+
+[DEBUG] 2025-11-13 11:00:17,942 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=4, mem_area=0xA0, word_addr=861, value=18
+
+[DEBUG] 2025-11-13 11:00:17,943 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=5, mem_area=0xA0, word_addr=866, value=22
+
+[DEBUG] 2025-11-13 11:00:17,943 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=6, mem_area=0xA0, word_addr=871, value=28
+
+[DEBUG] 2025-11-13 11:00:17,943 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=7, mem_area=0xA0, word_addr=876, value=32
+
+[INFO] 2025-11-13 11:00:17,943 [trigger_monitor:trigger_monitor_widget.py:169]
+Thread: MainThread
+Message: Normal temperature 테이블 Restore 완료
+
+[INFO] 2025-11-13 11:10:31,150 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 11:10:32,156 [trigger_monitor:trigger_monitor_widget.py:268]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 11:10:32,267 [trigger_monitor:trigger_monitor_widget.py:212]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 11:10:32,267 [trigger_monitor:trigger_monitor_widget.py:214]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 11:10:38,155 [trigger_monitor:trigger_monitor_widget.py:268]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[DEBUG] 2025-11-13 11:10:38,291 [trigger_monitor:trigger_monitor_widget.py:212]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 11:10:38,291 [trigger_monitor:trigger_monitor_widget.py:214]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 11:10:55,854 [trigger_monitor:trigger_monitor_widget.py:132]
+Thread: MainThread
+Message: restore_table - title=Normal temperature, ary=[[1, 5, 11, 14, 18, 23, 27, 31], [2, 6, 10, 14, 18, 22, 28, 32]]
+
+[DEBUG] 2025-11-13 11:10:55,855 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=0, mem_area=0xA0, word_addr=840, value=1
+
+[DEBUG] 2025-11-13 11:10:55,858 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=1, mem_area=0xA0, word_addr=845, value=5
+
+[DEBUG] 2025-11-13 11:10:55,861 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=2, mem_area=0xA0, word_addr=850, value=11
+
+[DEBUG] 2025-11-13 11:10:55,864 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=3, mem_area=0xA0, word_addr=855, value=14
+
+[DEBUG] 2025-11-13 11:10:55,867 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=4, mem_area=0xA0, word_addr=860, value=18
+
+[DEBUG] 2025-11-13 11:10:55,870 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=5, mem_area=0xA0, word_addr=865, value=23
+
+[DEBUG] 2025-11-13 11:10:55,873 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=6, mem_area=0xA0, word_addr=870, value=27
+
+[DEBUG] 2025-11-13 11:10:55,876 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=7, mem_area=0xA0, word_addr=875, value=31
+
+[DEBUG] 2025-11-13 11:10:55,879 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=0, mem_area=0xA0, word_addr=841, value=2
+
+[DEBUG] 2025-11-13 11:10:55,882 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=1, mem_area=0xA0, word_addr=846, value=6
+
+[DEBUG] 2025-11-13 11:10:55,885 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=2, mem_area=0xA0, word_addr=851, value=10
+
+[DEBUG] 2025-11-13 11:10:55,888 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=3, mem_area=0xA0, word_addr=856, value=14
+
+[DEBUG] 2025-11-13 11:10:55,891 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=4, mem_area=0xA0, word_addr=861, value=18
+
+[DEBUG] 2025-11-13 11:10:55,894 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=5, mem_area=0xA0, word_addr=866, value=22
+
+[DEBUG] 2025-11-13 11:10:55,897 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=6, mem_area=0xA0, word_addr=871, value=28
+
+[DEBUG] 2025-11-13 11:10:55,900 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=7, mem_area=0xA0, word_addr=876, value=32
+
+[INFO] 2025-11-13 11:10:55,903 [trigger_monitor:trigger_monitor_widget.py:169]
+Thread: MainThread
+Message: Normal temperature 테이블 Restore 완료
+
+[INFO] 2025-11-13 11:10:56,747 [trigger_monitor:trigger_monitor_widget.py:132]
+Thread: MainThread
+Message: restore_table - title=Normal temperature, ary=[[1, 5, 11, 14, 18, 23, 27, 31], [2, 6, 10, 14, 18, 22, 28, 32]]
+
+[DEBUG] 2025-11-13 11:10:56,748 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=0, mem_area=0xA0, word_addr=840, value=1
+
+[DEBUG] 2025-11-13 11:10:56,751 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=1, mem_area=0xA0, word_addr=845, value=5
+
+[DEBUG] 2025-11-13 11:10:56,754 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=2, mem_area=0xA0, word_addr=850, value=11
+
+[DEBUG] 2025-11-13 11:10:56,757 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=3, mem_area=0xA0, word_addr=855, value=14
+
+[DEBUG] 2025-11-13 11:10:56,760 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=4, mem_area=0xA0, word_addr=860, value=18
+
+[DEBUG] 2025-11-13 11:10:56,763 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=5, mem_area=0xA0, word_addr=865, value=23
+
+[DEBUG] 2025-11-13 11:10:56,766 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=6, mem_area=0xA0, word_addr=870, value=27
+
+[DEBUG] 2025-11-13 11:10:56,769 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=7, mem_area=0xA0, word_addr=875, value=31
+
+[DEBUG] 2025-11-13 11:10:56,772 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=0, mem_area=0xA0, word_addr=841, value=2
+
+[DEBUG] 2025-11-13 11:10:56,775 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=1, mem_area=0xA0, word_addr=846, value=6
+
+[DEBUG] 2025-11-13 11:10:56,778 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=2, mem_area=0xA0, word_addr=851, value=10
+
+[DEBUG] 2025-11-13 11:10:56,781 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=3, mem_area=0xA0, word_addr=856, value=14
+
+[DEBUG] 2025-11-13 11:10:56,784 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=4, mem_area=0xA0, word_addr=861, value=18
+
+[DEBUG] 2025-11-13 11:10:56,787 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=5, mem_area=0xA0, word_addr=866, value=22
+
+[DEBUG] 2025-11-13 11:10:56,790 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=6, mem_area=0xA0, word_addr=871, value=28
+
+[DEBUG] 2025-11-13 11:10:56,793 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=7, mem_area=0xA0, word_addr=876, value=32
+
+[INFO] 2025-11-13 11:10:56,796 [trigger_monitor:trigger_monitor_widget.py:169]
+Thread: MainThread
+Message: Normal temperature 테이블 Restore 완료
+
+[INFO] 2025-11-13 11:11:33,203 [trigger_monitor:trigger_monitor_widget.py:132]
+Thread: MainThread
+Message: restore_table - title=Normal temperature, ary=[[1, 5, 11, 14, 18, 23, 27, 31], [2, 6, 10, 14, 18, 22, 28, 32]]
+
+[DEBUG] 2025-11-13 11:11:33,204 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=0, mem_area=0xA0, word_addr=840, value=1
+
+[DEBUG] 2025-11-13 11:11:33,207 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=1, mem_area=0xA0, word_addr=845, value=5
+
+[DEBUG] 2025-11-13 11:11:33,210 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=2, mem_area=0xA0, word_addr=850, value=11
+
+[DEBUG] 2025-11-13 11:11:33,213 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=3, mem_area=0xA0, word_addr=855, value=14
+
+[DEBUG] 2025-11-13 11:11:33,216 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=4, mem_area=0xA0, word_addr=860, value=18
+
+[DEBUG] 2025-11-13 11:11:33,219 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=5, mem_area=0xA0, word_addr=865, value=23
+
+[DEBUG] 2025-11-13 11:11:33,222 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=6, mem_area=0xA0, word_addr=870, value=27
+
+[DEBUG] 2025-11-13 11:11:33,225 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=0, c=7, mem_area=0xA0, word_addr=875, value=31
+
+[DEBUG] 2025-11-13 11:11:33,228 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=0, mem_area=0xA0, word_addr=841, value=2
+
+[DEBUG] 2025-11-13 11:11:33,232 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=1, mem_area=0xA0, word_addr=846, value=6
+
+[DEBUG] 2025-11-13 11:11:33,235 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=2, mem_area=0xA0, word_addr=851, value=10
+
+[DEBUG] 2025-11-13 11:11:33,238 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=3, mem_area=0xA0, word_addr=856, value=14
+
+[DEBUG] 2025-11-13 11:11:33,241 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=4, mem_area=0xA0, word_addr=861, value=18
+
+[DEBUG] 2025-11-13 11:11:33,244 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=5, mem_area=0xA0, word_addr=866, value=22
+
+[DEBUG] 2025-11-13 11:11:33,247 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=6, mem_area=0xA0, word_addr=871, value=28
+
+[DEBUG] 2025-11-13 11:11:33,250 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=Normal temperature, r=1, c=7, mem_area=0xA0, word_addr=876, value=32
+
+[INFO] 2025-11-13 11:11:33,253 [trigger_monitor:trigger_monitor_widget.py:169]
+Thread: MainThread
+Message: Normal temperature 테이블 Restore 완료
+
+[INFO] 2025-11-13 11:11:36,572 [trigger_monitor:trigger_monitor_widget.py:132]
+Thread: MainThread
+Message: restore_table - title=High temperature, ary=[[3, 7, 13, 17, 21, 26, 29, 33], [4, 8, 12, 16, 20, 24, 30, 34]]
+
+[DEBUG] 2025-11-13 11:11:36,572 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=0, c=0, mem_area=0xA0, word_addr=842, value=3
+
+[DEBUG] 2025-11-13 11:11:36,575 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=0, c=1, mem_area=0xA0, word_addr=847, value=7
+
+[DEBUG] 2025-11-13 11:11:36,578 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=0, c=2, mem_area=0xA0, word_addr=852, value=13
+
+[DEBUG] 2025-11-13 11:11:36,581 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=0, c=3, mem_area=0xA0, word_addr=857, value=17
+
+[DEBUG] 2025-11-13 11:11:36,584 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=0, c=4, mem_area=0xA0, word_addr=862, value=21
+
+[DEBUG] 2025-11-13 11:11:36,587 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=0, c=5, mem_area=0xA0, word_addr=867, value=26
+
+[DEBUG] 2025-11-13 11:11:36,590 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=0, c=6, mem_area=0xA0, word_addr=872, value=29
+
+[DEBUG] 2025-11-13 11:11:36,593 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=0, c=7, mem_area=0xA0, word_addr=877, value=33
+
+[DEBUG] 2025-11-13 11:11:36,596 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=1, c=0, mem_area=0xA0, word_addr=843, value=4
+
+[DEBUG] 2025-11-13 11:11:36,599 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=1, c=1, mem_area=0xA0, word_addr=848, value=8
+
+[DEBUG] 2025-11-13 11:11:36,602 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=1, c=2, mem_area=0xA0, word_addr=853, value=12
+
+[DEBUG] 2025-11-13 11:11:36,605 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=1, c=3, mem_area=0xA0, word_addr=858, value=16
+
+[DEBUG] 2025-11-13 11:11:36,608 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=1, c=4, mem_area=0xA0, word_addr=863, value=20
+
+[DEBUG] 2025-11-13 11:11:36,611 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=1, c=5, mem_area=0xA0, word_addr=868, value=24
+
+[DEBUG] 2025-11-13 11:11:36,614 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=1, c=6, mem_area=0xA0, word_addr=873, value=30
+
+[DEBUG] 2025-11-13 11:11:36,617 [trigger_monitor:trigger_monitor_widget.py:158]
+Thread: MainThread
+Message: PLC write -> title=High temperature, r=1, c=7, mem_area=0xA0, word_addr=878, value=34
+
+[INFO] 2025-11-13 11:11:36,620 [trigger_monitor:trigger_monitor_widget.py:169]
+Thread: MainThread
+Message: High temperature 테이블 Restore 완료
+
+[INFO] 2025-11-13 11:35:26,608 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 11:35:39,614 [trigger_monitor:trigger_monitor_widget.py:268]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 11:35:39,758 [trigger_monitor:trigger_monitor_widget.py:212]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 11:35:39,758 [trigger_monitor:trigger_monitor_widget.py:214]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 11:38:30,245 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 11:38:34,257 [trigger_monitor:trigger_monitor_widget.py:268]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 11:38:34,387 [trigger_monitor:trigger_monitor_widget.py:212]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 11:38:34,387 [trigger_monitor:trigger_monitor_widget.py:214]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 15:25:04,064 [trigger_monitor:trigger_monitor_widget.py:250]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 15:25:12,058 [trigger_monitor:trigger_monitor_widget.py:286]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 15:25:12,187 [trigger_monitor:trigger_monitor_widget.py:222]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 15:25:12,187 [trigger_monitor:trigger_monitor_widget.py:224]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 15:26:27,661 [trigger_monitor:trigger_monitor_widget.py:250]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 15:26:28,668 [trigger_monitor:trigger_monitor_widget.py:285]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 15:26:28,796 [trigger_monitor:trigger_monitor_widget.py:222]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 15:26:28,797 [trigger_monitor:trigger_monitor_widget.py:224]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 15:26:33,654 [trigger_monitor:trigger_monitor_widget.py:285]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[DEBUG] 2025-11-13 15:26:33,794 [trigger_monitor:trigger_monitor_widget.py:222]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 15:26:33,794 [trigger_monitor:trigger_monitor_widget.py:224]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 15:26:47,865 [trigger_monitor:trigger_monitor_widget.py:250]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 15:26:50,861 [trigger_monitor:trigger_monitor_widget.py:285]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 15:26:50,996 [trigger_monitor:trigger_monitor_widget.py:222]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 15:26:50,997 [trigger_monitor:trigger_monitor_widget.py:224]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 15:26:52,460 [trigger_monitor:trigger_monitor_widget.py:255]
+Thread: MainThread
+Message: 트리거 모니터링 중지
+
+[INFO] 2025-11-13 15:26:54,026 [trigger_monitor:trigger_monitor_widget.py:250]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 15:27:04,260 [trigger_monitor:trigger_monitor_widget.py:250]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 15:28:12,107 [trigger_monitor:trigger_monitor_widget.py:250]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 15:28:16,111 [trigger_monitor:trigger_monitor_widget.py:287]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 15:28:16,230 [trigger_monitor:trigger_monitor_widget.py:222]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 15:28:16,231 [trigger_monitor:trigger_monitor_widget.py:224]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 15:39:35,675 [trigger_monitor:trigger_monitor_widget.py:275]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 15:39:44,681 [trigger_monitor:trigger_monitor_widget.py:312]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 15:39:44,809 [trigger_monitor:trigger_monitor_widget.py:247]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 15:39:44,809 [trigger_monitor:trigger_monitor_widget.py:249]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 15:41:17,112 [trigger_monitor:trigger_monitor_widget.py:275]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 15:41:22,117 [trigger_monitor:trigger_monitor_widget.py:312]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 15:41:22,238 [trigger_monitor:trigger_monitor_widget.py:247]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 15:41:22,238 [trigger_monitor:trigger_monitor_widget.py:249]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 15:41:26,110 [trigger_monitor:trigger_monitor_widget.py:312]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[DEBUG] 2025-11-13 15:41:26,227 [trigger_monitor:trigger_monitor_widget.py:247]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 15:41:26,227 [trigger_monitor:trigger_monitor_widget.py:249]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 15:51:16,595 [trigger_monitor:trigger_monitor_widget.py:281]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 15:51:17,591 [trigger_monitor:trigger_monitor_widget.py:323]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 15:51:17,700 [trigger_monitor:trigger_monitor_widget.py:253]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 15:51:17,700 [trigger_monitor:trigger_monitor_widget.py:255]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 15:51:23,607 [trigger_monitor:trigger_monitor_widget.py:323]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[DEBUG] 2025-11-13 15:51:23,733 [trigger_monitor:trigger_monitor_widget.py:253]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 15:51:23,734 [trigger_monitor:trigger_monitor_widget.py:255]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 15:56:18,662 [trigger_monitor:trigger_monitor_widget.py:281]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 15:56:19,676 [trigger_monitor:trigger_monitor_widget.py:336]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 15:56:19,802 [trigger_monitor:trigger_monitor_widget.py:253]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 15:56:19,802 [trigger_monitor:trigger_monitor_widget.py:255]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 18:41:57,645 [trigger_monitor:trigger_monitor_widget.py:281]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 18:41:58,650 [trigger_monitor:trigger_monitor_widget.py:336]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 18:41:58,769 [trigger_monitor:trigger_monitor_widget.py:253]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 18:41:58,769 [trigger_monitor:trigger_monitor_widget.py:255]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 18:42:55,644 [trigger_monitor:trigger_monitor_widget.py:336]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[DEBUG] 2025-11-13 18:42:55,777 [trigger_monitor:trigger_monitor_widget.py:253]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 18:42:55,778 [trigger_monitor:trigger_monitor_widget.py:255]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 18:49:06,610 [trigger_monitor:trigger_monitor_widget.py:282]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 18:49:07,608 [trigger_monitor:trigger_monitor_widget.py:344]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 18:49:07,728 [trigger_monitor:trigger_monitor_widget.py:254]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 18:49:07,728 [trigger_monitor:trigger_monitor_widget.py:256]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 18:50:23,136 [trigger_monitor:trigger_monitor_widget.py:282]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-13 18:50:24,149 [trigger_monitor:trigger_monitor_widget.py:344]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-13 18:50:24,260 [trigger_monitor:trigger_monitor_widget.py:254]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-13 18:50:24,260 [trigger_monitor:trigger_monitor_widget.py:256]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-13 19:33:46,087 [trigger_monitor:trigger_monitor_widget.py:285]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 08:06:41,578 [trigger_monitor:trigger_monitor_widget.py:285]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 08:15:50,208 [trigger_monitor:trigger_monitor_widget.py:285]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 10:23:28,161 [trigger_monitor:trigger_monitor_widget.py:291]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 10:23:38,175 [trigger_monitor:trigger_monitor_widget.py:369]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 10:23:38,323 [trigger_monitor:trigger_monitor_widget.py:263]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-14 10:23:38,323 [trigger_monitor:trigger_monitor_widget.py:265]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-14 10:23:45,174 [trigger_monitor:trigger_monitor_widget.py:385]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 10:23:45,181 [trigger_monitor:trigger_monitor_widget.py:401]
+Thread: MainThread
+Message: 해당 tube/job에 대한 normal 온도 로그 없음
+
+[INFO] 2025-11-14 10:23:45,181 [trigger_monitor:trigger_monitor_widget.py:406]
+Thread: MainThread
+Message: 해당 tube/job에 대한 high 온도 로그 없음
+
+[INFO] 2025-11-14 10:27:27,598 [trigger_monitor:trigger_monitor_widget.py:291]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 10:27:35,594 [trigger_monitor:trigger_monitor_widget.py:369]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 10:27:35,731 [trigger_monitor:trigger_monitor_widget.py:263]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-14 10:27:35,731 [trigger_monitor:trigger_monitor_widget.py:265]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-14 10:27:39,603 [trigger_monitor:trigger_monitor_widget.py:385]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 10:27:39,608 [trigger_monitor:trigger_monitor_widget.py:399]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 10:27:39,609 [trigger_monitor:trigger_monitor_widget.py:404]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-14 14:50:23,075 [trigger_monitor:trigger_monitor_widget.py:307]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 14:50:30,075 [trigger_monitor:trigger_monitor_widget.py:385]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 14:50:30,207 [trigger_monitor:trigger_monitor_widget.py:278]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-14 14:50:30,207 [trigger_monitor:trigger_monitor_widget.py:281]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-14 14:50:45,076 [trigger_monitor:trigger_monitor_widget.py:401]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 14:50:45,083 [trigger_monitor:trigger_monitor_widget.py:415]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551 - 복사본.csv
+
+[INFO] 2025-11-14 14:50:45,083 [trigger_monitor:trigger_monitor_widget.py:420]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-14 15:02:06,789 [trigger_monitor:trigger_monitor_widget.py:316]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 15:02:07,790 [trigger_monitor:trigger_monitor_widget.py:394]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 15:02:07,906 [trigger_monitor:trigger_monitor_widget.py:287]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-14 15:02:07,906 [trigger_monitor:trigger_monitor_widget.py:290]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-14 15:02:13,799 [trigger_monitor:trigger_monitor_widget.py:410]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 15:02:13,813 [trigger_monitor:trigger_monitor_widget.py:424]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551 - 복사본.csv
+
+[INFO] 2025-11-14 15:02:57,945 [trigger_monitor:trigger_monitor_widget.py:316]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 15:03:01,961 [trigger_monitor:trigger_monitor_widget.py:394]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 15:03:02,098 [trigger_monitor:trigger_monitor_widget.py:287]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-14 15:03:02,099 [trigger_monitor:trigger_monitor_widget.py:290]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-14 15:03:05,960 [trigger_monitor:trigger_monitor_widget.py:410]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 15:03:05,966 [trigger_monitor:trigger_monitor_widget.py:424]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 15:04:04,659 [trigger_monitor:trigger_monitor_widget.py:316]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 15:04:18,652 [trigger_monitor:trigger_monitor_widget.py:394]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 15:04:18,794 [trigger_monitor:trigger_monitor_widget.py:287]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-14 15:04:18,794 [trigger_monitor:trigger_monitor_widget.py:290]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-14 15:04:21,662 [trigger_monitor:trigger_monitor_widget.py:410]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 15:04:21,668 [trigger_monitor:trigger_monitor_widget.py:424]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 15:14:28,340 [trigger_monitor:trigger_monitor_widget.py:316]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 15:14:29,350 [trigger_monitor:trigger_monitor_widget.py:394]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 15:14:29,472 [trigger_monitor:trigger_monitor_widget.py:287]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-14 15:14:29,472 [trigger_monitor:trigger_monitor_widget.py:290]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-14 15:14:33,356 [trigger_monitor:trigger_monitor_widget.py:410]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 15:14:33,369 [trigger_monitor:trigger_monitor_widget.py:424]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 15:14:33,373 [trigger_monitor:trigger_monitor_widget.py:432]
+Thread: MainThread
+Message: new_left_table_value: [1, 6, 14, 16, 20, 26, 28, 31, 2, 6, 12, 15, 19, 23, 28, 32]
+
+[INFO] 2025-11-14 15:14:33,374 [trigger_monitor:trigger_monitor_widget.py:438]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-14 15:14:33,392 [trigger_monitor:trigger_monitor_widget.py:446]
+Thread: MainThread
+Message: new_right_table_value: [3, 8, 16, 19, 23, 29, 30, 33, 4, 8, 14, 17, 21, 25, 30, 34]
+
+[INFO] 2025-11-14 15:17:02,787 [trigger_monitor:trigger_monitor_widget.py:322]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 15:17:05,796 [trigger_monitor:trigger_monitor_widget.py:400]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 15:17:05,931 [trigger_monitor:trigger_monitor_widget.py:293]
+Thread: MainThread
+Message: left_values: [1, 5, 11, 14, 18, 23, 27, 31, 2, 6, 10, 14, 18, 22, 28, 32]
+
+[DEBUG] 2025-11-14 15:17:05,931 [trigger_monitor:trigger_monitor_widget.py:296]
+Thread: MainThread
+Message: right_values: [3, 7, 13, 17, 21, 26, 29, 33, 4, 8, 12, 16, 20, 24, 30, 34]
+
+[INFO] 2025-11-14 15:17:08,807 [trigger_monitor:trigger_monitor_widget.py:416]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 15:17:08,817 [trigger_monitor:trigger_monitor_widget.py:430]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 15:17:08,819 [trigger_monitor:trigger_monitor_widget.py:438]
+Thread: MainThread
+Message: new_left_table_value: [1, 6, 14, 16, 20, 26, 28, 31, 2, 6, 12, 15, 19, 23, 28, 32]
+
+[INFO] 2025-11-14 15:17:08,819 [trigger_monitor:trigger_monitor_widget.py:444]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-14 15:17:08,821 [trigger_monitor:trigger_monitor_widget.py:452]
+Thread: MainThread
+Message: new_right_table_value: [3, 8, 16, 19, 23, 29, 30, 33, 4, 8, 14, 17, 21, 25, 30, 34]
+
+[INFO] 2025-11-14 15:17:32,179 [trigger_monitor:trigger_monitor_widget.py:204]
+Thread: MainThread
+Message: restore_table - title=New Normal Temp Param, ary=[[1, 6, 14, 16, 20, 26, 28, 31], [2, 6, 12, 15, 19, 23, 28, 32]]
+
+[DEBUG] 2025-11-14 15:17:32,179 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=0, mem_area=0xA0, word_addr=840, value=1
+
+[DEBUG] 2025-11-14 15:17:32,183 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=1, mem_area=0xA0, word_addr=845, value=6
+
+[DEBUG] 2025-11-14 15:17:32,186 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=2, mem_area=0xA0, word_addr=850, value=14
+
+[DEBUG] 2025-11-14 15:17:32,189 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=3, mem_area=0xA0, word_addr=855, value=16
+
+[DEBUG] 2025-11-14 15:17:32,192 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=4, mem_area=0xA0, word_addr=860, value=20
+
+[DEBUG] 2025-11-14 15:17:32,195 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=5, mem_area=0xA0, word_addr=865, value=26
+
+[DEBUG] 2025-11-14 15:17:32,198 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=6, mem_area=0xA0, word_addr=870, value=28
+
+[DEBUG] 2025-11-14 15:17:32,201 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=7, mem_area=0xA0, word_addr=875, value=31
+
+[DEBUG] 2025-11-14 15:17:32,204 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=0, mem_area=0xA0, word_addr=841, value=2
+
+[DEBUG] 2025-11-14 15:17:32,207 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=1, mem_area=0xA0, word_addr=846, value=6
+
+[DEBUG] 2025-11-14 15:17:32,210 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=2, mem_area=0xA0, word_addr=851, value=12
+
+[DEBUG] 2025-11-14 15:17:32,213 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=3, mem_area=0xA0, word_addr=856, value=15
+
+[DEBUG] 2025-11-14 15:17:32,216 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=4, mem_area=0xA0, word_addr=861, value=19
+
+[DEBUG] 2025-11-14 15:17:32,219 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=5, mem_area=0xA0, word_addr=866, value=23
+
+[DEBUG] 2025-11-14 15:17:32,222 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=6, mem_area=0xA0, word_addr=871, value=28
+
+[DEBUG] 2025-11-14 15:17:32,225 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=7, mem_area=0xA0, word_addr=876, value=32
+
+[INFO] 2025-11-14 15:17:32,228 [trigger_monitor:trigger_monitor_widget.py:249]
+Thread: MainThread
+Message: New Normal Temp Param 테이블 Restore 완료
+
+[INFO] 2025-11-14 15:17:35,678 [trigger_monitor:trigger_monitor_widget.py:204]
+Thread: MainThread
+Message: restore_table - title=New High Temp Param, ary=[[3, 8, 16, 19, 23, 29, 30, 33], [4, 8, 14, 17, 21, 25, 30, 34]]
+
+[DEBUG] 2025-11-14 15:17:35,678 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=0, mem_area=0xA0, word_addr=842, value=3
+
+[DEBUG] 2025-11-14 15:17:35,682 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=1, mem_area=0xA0, word_addr=847, value=8
+
+[DEBUG] 2025-11-14 15:17:35,686 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=2, mem_area=0xA0, word_addr=852, value=16
+
+[DEBUG] 2025-11-14 15:17:35,689 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=3, mem_area=0xA0, word_addr=857, value=19
+
+[DEBUG] 2025-11-14 15:17:35,692 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=4, mem_area=0xA0, word_addr=862, value=23
+
+[DEBUG] 2025-11-14 15:17:35,696 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=5, mem_area=0xA0, word_addr=867, value=29
+
+[DEBUG] 2025-11-14 15:17:35,699 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=6, mem_area=0xA0, word_addr=872, value=30
+
+[DEBUG] 2025-11-14 15:17:35,702 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=7, mem_area=0xA0, word_addr=877, value=33
+
+[DEBUG] 2025-11-14 15:17:35,705 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=0, mem_area=0xA0, word_addr=843, value=4
+
+[DEBUG] 2025-11-14 15:17:35,708 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=1, mem_area=0xA0, word_addr=848, value=8
+
+[DEBUG] 2025-11-14 15:17:35,711 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=2, mem_area=0xA0, word_addr=853, value=14
+
+[DEBUG] 2025-11-14 15:17:35,714 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=3, mem_area=0xA0, word_addr=858, value=17
+
+[DEBUG] 2025-11-14 15:17:35,717 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=4, mem_area=0xA0, word_addr=863, value=21
+
+[DEBUG] 2025-11-14 15:17:35,720 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=5, mem_area=0xA0, word_addr=868, value=25
+
+[DEBUG] 2025-11-14 15:17:35,724 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=6, mem_area=0xA0, word_addr=873, value=30
+
+[DEBUG] 2025-11-14 15:17:35,727 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=7, mem_area=0xA0, word_addr=878, value=34
+
+[INFO] 2025-11-14 15:17:35,730 [trigger_monitor:trigger_monitor_widget.py:249]
+Thread: MainThread
+Message: New High Temp Param 테이블 Restore 완료
+
+[INFO] 2025-11-14 15:48:40,674 [trigger_monitor:trigger_monitor_widget.py:322]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 15:51:15,016 [trigger_monitor:trigger_monitor_widget.py:322]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 15:51:58,014 [trigger_monitor:trigger_monitor_widget.py:400]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 15:51:58,132 [trigger_monitor:trigger_monitor_widget.py:293]
+Thread: MainThread
+Message: left_values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 15:51:58,132 [trigger_monitor:trigger_monitor_widget.py:296]
+Thread: MainThread
+Message: right_values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[INFO] 2025-11-14 15:52:01,019 [trigger_monitor:trigger_monitor_widget.py:416]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 15:52:01,024 [trigger_monitor:trigger_monitor_widget.py:430]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 15:52:01,028 [trigger_monitor:trigger_monitor_widget.py:434]
+Thread: MainThread
+Message: new_left_table_value: [0, 0, 0, 0, 0, 0, 0, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-14 15:52:01,028 [trigger_monitor:trigger_monitor_widget.py:444]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-14 15:52:01,031 [trigger_monitor:trigger_monitor_widget.py:448]
+Thread: MainThread
+Message: new_right_table_value: [0, 0, 0, 0, 0, 0, 0, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-14 15:52:16,291 [trigger_monitor:trigger_monitor_widget.py:204]
+Thread: MainThread
+Message: restore_table - title=New Normal Temp Param, ary=[[0, 0, 0, 0, 0, 0, 0, 0], [-20, 25, 52, 7, 7, 7, 1, -6]]
+
+[DEBUG] 2025-11-14 15:52:16,292 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=0, mem_area=0xA0, word_addr=840, value=0
+
+[DEBUG] 2025-11-14 15:52:16,296 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=1, mem_area=0xA0, word_addr=845, value=0
+
+[DEBUG] 2025-11-14 15:52:16,300 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=2, mem_area=0xA0, word_addr=850, value=0
+
+[DEBUG] 2025-11-14 15:52:16,304 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=3, mem_area=0xA0, word_addr=855, value=0
+
+[DEBUG] 2025-11-14 15:52:16,308 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=4, mem_area=0xA0, word_addr=860, value=0
+
+[DEBUG] 2025-11-14 15:52:16,312 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=5, mem_area=0xA0, word_addr=865, value=0
+
+[DEBUG] 2025-11-14 15:52:16,316 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=6, mem_area=0xA0, word_addr=870, value=0
+
+[DEBUG] 2025-11-14 15:52:16,320 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=7, mem_area=0xA0, word_addr=875, value=0
+
+[DEBUG] 2025-11-14 15:52:16,324 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=0, mem_area=0xA0, word_addr=841, value=-20
+
+[DEBUG] 2025-11-14 15:52:16,328 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=1, mem_area=0xA0, word_addr=846, value=25
+
+[DEBUG] 2025-11-14 15:52:16,332 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=2, mem_area=0xA0, word_addr=851, value=52
+
+[DEBUG] 2025-11-14 15:52:16,336 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=3, mem_area=0xA0, word_addr=856, value=7
+
+[DEBUG] 2025-11-14 15:52:16,340 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=4, mem_area=0xA0, word_addr=861, value=7
+
+[DEBUG] 2025-11-14 15:52:16,342 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=5, mem_area=0xA0, word_addr=866, value=7
+
+[DEBUG] 2025-11-14 15:52:16,346 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=6, mem_area=0xA0, word_addr=871, value=1
+
+[DEBUG] 2025-11-14 15:52:16,349 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=7, mem_area=0xA0, word_addr=876, value=-6
+
+[INFO] 2025-11-14 15:52:16,352 [trigger_monitor:trigger_monitor_widget.py:249]
+Thread: MainThread
+Message: New Normal Temp Param 테이블 Restore 완료
+
+[INFO] 2025-11-14 15:52:23,904 [trigger_monitor:trigger_monitor_widget.py:204]
+Thread: MainThread
+Message: restore_table - title=New High Temp Param, ary=[[0, 0, 0, 0, 0, 0, 0, 0], [-20, 25, 52, 7, 7, 7, 1, -6]]
+
+[DEBUG] 2025-11-14 15:52:23,905 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=0, mem_area=0xA0, word_addr=842, value=0
+
+[DEBUG] 2025-11-14 15:52:23,908 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=1, mem_area=0xA0, word_addr=847, value=0
+
+[DEBUG] 2025-11-14 15:52:23,911 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=2, mem_area=0xA0, word_addr=852, value=0
+
+[DEBUG] 2025-11-14 15:52:23,914 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=3, mem_area=0xA0, word_addr=857, value=0
+
+[DEBUG] 2025-11-14 15:52:23,917 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=4, mem_area=0xA0, word_addr=862, value=0
+
+[DEBUG] 2025-11-14 15:52:23,920 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=5, mem_area=0xA0, word_addr=867, value=0
+
+[DEBUG] 2025-11-14 15:52:23,923 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=6, mem_area=0xA0, word_addr=872, value=0
+
+[DEBUG] 2025-11-14 15:52:23,927 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=7, mem_area=0xA0, word_addr=877, value=0
+
+[DEBUG] 2025-11-14 15:52:23,930 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=0, mem_area=0xA0, word_addr=843, value=-20
+
+[DEBUG] 2025-11-14 15:52:23,933 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=1, mem_area=0xA0, word_addr=848, value=25
+
+[DEBUG] 2025-11-14 15:52:23,936 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=2, mem_area=0xA0, word_addr=853, value=52
+
+[DEBUG] 2025-11-14 15:52:23,939 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=3, mem_area=0xA0, word_addr=858, value=7
+
+[DEBUG] 2025-11-14 15:52:23,942 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=4, mem_area=0xA0, word_addr=863, value=7
+
+[DEBUG] 2025-11-14 15:52:23,945 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=5, mem_area=0xA0, word_addr=868, value=7
+
+[DEBUG] 2025-11-14 15:52:23,948 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=6, mem_area=0xA0, word_addr=873, value=1
+
+[DEBUG] 2025-11-14 15:52:23,951 [trigger_monitor:trigger_monitor_widget.py:238]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=7, mem_area=0xA0, word_addr=878, value=-6
+
+[INFO] 2025-11-14 15:52:23,955 [trigger_monitor:trigger_monitor_widget.py:249]
+Thread: MainThread
+Message: New High Temp Param 테이블 Restore 완료
+
+[INFO] 2025-11-14 15:52:48,022 [trigger_monitor:trigger_monitor_widget.py:400]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[DEBUG] 2025-11-14 15:52:48,156 [trigger_monitor:trigger_monitor_widget.py:293]
+Thread: MainThread
+Message: left_values: [0, 0, 0, 0, 0, 0, 0, 0, 65516, 25, 52, 7, 7, 7, 1, 65530]
+
+[DEBUG] 2025-11-14 15:52:48,156 [trigger_monitor:trigger_monitor_widget.py:296]
+Thread: MainThread
+Message: right_values: [0, 0, 0, 0, 0, 0, 0, 0, 65516, 25, 52, 7, 7, 7, 1, 65530]
+
+[INFO] 2025-11-14 15:52:59,018 [trigger_monitor:trigger_monitor_widget.py:416]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 15:52:59,024 [trigger_monitor:trigger_monitor_widget.py:430]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 15:52:59,027 [trigger_monitor:trigger_monitor_widget.py:438]
+Thread: MainThread
+Message: new_left_table_value: [0, 1, 3, 2, 2, 3, 1, 0, 65516, 25, 54, 8, 8, 8, 1, 65530]
+
+[INFO] 2025-11-14 15:52:59,027 [trigger_monitor:trigger_monitor_widget.py:444]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-14 15:52:59,031 [trigger_monitor:trigger_monitor_widget.py:452]
+Thread: MainThread
+Message: new_right_table_value: [0, 1, 3, 2, 2, 3, 1, 0, 65516, 25, 54, 8, 8, 8, 1, 65530]
+
+[INFO] 2025-11-14 15:54:29,028 [trigger_monitor:trigger_monitor_widget.py:400]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 3)
+
+[DEBUG] 2025-11-14 15:54:29,144 [trigger_monitor:trigger_monitor_widget.py:293]
+Thread: MainThread
+Message: left_values: [0, 0, 0, 0, 0, 0, 0, 0, 65516, 25, 52, 7, 7, 7, 1, 65530]
+
+[DEBUG] 2025-11-14 15:54:29,144 [trigger_monitor:trigger_monitor_widget.py:296]
+Thread: MainThread
+Message: right_values: [0, 0, 0, 0, 0, 0, 0, 0, 65516, 25, 52, 7, 7, 7, 1, 65530]
+
+[INFO] 2025-11-14 15:55:04,462 [trigger_monitor:trigger_monitor_widget.py:322]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 15:55:05,472 [trigger_monitor:trigger_monitor_widget.py:400]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 15:55:05,591 [trigger_monitor:trigger_monitor_widget.py:293]
+Thread: MainThread
+Message: left_values: [0, 0, 0, 0, 0, 0, 0, 0, 65516, 25, 52, 7, 7, 7, 1, 65530]
+
+[DEBUG] 2025-11-14 15:55:05,591 [trigger_monitor:trigger_monitor_widget.py:296]
+Thread: MainThread
+Message: right_values: [0, 0, 0, 0, 0, 0, 0, 0, 65516, 25, 52, 7, 7, 7, 1, 65530]
+
+[INFO] 2025-11-14 16:03:02,232 [trigger_monitor:trigger_monitor_widget.py:329]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 16:03:03,242 [trigger_monitor:trigger_monitor_widget.py:407]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 16:03:03,358 [trigger_monitor:trigger_monitor_widget.py:298]
+Thread: MainThread
+Message: left_values: [0, 0, 0, 0, 0, 0, 0, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:03:03,358 [trigger_monitor:trigger_monitor_widget.py:302]
+Thread: MainThread
+Message: right_values: [0, 0, 0, 0, 0, 0, 0, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-14 16:03:18,233 [trigger_monitor:trigger_monitor_widget.py:423]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 16:03:18,238 [trigger_monitor:trigger_monitor_widget.py:437]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 16:03:18,242 [trigger_monitor:trigger_monitor_widget.py:445]
+Thread: MainThread
+Message: new_left_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+
+[INFO] 2025-11-14 16:03:18,243 [trigger_monitor:trigger_monitor_widget.py:451]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-14 16:03:18,246 [trigger_monitor:trigger_monitor_widget.py:459]
+Thread: MainThread
+Message: new_right_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+
+[INFO] 2025-11-14 16:05:08,504 [trigger_monitor:trigger_monitor_widget.py:329]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 16:05:30,520 [trigger_monitor:trigger_monitor_widget.py:407]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 16:05:30,648 [trigger_monitor:trigger_monitor_widget.py:298]
+Thread: MainThread
+Message: left_values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 16:05:30,648 [trigger_monitor:trigger_monitor_widget.py:302]
+Thread: MainThread
+Message: right_values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[INFO] 2025-11-14 16:05:35,521 [trigger_monitor:trigger_monitor_widget.py:423]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 16:05:35,530 [trigger_monitor:trigger_monitor_widget.py:437]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 16:05:35,533 [trigger_monitor:trigger_monitor_widget.py:441]
+Thread: MainThread
+Message: new_left_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-14 16:05:35,534 [trigger_monitor:trigger_monitor_widget.py:451]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-14 16:05:35,537 [trigger_monitor:trigger_monitor_widget.py:455]
+Thread: MainThread
+Message: new_right_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-14 16:23:39,255 [trigger_monitor:trigger_monitor_widget.py:331]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 16:23:50,589 [trigger_monitor:trigger_monitor_widget.py:336]
+Thread: MainThread
+Message: 트리거 모니터링 중지
+
+[INFO] 2025-11-14 16:27:49,730 [trigger_monitor:trigger_monitor_widget.py:331]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 16:27:50,728 [trigger_monitor:trigger_monitor_widget.py:409]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 16:27:50,850 [trigger_monitor:trigger_monitor_widget.py:300]
+Thread: MainThread
+Message: left_values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 16:27:50,851 [trigger_monitor:trigger_monitor_widget.py:304]
+Thread: MainThread
+Message: right_values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[INFO] 2025-11-14 16:27:56,744 [trigger_monitor:trigger_monitor_widget.py:425]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 16:27:56,751 [trigger_monitor:trigger_monitor_widget.py:439]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 16:27:56,754 [trigger_monitor:trigger_monitor_widget.py:443]
+Thread: MainThread
+Message: new_left_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-14 16:27:56,755 [trigger_monitor:trigger_monitor_widget.py:453]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-14 16:27:56,758 [trigger_monitor:trigger_monitor_widget.py:457]
+Thread: MainThread
+Message: new_right_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-14 16:29:09,717 [trigger_monitor:trigger_monitor_widget.py:206]
+Thread: MainThread
+Message: restore_table - title=New Normal Temp Param, ary=[[0, 1, 3, 2, 2, 3, 1, 0], [-20, 25, 52, 7, 7, 7, 1, -6]]
+
+[DEBUG] 2025-11-14 16:29:09,717 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=0, mem_area=0xA0, word_addr=840, value=0
+
+[DEBUG] 2025-11-14 16:29:09,721 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=1, mem_area=0xA0, word_addr=845, value=1
+
+[DEBUG] 2025-11-14 16:29:09,723 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=2, mem_area=0xA0, word_addr=850, value=3
+
+[DEBUG] 2025-11-14 16:29:09,726 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=3, mem_area=0xA0, word_addr=855, value=2
+
+[DEBUG] 2025-11-14 16:29:09,729 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=4, mem_area=0xA0, word_addr=860, value=2
+
+[DEBUG] 2025-11-14 16:29:09,733 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=5, mem_area=0xA0, word_addr=865, value=3
+
+[DEBUG] 2025-11-14 16:29:09,737 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=6, mem_area=0xA0, word_addr=870, value=1
+
+[DEBUG] 2025-11-14 16:29:09,740 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=0, c=7, mem_area=0xA0, word_addr=875, value=0
+
+[DEBUG] 2025-11-14 16:29:09,743 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=0, mem_area=0xA0, word_addr=841, value=-20
+
+[DEBUG] 2025-11-14 16:29:09,746 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=1, mem_area=0xA0, word_addr=846, value=25
+
+[DEBUG] 2025-11-14 16:29:09,749 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=2, mem_area=0xA0, word_addr=851, value=52
+
+[DEBUG] 2025-11-14 16:29:09,753 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=3, mem_area=0xA0, word_addr=856, value=7
+
+[DEBUG] 2025-11-14 16:29:09,756 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=4, mem_area=0xA0, word_addr=861, value=7
+
+[DEBUG] 2025-11-14 16:29:09,759 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=5, mem_area=0xA0, word_addr=866, value=7
+
+[DEBUG] 2025-11-14 16:29:09,762 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=6, mem_area=0xA0, word_addr=871, value=1
+
+[DEBUG] 2025-11-14 16:29:09,765 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New Normal Temp Param, r=1, c=7, mem_area=0xA0, word_addr=876, value=-6
+
+[INFO] 2025-11-14 16:29:09,768 [trigger_monitor:trigger_monitor_widget.py:251]
+Thread: MainThread
+Message: New Normal Temp Param 테이블 Restore 완료
+
+[INFO] 2025-11-14 16:29:11,038 [trigger_monitor:trigger_monitor_widget.py:206]
+Thread: MainThread
+Message: restore_table - title=New High Temp Param, ary=[[0, 1, 3, 2, 2, 3, 1, 0], [-20, 25, 52, 7, 7, 7, 1, -6]]
+
+[DEBUG] 2025-11-14 16:29:11,038 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=0, mem_area=0xA0, word_addr=842, value=0
+
+[DEBUG] 2025-11-14 16:29:11,042 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=1, mem_area=0xA0, word_addr=847, value=1
+
+[DEBUG] 2025-11-14 16:29:11,045 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=2, mem_area=0xA0, word_addr=852, value=3
+
+[DEBUG] 2025-11-14 16:29:11,047 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=3, mem_area=0xA0, word_addr=857, value=2
+
+[DEBUG] 2025-11-14 16:29:11,051 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=4, mem_area=0xA0, word_addr=862, value=2
+
+[DEBUG] 2025-11-14 16:29:11,054 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=5, mem_area=0xA0, word_addr=867, value=3
+
+[DEBUG] 2025-11-14 16:29:11,057 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=6, mem_area=0xA0, word_addr=872, value=1
+
+[DEBUG] 2025-11-14 16:29:11,060 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=7, mem_area=0xA0, word_addr=877, value=0
+
+[DEBUG] 2025-11-14 16:29:11,063 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=0, mem_area=0xA0, word_addr=843, value=-20
+
+[DEBUG] 2025-11-14 16:29:11,065 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=1, mem_area=0xA0, word_addr=848, value=25
+
+[DEBUG] 2025-11-14 16:29:11,068 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=2, mem_area=0xA0, word_addr=853, value=52
+
+[DEBUG] 2025-11-14 16:29:11,072 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=3, mem_area=0xA0, word_addr=858, value=7
+
+[DEBUG] 2025-11-14 16:29:11,075 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=4, mem_area=0xA0, word_addr=863, value=7
+
+[DEBUG] 2025-11-14 16:29:11,077 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=5, mem_area=0xA0, word_addr=868, value=7
+
+[DEBUG] 2025-11-14 16:29:11,080 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=6, mem_area=0xA0, word_addr=873, value=1
+
+[DEBUG] 2025-11-14 16:29:11,084 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=7, mem_area=0xA0, word_addr=878, value=-6
+
+[INFO] 2025-11-14 16:29:11,087 [trigger_monitor:trigger_monitor_widget.py:251]
+Thread: MainThread
+Message: New High Temp Param 테이블 Restore 완료
+
+[INFO] 2025-11-14 16:29:12,748 [trigger_monitor:trigger_monitor_widget.py:206]
+Thread: MainThread
+Message: restore_table - title=New High Temp Param, ary=[[0, 1, 3, 2, 2, 3, 1, 0], [-20, 25, 52, 7, 7, 7, 1, -6]]
+
+[DEBUG] 2025-11-14 16:29:12,748 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=0, mem_area=0xA0, word_addr=842, value=0
+
+[DEBUG] 2025-11-14 16:29:12,751 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=1, mem_area=0xA0, word_addr=847, value=1
+
+[DEBUG] 2025-11-14 16:29:12,754 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=2, mem_area=0xA0, word_addr=852, value=3
+
+[DEBUG] 2025-11-14 16:29:12,757 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=3, mem_area=0xA0, word_addr=857, value=2
+
+[DEBUG] 2025-11-14 16:29:12,760 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=4, mem_area=0xA0, word_addr=862, value=2
+
+[DEBUG] 2025-11-14 16:29:12,763 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=5, mem_area=0xA0, word_addr=867, value=3
+
+[DEBUG] 2025-11-14 16:29:12,766 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=6, mem_area=0xA0, word_addr=872, value=1
+
+[DEBUG] 2025-11-14 16:29:12,770 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=0, c=7, mem_area=0xA0, word_addr=877, value=0
+
+[DEBUG] 2025-11-14 16:29:12,774 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=0, mem_area=0xA0, word_addr=843, value=-20
+
+[DEBUG] 2025-11-14 16:29:12,778 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=1, mem_area=0xA0, word_addr=848, value=25
+
+[DEBUG] 2025-11-14 16:29:12,781 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=2, mem_area=0xA0, word_addr=853, value=52
+
+[DEBUG] 2025-11-14 16:29:12,784 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=3, mem_area=0xA0, word_addr=858, value=7
+
+[DEBUG] 2025-11-14 16:29:12,788 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=4, mem_area=0xA0, word_addr=863, value=7
+
+[DEBUG] 2025-11-14 16:29:12,791 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=5, mem_area=0xA0, word_addr=868, value=7
+
+[DEBUG] 2025-11-14 16:29:12,795 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=6, mem_area=0xA0, word_addr=873, value=1
+
+[DEBUG] 2025-11-14 16:29:12,798 [trigger_monitor:trigger_monitor_widget.py:240]
+Thread: MainThread
+Message: PLC write -> title=New High Temp Param, r=1, c=7, mem_area=0xA0, word_addr=878, value=-6
+
+[INFO] 2025-11-14 16:29:12,802 [trigger_monitor:trigger_monitor_widget.py:251]
+Thread: MainThread
+Message: New High Temp Param 테이블 Restore 완료
+
+[INFO] 2025-11-14 16:33:12,650 [trigger_monitor:trigger_monitor_widget.py:331]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 16:33:17,664 [trigger_monitor:trigger_monitor_widget.py:409]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 16:33:17,793 [trigger_monitor:trigger_monitor_widget.py:300]
+Thread: MainThread
+Message: left_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:33:17,793 [trigger_monitor:trigger_monitor_widget.py:304]
+Thread: MainThread
+Message: right_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-14 16:33:18,670 [trigger_monitor:trigger_monitor_widget.py:425]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 16:33:18,679 [trigger_monitor:trigger_monitor_widget.py:439]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 16:33:18,681 [trigger_monitor:trigger_monitor_widget.py:447]
+Thread: MainThread
+Message: new_left_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+
+[INFO] 2025-11-14 16:33:18,681 [trigger_monitor:trigger_monitor_widget.py:453]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-14 16:33:18,684 [trigger_monitor:trigger_monitor_widget.py:461]
+Thread: MainThread
+Message: new_right_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+
+[INFO] 2025-11-14 16:46:17,809 [trigger_monitor:trigger_monitor_widget.py:331]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-14 16:46:22,823 [trigger_monitor:trigger_monitor_widget.py:409]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-14 16:46:22,953 [trigger_monitor:trigger_monitor_widget.py:300]
+Thread: MainThread
+Message: left_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:46:22,953 [trigger_monitor:trigger_monitor_widget.py:304]
+Thread: MainThread
+Message: right_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-14 16:46:24,817 [trigger_monitor:trigger_monitor_widget.py:425]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-14 16:46:24,823 [trigger_monitor:trigger_monitor_widget.py:439]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-14 16:46:24,827 [trigger_monitor:trigger_monitor_widget.py:447]
+Thread: MainThread
+Message: new_left_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+
+[INFO] 2025-11-14 16:46:24,827 [trigger_monitor:trigger_monitor_widget.py:453]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-14 16:46:24,830 [trigger_monitor:trigger_monitor_widget.py:461]
+Thread: MainThread
+Message: new_right_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+
+[INFO] 2025-11-17 09:53:06,164 [trigger_monitor:trigger_monitor_widget.py:331]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-17 09:53:07,183 [trigger_monitor:trigger_monitor_widget.py:409]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-17 09:53:07,463 [trigger_monitor:trigger_monitor_widget.py:300]
+Thread: MainThread
+Message: left_values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-17 09:53:07,463 [trigger_monitor:trigger_monitor_widget.py:304]
+Thread: MainThread
+Message: right_values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[INFO] 2025-11-17 18:43:59,969 [trigger_monitor:trigger_monitor_widget.py:331]
+Thread: MainThread
+Message: 트리거 모니터링 시작
+
+[INFO] 2025-11-17 18:44:47,975 [trigger_monitor:trigger_monitor_widget.py:409]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 1)
+
+[DEBUG] 2025-11-17 18:44:48,102 [trigger_monitor:trigger_monitor_widget.py:300]
+Thread: MainThread
+Message: left_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-17 18:44:48,102 [trigger_monitor:trigger_monitor_widget.py:304]
+Thread: MainThread
+Message: right_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-17 18:44:51,973 [trigger_monitor:trigger_monitor_widget.py:425]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-17 18:44:51,986 [trigger_monitor:trigger_monitor_widget.py:439]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-17 18:44:51,988 [trigger_monitor:trigger_monitor_widget.py:447]
+Thread: MainThread
+Message: new_left_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-17 18:44:51,988 [trigger_monitor:trigger_monitor_widget.py:453]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-17 18:44:51,991 [trigger_monitor:trigger_monitor_widget.py:461]
+Thread: MainThread
+Message: new_right_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+
+[INFO] 2025-11-17 18:45:30,967 [trigger_monitor:trigger_monitor_widget.py:409]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 2)
+
+[DEBUG] 2025-11-17 18:45:31,089 [trigger_monitor:trigger_monitor_widget.py:300]
+Thread: MainThread
+Message: left_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-17 18:45:31,090 [trigger_monitor:trigger_monitor_widget.py:304]
+Thread: MainThread
+Message: right_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-17 18:45:35,983 [trigger_monitor:trigger_monitor_widget.py:425]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-17 18:45:36,016 [trigger_monitor:trigger_monitor_widget.py:439]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-17 18:45:36,017 [trigger_monitor:trigger_monitor_widget.py:447]
+Thread: MainThread
+Message: new_left_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-17 18:45:36,017 [trigger_monitor:trigger_monitor_widget.py:453]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-17 18:45:36,019 [trigger_monitor:trigger_monitor_widget.py:461]
+Thread: MainThread
+Message: new_right_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+
+[INFO] 2025-11-17 18:45:41,977 [trigger_monitor:trigger_monitor_widget.py:409]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 3)
+
+[DEBUG] 2025-11-17 18:45:42,097 [trigger_monitor:trigger_monitor_widget.py:300]
+Thread: MainThread
+Message: left_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-17 18:45:42,098 [trigger_monitor:trigger_monitor_widget.py:304]
+Thread: MainThread
+Message: right_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-17 18:45:44,970 [trigger_monitor:trigger_monitor_widget.py:425]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-17 18:45:44,976 [trigger_monitor:trigger_monitor_widget.py:439]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-17 18:45:44,977 [trigger_monitor:trigger_monitor_widget.py:447]
+Thread: MainThread
+Message: new_left_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-17 18:45:44,977 [trigger_monitor:trigger_monitor_widget.py:453]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-17 18:45:44,981 [trigger_monitor:trigger_monitor_widget.py:461]
+Thread: MainThread
+Message: new_right_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+
+[INFO] 2025-11-17 18:46:27,973 [trigger_monitor:trigger_monitor_widget.py:409]
+Thread: MainThread
+Message: 트리거 감지 (카운트: 4)
+
+[DEBUG] 2025-11-17 18:46:28,096 [trigger_monitor:trigger_monitor_widget.py:300]
+Thread: MainThread
+Message: left_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-17 18:46:28,096 [trigger_monitor:trigger_monitor_widget.py:304]
+Thread: MainThread
+Message: right_values: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+
+[INFO] 2025-11-17 18:46:29,981 [trigger_monitor:trigger_monitor_widget.py:425]
+Thread: MainThread
+Message: trigger_released: tube_id=1, job_id=6588
+
+[INFO] 2025-11-17 18:46:30,013 [trigger_monitor:trigger_monitor_widget.py:439]
+Thread: MainThread
+Message: 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[INFO] 2025-11-17 18:46:30,016 [trigger_monitor:trigger_monitor_widget.py:447]
+Thread: MainThread
+Message: new_left_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+
+[INFO] 2025-11-17 18:46:30,016 [trigger_monitor:trigger_monitor_widget.py:453]
+Thread: MainThread
+Message: 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+
+[INFO] 2025-11-17 18:46:30,019 [trigger_monitor:trigger_monitor_widget.py:461]
+Thread: MainThread
+Message: new_right_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+
+[INFO] 2025-11-17 20:19:11,811 [trigger_monitor:trigger_monitor_widget.py:336]
+Thread: MainThread
+Message: 트리거 모니터링 중지
+

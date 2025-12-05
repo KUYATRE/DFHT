@@ -1,0 +1,212 @@
+[INFO] 2025-11-13 08:45:30,383 [connection_widget:connection_widget.py:77]
+Thread: MainThread
+Message: 통신 시작~
+
+[INFO] 2025-11-13 08:45:30,395 [connection_widget:connection_widget.py:92]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 10:02:47,826 [connection_widget:connection_widget.py:77]
+Thread: MainThread
+Message: 통신 시작~
+
+[INFO] 2025-11-13 10:02:47,837 [connection_widget:connection_widget.py:92]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 10:12:16,839 [connection_widget:connection_widget.py:77]
+Thread: MainThread
+Message: 통신 시작~
+
+[INFO] 2025-11-13 10:12:16,852 [connection_widget:connection_widget.py:92]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 10:19:40,433 [connection_widget:connection_widget.py:77]
+Thread: MainThread
+Message: 통신 시작~
+
+[INFO] 2025-11-13 10:19:40,446 [connection_widget:connection_widget.py:92]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 10:28:49,500 [connection_widget:connection_widget.py:77]
+Thread: MainThread
+Message: 통신 시작~
+
+[INFO] 2025-11-13 10:28:49,511 [connection_widget:connection_widget.py:92]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 10:49:53,711 [connection_widget:connection_widget.py:77]
+Thread: MainThread
+Message: 통신 시작~
+
+[INFO] 2025-11-13 10:49:53,722 [connection_widget:connection_widget.py:92]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 10:55:53,640 [connection_widget:connection_widget.py:77]
+Thread: MainThread
+Message: 통신 시작~
+
+[INFO] 2025-11-13 10:55:53,652 [connection_widget:connection_widget.py:92]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 11:10:31,141 [connection_widget:connection_widget.py:77]
+Thread: MainThread
+Message: 통신 시작~
+
+[INFO] 2025-11-13 11:10:31,152 [connection_widget:connection_widget.py:92]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 11:35:26,609 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 11:38:30,246 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 15:25:04,066 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 15:26:27,662 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 15:26:47,866 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 15:26:54,027 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 15:27:04,261 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 15:28:12,108 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 15:39:35,676 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 15:41:17,113 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 15:51:16,596 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 15:56:18,663 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 18:41:57,646 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 18:49:06,612 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 18:50:23,137 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-13 19:33:46,088 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 08:06:41,584 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 08:15:50,220 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 10:23:28,163 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 10:27:27,600 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 14:50:23,076 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 15:02:06,790 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 15:02:57,947 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 15:04:04,660 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 15:14:28,341 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 15:17:02,789 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 15:48:40,676 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 15:51:15,017 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 15:55:04,464 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 16:03:02,233 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 16:05:08,505 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 16:23:39,256 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 16:27:49,731 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 16:33:12,651 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-14 16:46:17,810 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-17 09:53:06,169 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+
+[INFO] 2025-11-17 18:43:59,970 [connection_widget:connection_widget.py:113]
+Thread: MainThread
+Message: PLC 연결 성공: 172.22.80.1:9600
+

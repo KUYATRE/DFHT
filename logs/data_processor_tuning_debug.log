@@ -1,0 +1,312 @@
+[DEBUG] 2025-11-14 15:14:33,373 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 15:14:33,373 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 15:14:33,373 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 15:14:33,377 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 15:14:33,391 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 15:14:33,391 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 15:17:08,819 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 15:17:08,819 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 15:17:08,819 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 15:17:08,821 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 15:17:08,821 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 15:17:08,821 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 15:52:01,027 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 15:52:01,027 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 15:52:01,027 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 15:52:01,030 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 15:52:01,030 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 15:52:01,031 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 15:52:59,027 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 15:52:59,027 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 15:52:59,027 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 15:52:59,030 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 15:52:59,031 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 15:52:59,031 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 16:03:18,242 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 16:03:18,242 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:03:18,242 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 16:03:18,245 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 16:03:18,245 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:03:18,246 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 16:05:35,533 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 16:05:35,533 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:05:35,533 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 16:05:35,537 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 16:05:35,537 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:05:35,537 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 16:27:56,754 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 16:27:56,754 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:27:56,754 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 16:27:56,757 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 16:27:56,758 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:27:56,758 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 16:33:18,681 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 16:33:18,681 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:33:18,681 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 16:33:18,684 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 16:33:18,684 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:33:18,684 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 16:46:24,826 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 16:46:24,827 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:46:24,827 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-14 16:46:24,829 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-14 16:46:24,830 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-14 16:46:24,830 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-17 18:44:51,987 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-17 18:44:51,988 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [3, 3, 3, 3, 3, 3, 3, 3]
+
+[DEBUG] 2025-11-17 18:44:51,988 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-17 18:44:51,991 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-17 18:44:51,991 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-17 18:44:51,991 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-17 18:45:36,017 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-17 18:45:36,017 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [3, 3, 3, 3, 3, 3, 3, 3]
+
+[DEBUG] 2025-11-17 18:45:36,017 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-17 18:45:36,019 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-17 18:45:36,019 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-17 18:45:36,019 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-17 18:45:44,977 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-17 18:45:44,977 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [3, 3, 3, 3, 3, 3, 3, 3]
+
+[DEBUG] 2025-11-17 18:45:44,977 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-17 18:45:44,980 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-17 18:45:44,980 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-17 18:45:44,981 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-17 18:46:30,015 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-17 18:46:30,016 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-17 18:46:30,016 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+
+[DEBUG] 2025-11-17 18:46:30,019 [data_processor_tuning:data_processor_tuning.py:224]
+Thread: MainThread
+Message: P1 adjustment values: [0, 1, 3, 2, 2, 3, 1, 0]
+
+[DEBUG] 2025-11-17 18:46:30,019 [data_processor_tuning:data_processor_tuning.py:225]
+Thread: MainThread
+Message: Initial P2 values: [-20, 25, 52, 7, 7, 7, 1, -6]
+
+[DEBUG] 2025-11-17 18:46:30,019 [data_processor_tuning:data_processor_tuning.py:226]
+Thread: MainThread
+Message: P2 adjustment values: [0, 0, 2, 1, 1, 1, 0, 0]
+

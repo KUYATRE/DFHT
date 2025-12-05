@@ -1,0 +1,2135 @@
+[INFO] 2025-11-13 18:49:28,635 [temperature_logger:temperature_logger.py:74]
+Thread: MainThread
+Message: Temperature CSV Log Started: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_1_6588_normal_20251113_184928.csv
+
+[INFO] 2025-11-13 18:50:24,277 [temperature_logger:temperature_logger.py:74]
+Thread: MainThread
+Message: Temperature CSV Log Started: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251113_185024.csv
+
+[INFO] 2025-11-13 18:56:14,182 [temperature_logger:temperature_logger.py:74]
+Thread: MainThread
+Message: Temperature CSV Log Started: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251113_185614.csv
+
+[INFO] 2025-11-13 19:33:56,115 [temperature_logger:temperature_logger.py:74]
+Thread: MainThread
+Message: Temperature CSV Log Started: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251113_193356.csv
+
+[INFO] 2025-11-14 08:06:48,610 [temperature_logger:temperature_logger.py:74]
+Thread: MainThread
+Message: Temperature CSV Log Started: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_080648.csv
+
+[DEBUG] 2025-11-14 08:06:48,648 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:48,648 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:48', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:49,908 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:49,908 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:49', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:50,614 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:50,614 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:50', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:51,607 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:51,607 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:51', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:52,615 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:52,627 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:52', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:53,608 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:53,609 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:53', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:54,607 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:54,607 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:54', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:55,600 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:55,600 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:55', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:56,616 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:56,616 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:56', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:57,606 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:57,607 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:57', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:58,610 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:58,610 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:58', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:59,613 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:06:59,613 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:06:59', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:00,619 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:00,619 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:00', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:01,608 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:01,608 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:01', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:02,612 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:02,612 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:02', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:03,601 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:03,601 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:03', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:04,625 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:04,626 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:04', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:05,604 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:05,605 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:05', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:06,617 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:06,618 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:06', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:07,624 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:07,624 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:07', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:08,614 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:08,614 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:08', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:09,615 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:09,615 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:09', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:10,616 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:10,616 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:10', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:11,618 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:11,618 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:11', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:12,613 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:12,613 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:12', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:13,617 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:13,617 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:13', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:14,604 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:14,605 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:14', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:15,607 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:15,607 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:15', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:16,612 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:16,612 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:16', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:17,616 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:17,616 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:17', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:18,633 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:18,634 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:18', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:19,609 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:19,609 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:19', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:20,624 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:20,624 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:20', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:21,614 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:21,614 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:21', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:22,630 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:22,631 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:22', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:23,615 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:23,615 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:23', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:24,631 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:24,631 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:24', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:25,612 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:25,613 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:25', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:26,621 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:26,621 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:26', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:27,610 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:27,611 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:27', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:28,624 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:28,625 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:28', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:29,613 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:29,613 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:29', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:30,628 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:30,628 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:30', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:31,607 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:31,607 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:31', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:32,614 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:32,614 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:32', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:33,616 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:33,617 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:33', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:34,620 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:34,620 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:34', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:35,608 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:35,608 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:35', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:36,612 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:36,612 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:36', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:37,623 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:37,624 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:37', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:38,619 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:38,619 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:38', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:39,612 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:39,612 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:39', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:40,621 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:40,622 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:40', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:41,630 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:41,631 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:41', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:42,612 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:42,612 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:42', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:43,618 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:43,618 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:43', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:44,615 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:44,615 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:44', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:45,613 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:45,614 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:45', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:46,634 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:46,634 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:46', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:47,617 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:47,618 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:47', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:48,618 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:48,618 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:48', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:49,628 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:49,629 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:49', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:50,627 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:50,627 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:50', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:51,611 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:51,611 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:51', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:52,627 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:52,627 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:52', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:53,621 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:53,621 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:53', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:54,635 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:54,635 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:54', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:55,612 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:55,612 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:55', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:56,617 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:56,617 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:56', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:57,620 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:57,620 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:57', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:58,615 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:58,615 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:58', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:59,614 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:07:59,614 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:07:59', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:00,625 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:00,625 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:00', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:01,614 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:01,615 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:01', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:02,623 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:02,624 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:02', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:03,620 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:03,620 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:03', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:04,626 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:04,626 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:04', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:05,624 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:05,624 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:05', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:06,631 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:06,632 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:06', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:07,617 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:07,617 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:07', 1, 6588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:08,628 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:08,628 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:08', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:09,617 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:09,617 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:09', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:10,630 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:10,631 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:10', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:11,625 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:11,625 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:11', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:12,623 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:12,623 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:12', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:13,627 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:13,627 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:13', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:14,630 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:14,630 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:14', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:15,623 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:15,624 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:15', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:16,619 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:16,620 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:16', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:17,621 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:17,621 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:17', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:18,630 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:18,630 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:18', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:19,621 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:19,621 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:19', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:20,615 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:20,615 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:20', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:21,626 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:21,627 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:21', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:22,635 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:22,635 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:22', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:23,617 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:23,617 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:23', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:24,632 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:24,632 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:24', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:25,622 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:25,623 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:25', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:26,635 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:26,635 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:26', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:27,624 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:27,624 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:27', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:28,639 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:28,640 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:28', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:29,617 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:29,618 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:29', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:30,636 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:30,637 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:30', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:31,619 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:31,620 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:31', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:32,626 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:32,626 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:32', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:33,628 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:33,628 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:33', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:34,632 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:34,632 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:34', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:35,618 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:35,618 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:35', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:36,651 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:36,651 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:36', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:37,621 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:37,622 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:37', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:38,633 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:38,634 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:38', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:39,624 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:39,624 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:39', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:40,637 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:40,637 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:40', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:41,625 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:41,625 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:41', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:42,634 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:42,634 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:42', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:43,619 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:43,620 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:43', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:44,639 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:44,640 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:44', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:45,636 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:45,637 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:45', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:46,628 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:46,628 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:46', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:47,621 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:47,621 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:47', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:48,643 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:48,643 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:48', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:49,621 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:49,621 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:49', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:50,638 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:50,638 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:50', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:51,621 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:51,621 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:51', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:52,633 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:52,634 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:52', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:53,624 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:53,624 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:53', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:54,632 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:54,632 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:54', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:55,624 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:55,624 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:55', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:56,634 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:56,634 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:56', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:57,621 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:57,621 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:57', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:58,631 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:58,632 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:58', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:59,624 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:08:59,625 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:08:59', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:00,630 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:00,630 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:09:00', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:01,625 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:01,625 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:09:01', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:02,621 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:02,621 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:09:02', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:03,628 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:03,628 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:09:03', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:04,625 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:04,626 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:09:04', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:05,630 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:05,630 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:09:05', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:06,630 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:09:06,630 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:09:06', 1, 6588, 8000, 0, 0, 0, 0, 0, 0, 0, 8000, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[INFO] 2025-11-14 08:15:51,230 [temperature_logger:temperature_logger.py:74]
+Thread: MainThread
+Message: Temperature CSV Log Started: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+
+[DEBUG] 2025-11-14 08:15:51,250 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:51,251 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:15:51', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:52,241 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:52,242 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:15:52', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:53,235 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:53,248 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:15:53', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:54,242 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:54,242 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:15:54', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:55,254 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:55,254 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:15:55', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:56,244 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:56,244 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:15:56', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:57,245 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:57,245 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:15:57', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:58,235 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:58,235 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:15:58', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:59,243 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:15:59,243 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:15:59', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:00,240 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:00,240 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:00', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:01,242 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:01,242 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:01', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:02,244 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:02,244 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:02', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:03,247 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:03,247 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:03', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:04,244 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:04,245 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:04', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:05,247 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:05,247 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:05', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:06,239 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:06,239 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:06', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:07,260 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:07,260 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:07', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:08,244 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:08,244 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:08', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:09,255 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:09,255 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:09', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:10,244 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:10,244 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:10', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:11,240 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:11,240 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:11', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:12,251 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:12,251 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:12', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:13,244 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:13,244 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:13', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:14,239 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:14,240 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:14', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:15,242 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:15,243 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:15', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:16,251 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:16,251 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:16', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:17,243 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:17,243 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:17', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:18,253 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:18,254 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:18', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:19,247 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:19,247 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:19', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:20,252 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:20,252 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:20', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:21,257 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:21,257 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:21', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:22,254 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:22,255 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:22', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:23,249 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:23,250 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:23', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:24,262 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:24,263 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:24', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:25,244 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:25,245 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:25', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:26,254 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:26,255 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:26', 1, 6588, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:27,252 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:27,252 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:27', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:28,254 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:28,254 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:28', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:29,255 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:29,255 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:29', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:30,249 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:30,249 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:30', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:31,246 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:31,247 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:31', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:32,256 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:32,256 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:32', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:33,240 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:33,241 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:33', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:34,255 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:34,256 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:34', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:35,245 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:35,246 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:35', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:36,254 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:36,254 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:36', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:37,246 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:37,246 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:37', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:38,258 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:38,258 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:38', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:39,250 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:39,250 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:39', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:40,246 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:40,246 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:40', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:41,258 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:41,259 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:41', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:42,257 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:42,258 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:42', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:43,245 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:43,245 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:43', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:44,257 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:44,257 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:44', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:45,260 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:45,260 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:45', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:46,263 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:46,264 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:46', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:47,256 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:47,257 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:47', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:48,262 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:48,263 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:48', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:49,243 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:49,243 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:49', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:50,257 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:50,257 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:50', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:51,264 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:51,264 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:51', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:52,259 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:52,259 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:52', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:53,243 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:53,243 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:53', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:54,259 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:54,259 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:54', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:55,244 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:55,245 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:55', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:56,260 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:56,260 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:56', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:57,255 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:57,256 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:57', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:58,260 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:58,260 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:58', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:59,259 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:16:59,259 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:16:59', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:00,263 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:00,264 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:00', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:01,262 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:01,262 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:01', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:02,255 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:02,255 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:02', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 800, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:03,261 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:03,261 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:03', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:04,256 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:04,256 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:04', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:05,248 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:05,248 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:05', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:06,255 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:06,256 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:06', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:07,261 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:07,261 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:07', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:08,255 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:08,256 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:08', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:09,261 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:09,262 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:09', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:10,269 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:10,270 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:10', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:11,266 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:11,266 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:11', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:12,256 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:12,256 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:12', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:13,249 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:13,249 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:13', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:14,257 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:14,257 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:14', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:15,255 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:15,255 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:15', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:16,270 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:16,270 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:16', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0]
+
+[DEBUG] 2025-11-14 08:17:17,268 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:17,269 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:17', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:18,252 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:18,252 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:18', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:19,270 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:19,270 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:19', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:20,260 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:20,261 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:20', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:21,262 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:21,262 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:21', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:22,251 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:22,251 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:22', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:23,252 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:23,252 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:23', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:24,258 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:24,258 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:24', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:25,254 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:25,254 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:25', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:26,260 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:26,260 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:26', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:27,249 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:27,250 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:27', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:28,263 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:28,263 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:28', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:29,263 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:29,264 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:29', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:30,260 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:30,272 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:30', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:31,269 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:31,270 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:31', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:32,267 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:32,268 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:32', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:33,257 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:33,257 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:33', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:34,266 [temperature_logger:temperature_logger.py:112]
+Thread: MainThread
+Message: data_read row_values: [1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 08:17:34,266 [temperature_logger:temperature_logger.py:161]
+Thread: MainThread
+Message: 로그 1줄 추가됨 → ['2025-11-14 08:17:34', 1, 6588, 801.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 803.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 809, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 50, 0]
+
+[DEBUG] 2025-11-14 10:23:45,178 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 10:23:45,181 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 10:27:39,606 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 10:27:39,608 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 14:50:45,080 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551 - 복사본.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 14:50:45,083 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:02:13,808 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551 - 복사본.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:02:13,812 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:03:05,964 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:03:05,966 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:04:21,665 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:04:21,667 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:14:33,363 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:14:33,369 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:17:08,813 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:17:08,817 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:52:01,021 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:52:01,024 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:52:59,021 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 15:52:59,023 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 16:03:18,235 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 16:03:18,238 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 16:05:35,526 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 16:05:35,530 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 16:27:56,748 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 16:27:56,750 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 16:33:18,676 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 16:33:18,679 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 16:46:24,820 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-14 16:46:24,823 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[ERROR] 2025-11-17 18:44:51,976 [temperature_logger:temperature_logger.py:210]
+Thread: MainThread
+Message: _read_csv_rows: CSV 읽기 실패: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv, 예외: 'utf-8' codec can't decode byte 0xe0 in position 10: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Users\202202773-NB\PycharmProjects\DFHT\src\utils\temperature_logger.py", line 205, in _read_csv_rows
+    for row in reader:
+               ^^^^^^
+  File "<frozen codecs>", line 325, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe0 in position 10: invalid continuation byte
+[DEBUG] 2025-11-17 18:44:51,985 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[ERROR] 2025-11-17 18:45:35,988 [temperature_logger:temperature_logger.py:210]
+Thread: MainThread
+Message: _read_csv_rows: CSV 읽기 실패: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv, 예외: 'utf-8' codec can't decode byte 0xe0 in position 10: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Users\202202773-NB\PycharmProjects\DFHT\src\utils\temperature_logger.py", line 205, in _read_csv_rows
+    for row in reader:
+               ^^^^^^
+  File "<frozen codecs>", line 325, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe0 in position 10: invalid continuation byte
+[DEBUG] 2025-11-17 18:45:36,016 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[ERROR] 2025-11-17 18:45:44,972 [temperature_logger:temperature_logger.py:210]
+Thread: MainThread
+Message: _read_csv_rows: CSV 읽기 실패: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv, 예외: 'utf-8' codec can't decode byte 0xe0 in position 10: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Users\202202773-NB\PycharmProjects\DFHT\src\utils\temperature_logger.py", line 205, in _read_csv_rows
+    for row in reader:
+               ^^^^^^
+  File "<frozen codecs>", line 325, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe0 in position 10: invalid continuation byte
+[DEBUG] 2025-11-17 18:45:44,976 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-17 18:46:30,009 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv → 240행 읽음
+
+[DEBUG] 2025-11-17 18:46:30,012 [temperature_logger:temperature_logger.py:207]
+Thread: MainThread
+Message: _read_csv_rows: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv → 240행 읽음
+

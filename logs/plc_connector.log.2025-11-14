@@ -1,0 +1,154 @@
+[INFO] 2025-11-14 08:06:26,753 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 08:06:26,756 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 08:06:26,769 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 08:06:27,070 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 08:06:41,571 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 08:06:41,576 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 08:15:41,662 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 08:15:41,662 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 08:15:41,671 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 08:15:41,872 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 08:15:50,201 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 08:15:50,207 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 10:22:24,998 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 10:22:24,998 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 10:22:25,007 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 10:23:25,618 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 10:23:25,618 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 10:23:25,626 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 10:23:25,825 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 10:23:28,155 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 10:23:28,160 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 10:27:22,466 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 10:27:22,466 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 10:27:22,475 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 10:27:22,681 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 10:27:27,593 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 10:27:27,597 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 14:12:21,946 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:12:21,946 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 14:12:21,954 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 14:12:22,136 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:13:26,217 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:13:26,217 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 14:13:26,225 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 14:13:26,405 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:21:52,411 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:21:52,411 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 14:21:52,420 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 14:21:52,609 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:31:54,844 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:31:54,845 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 14:31:54,856 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 14:31:55,081 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:32:32,274 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:32:32,275 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 14:32:32,284 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 14:32:32,485 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:32:46,532 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:32:46,532 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 14:32:46,540 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 14:32:46,737 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:33:51,223 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:33:51,224 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 14:33:51,232 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 14:33:51,433 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 14:50:23,069 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 14:50:23,074 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:01:55,036 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:01:55,036 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:01:55,046 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:01:55,256 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:02:06,782 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:02:06,788 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:02:55,454 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:02:55,454 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:02:55,463 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:02:55,688 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:02:57,939 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:02:57,944 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:03:59,071 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:03:59,072 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:03:59,080 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:03:59,272 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:04:04,651 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:04:04,657 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:14:14,610 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:14:14,610 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:14:14,619 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:14:14,809 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:14:28,333 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:14:28,338 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:16:56,596 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:16:56,596 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:16:56,604 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:16:56,801 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:17:02,780 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:17:02,785 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:42:17,900 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:42:17,901 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:42:17,910 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:42:18,104 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:43:03,707 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:43:03,707 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:43:03,716 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:43:03,907 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:48:40,667 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:48:40,673 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:50:33,195 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:50:33,196 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:50:33,204 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:50:33,434 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:50:45,902 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:50:45,902 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:50:45,910 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:50:46,126 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:51:15,009 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:51:15,014 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:55:01,206 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:55:01,206 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:55:01,214 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 15:55:01,401 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 15:55:04,457 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 15:55:04,461 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:02:59,515 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:02:59,516 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:02:59,525 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:02:59,727 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:03:02,225 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:03:02,230 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:05:04,905 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:05:04,906 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:05:04,914 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:05:05,104 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:05:08,497 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:05:08,503 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:17:56,901 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:17:56,902 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:17:56,912 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:17:57,484 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:23:39,248 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:23:39,253 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:23:50,588 [plc_connector:plc_connector.py:51] - PLC 연결 해제
+[INFO] 2025-11-14 16:26:54,258 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:26:54,258 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:26:54,266 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:26:54,701 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:27:49,723 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:27:49,729 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:33:10,437 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:33:10,438 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:33:10,446 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:33:10,910 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:33:12,643 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:33:12,648 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:40:39,733 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:40:39,733 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:40:39,743 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:40:40,219 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:46:15,412 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:46:15,413 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:46:15,421 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-14 16:46:15,921 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-14 16:46:17,803 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-14 16:46:17,808 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1

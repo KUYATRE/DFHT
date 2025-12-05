@@ -1,0 +1,49 @@
+[INFO] 2025-11-12 15:18:58,942 [trigger_monitor:trigger_monitor_widget.py:35] - 트리거 모니터링 시작
+[INFO] 2025-11-12 15:24:30,326 [trigger_monitor:trigger_monitor_widget.py:35] - 트리거 모니터링 시작
+[INFO] 2025-11-12 15:24:54,332 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-12 15:24:54,332 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:25:13,335 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 2)
+[INFO] 2025-11-12 15:25:13,348 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:26:37,343 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 3)
+[INFO] 2025-11-12 15:26:37,343 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:29:51,367 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 4)
+[INFO] 2025-11-12 15:29:51,367 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:29:56,358 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 5)
+[INFO] 2025-11-12 15:29:56,358 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:34:13,144 [trigger_monitor:trigger_monitor_widget.py:35] - 트리거 모니터링 시작
+[INFO] 2025-11-12 15:34:18,143 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-12 15:34:18,143 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:34:23,152 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 2)
+[INFO] 2025-11-12 15:34:23,152 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:35:05,170 [trigger_monitor:trigger_monitor_widget.py:35] - 트리거 모니터링 시작
+[INFO] 2025-11-12 15:35:11,174 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-12 15:35:11,175 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:35:21,175 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 2)
+[INFO] 2025-11-12 15:35:21,175 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:36:17,177 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 3)
+[INFO] 2025-11-12 15:36:17,177 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:36:25,171 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 4)
+[INFO] 2025-11-12 15:36:25,171 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:39:35,469 [trigger_monitor:trigger_monitor_widget.py:35] - 트리거 모니터링 시작
+[INFO] 2025-11-12 15:39:40,476 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-12 15:39:40,477 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 15:40:03,468 [trigger_monitor:trigger_monitor_widget.py:63] - 트리거 감지 (카운트: 2)
+[INFO] 2025-11-12 15:40:03,468 [trigger_monitor:trigger_monitor_widget.py:73] - 데이터 읽기 시작
+[INFO] 2025-11-12 18:31:28,512 [trigger_monitor:trigger_monitor_widget.py:139] - 트리거 모니터링 시작
+[INFO] 2025-11-12 18:32:10,510 [trigger_monitor:trigger_monitor_widget.py:167] - 트리거 감지 (카운트: 1)
+[ERROR] 2025-11-12 18:32:10,510 [trigger_monitor:trigger_monitor_widget.py:118] - PLC 데이터 읽기 실패: 'PLCConnector' object has no attribute 'read_word'
+[INFO] 2025-11-12 18:34:46,538 [trigger_monitor:trigger_monitor_widget.py:167] - 트리거 감지 (카운트: 2)
+[ERROR] 2025-11-12 18:34:46,538 [trigger_monitor:trigger_monitor_widget.py:118] - PLC 데이터 읽기 실패: 'PLCConnector' object has no attribute 'read_word'
+[INFO] 2025-11-12 18:37:20,996 [trigger_monitor:trigger_monitor_widget.py:139] - 트리거 모니터링 시작
+[INFO] 2025-11-12 18:37:22,001 [trigger_monitor:trigger_monitor_widget.py:167] - 트리거 감지 (카운트: 1)
+[ERROR] 2025-11-12 18:37:22,004 [trigger_monitor:trigger_monitor_widget.py:118] - PLC 데이터 읽기 실패: 'int' object is not subscriptable
+[INFO] 2025-11-12 18:41:34,466 [trigger_monitor:trigger_monitor_widget.py:140] - 트리거 모니터링 시작
+[INFO] 2025-11-12 18:41:48,470 [trigger_monitor:trigger_monitor_widget.py:168] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-12 18:42:50,474 [trigger_monitor:trigger_monitor_widget.py:168] - 트리거 감지 (카운트: 2)
+[INFO] 2025-11-12 18:45:44,975 [trigger_monitor:trigger_monitor_widget.py:148] - 트리거 모니터링 시작
+[INFO] 2025-11-12 18:45:49,992 [trigger_monitor:trigger_monitor_widget.py:176] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-12 18:46:24,001 [trigger_monitor:trigger_monitor_widget.py:176] - 트리거 감지 (카운트: 2)
+[INFO] 2025-11-12 19:09:08,781 [trigger_monitor:trigger_monitor_widget.py:148] - 트리거 모니터링 시작
+[INFO] 2025-11-12 19:13:28,385 [trigger_monitor:trigger_monitor_widget.py:148] - 트리거 모니터링 시작
+[INFO] 2025-11-12 19:53:54,842 [trigger_monitor:trigger_monitor_widget.py:148] - 트리거 모니터링 시작
+[INFO] 2025-11-12 19:56:38,312 [trigger_monitor:trigger_monitor_widget.py:148] - 트리거 모니터링 시작

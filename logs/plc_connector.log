@@ -1,0 +1,5 @@
+[INFO] 2025-12-04 09:40:09,312 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-12-04 09:40:09,316 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[ERROR] 2025-12-04 09:40:14,336 [plc_connector:plc_connector.py:61] - Heartbeat 읽기 실패: 'NoneType' object has no attribute 'hex'
+[WARNING] 2025-12-04 09:40:14,337 [plc_connector:plc_connector.py:38] - PLC 연결 실패: Heartbeat 신호 없음 (IP: 172.22.80.1)
+[INFO] 2025-12-04 09:40:15,104 [plc_connector:plc_connector.py:12] - PLC Connector 초기화

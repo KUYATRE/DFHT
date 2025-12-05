@@ -1,0 +1,111 @@
+[INFO] 2025-11-14 08:06:41,578 [trigger_monitor:trigger_monitor_widget.py:285] - 트리거 모니터링 시작
+[INFO] 2025-11-14 08:15:50,208 [trigger_monitor:trigger_monitor_widget.py:285] - 트리거 모니터링 시작
+[INFO] 2025-11-14 10:23:28,161 [trigger_monitor:trigger_monitor_widget.py:291] - 트리거 모니터링 시작
+[INFO] 2025-11-14 10:23:38,175 [trigger_monitor:trigger_monitor_widget.py:369] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 10:23:45,174 [trigger_monitor:trigger_monitor_widget.py:385] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 10:23:45,181 [trigger_monitor:trigger_monitor_widget.py:401] - 해당 tube/job에 대한 normal 온도 로그 없음
+[INFO] 2025-11-14 10:23:45,181 [trigger_monitor:trigger_monitor_widget.py:406] - 해당 tube/job에 대한 high 온도 로그 없음
+[INFO] 2025-11-14 10:27:27,598 [trigger_monitor:trigger_monitor_widget.py:291] - 트리거 모니터링 시작
+[INFO] 2025-11-14 10:27:35,594 [trigger_monitor:trigger_monitor_widget.py:369] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 10:27:39,603 [trigger_monitor:trigger_monitor_widget.py:385] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 10:27:39,608 [trigger_monitor:trigger_monitor_widget.py:399] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 10:27:39,609 [trigger_monitor:trigger_monitor_widget.py:404] - 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+[INFO] 2025-11-14 14:50:23,075 [trigger_monitor:trigger_monitor_widget.py:307] - 트리거 모니터링 시작
+[INFO] 2025-11-14 14:50:30,075 [trigger_monitor:trigger_monitor_widget.py:385] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 14:50:45,076 [trigger_monitor:trigger_monitor_widget.py:401] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 14:50:45,083 [trigger_monitor:trigger_monitor_widget.py:415] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551 - 복사본.csv
+[INFO] 2025-11-14 14:50:45,083 [trigger_monitor:trigger_monitor_widget.py:420] - 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+[INFO] 2025-11-14 15:02:06,789 [trigger_monitor:trigger_monitor_widget.py:316] - 트리거 모니터링 시작
+[INFO] 2025-11-14 15:02:07,790 [trigger_monitor:trigger_monitor_widget.py:394] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 15:02:13,799 [trigger_monitor:trigger_monitor_widget.py:410] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 15:02:13,813 [trigger_monitor:trigger_monitor_widget.py:424] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551 - 복사본.csv
+[INFO] 2025-11-14 15:02:57,945 [trigger_monitor:trigger_monitor_widget.py:316] - 트리거 모니터링 시작
+[INFO] 2025-11-14 15:03:01,961 [trigger_monitor:trigger_monitor_widget.py:394] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 15:03:05,960 [trigger_monitor:trigger_monitor_widget.py:410] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 15:03:05,966 [trigger_monitor:trigger_monitor_widget.py:424] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 15:04:04,659 [trigger_monitor:trigger_monitor_widget.py:316] - 트리거 모니터링 시작
+[INFO] 2025-11-14 15:04:18,652 [trigger_monitor:trigger_monitor_widget.py:394] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 15:04:21,662 [trigger_monitor:trigger_monitor_widget.py:410] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 15:04:21,668 [trigger_monitor:trigger_monitor_widget.py:424] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 15:14:28,340 [trigger_monitor:trigger_monitor_widget.py:316] - 트리거 모니터링 시작
+[INFO] 2025-11-14 15:14:29,350 [trigger_monitor:trigger_monitor_widget.py:394] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 15:14:33,356 [trigger_monitor:trigger_monitor_widget.py:410] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 15:14:33,369 [trigger_monitor:trigger_monitor_widget.py:424] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 15:14:33,373 [trigger_monitor:trigger_monitor_widget.py:432] - new_left_table_value: [1, 6, 14, 16, 20, 26, 28, 31, 2, 6, 12, 15, 19, 23, 28, 32]
+[INFO] 2025-11-14 15:14:33,374 [trigger_monitor:trigger_monitor_widget.py:438] - 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+[INFO] 2025-11-14 15:14:33,392 [trigger_monitor:trigger_monitor_widget.py:446] - new_right_table_value: [3, 8, 16, 19, 23, 29, 30, 33, 4, 8, 14, 17, 21, 25, 30, 34]
+[INFO] 2025-11-14 15:17:02,787 [trigger_monitor:trigger_monitor_widget.py:322] - 트리거 모니터링 시작
+[INFO] 2025-11-14 15:17:05,796 [trigger_monitor:trigger_monitor_widget.py:400] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 15:17:08,807 [trigger_monitor:trigger_monitor_widget.py:416] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 15:17:08,817 [trigger_monitor:trigger_monitor_widget.py:430] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 15:17:08,819 [trigger_monitor:trigger_monitor_widget.py:438] - new_left_table_value: [1, 6, 14, 16, 20, 26, 28, 31, 2, 6, 12, 15, 19, 23, 28, 32]
+[INFO] 2025-11-14 15:17:08,819 [trigger_monitor:trigger_monitor_widget.py:444] - 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+[INFO] 2025-11-14 15:17:08,821 [trigger_monitor:trigger_monitor_widget.py:452] - new_right_table_value: [3, 8, 16, 19, 23, 29, 30, 33, 4, 8, 14, 17, 21, 25, 30, 34]
+[INFO] 2025-11-14 15:17:32,179 [trigger_monitor:trigger_monitor_widget.py:204] - restore_table - title=New Normal Temp Param, ary=[[1, 6, 14, 16, 20, 26, 28, 31], [2, 6, 12, 15, 19, 23, 28, 32]]
+[INFO] 2025-11-14 15:17:32,228 [trigger_monitor:trigger_monitor_widget.py:249] - New Normal Temp Param 테이블 Restore 완료
+[INFO] 2025-11-14 15:17:35,678 [trigger_monitor:trigger_monitor_widget.py:204] - restore_table - title=New High Temp Param, ary=[[3, 8, 16, 19, 23, 29, 30, 33], [4, 8, 14, 17, 21, 25, 30, 34]]
+[INFO] 2025-11-14 15:17:35,730 [trigger_monitor:trigger_monitor_widget.py:249] - New High Temp Param 테이블 Restore 완료
+[INFO] 2025-11-14 15:48:40,674 [trigger_monitor:trigger_monitor_widget.py:322] - 트리거 모니터링 시작
+[INFO] 2025-11-14 15:51:15,016 [trigger_monitor:trigger_monitor_widget.py:322] - 트리거 모니터링 시작
+[INFO] 2025-11-14 15:51:58,014 [trigger_monitor:trigger_monitor_widget.py:400] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 15:52:01,019 [trigger_monitor:trigger_monitor_widget.py:416] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 15:52:01,024 [trigger_monitor:trigger_monitor_widget.py:430] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 15:52:01,028 [trigger_monitor:trigger_monitor_widget.py:434] - new_left_table_value: [0, 0, 0, 0, 0, 0, 0, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+[INFO] 2025-11-14 15:52:01,028 [trigger_monitor:trigger_monitor_widget.py:444] - 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+[INFO] 2025-11-14 15:52:01,031 [trigger_monitor:trigger_monitor_widget.py:448] - new_right_table_value: [0, 0, 0, 0, 0, 0, 0, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+[INFO] 2025-11-14 15:52:16,291 [trigger_monitor:trigger_monitor_widget.py:204] - restore_table - title=New Normal Temp Param, ary=[[0, 0, 0, 0, 0, 0, 0, 0], [-20, 25, 52, 7, 7, 7, 1, -6]]
+[INFO] 2025-11-14 15:52:16,352 [trigger_monitor:trigger_monitor_widget.py:249] - New Normal Temp Param 테이블 Restore 완료
+[INFO] 2025-11-14 15:52:23,904 [trigger_monitor:trigger_monitor_widget.py:204] - restore_table - title=New High Temp Param, ary=[[0, 0, 0, 0, 0, 0, 0, 0], [-20, 25, 52, 7, 7, 7, 1, -6]]
+[INFO] 2025-11-14 15:52:23,955 [trigger_monitor:trigger_monitor_widget.py:249] - New High Temp Param 테이블 Restore 완료
+[INFO] 2025-11-14 15:52:48,022 [trigger_monitor:trigger_monitor_widget.py:400] - 트리거 감지 (카운트: 2)
+[INFO] 2025-11-14 15:52:59,018 [trigger_monitor:trigger_monitor_widget.py:416] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 15:52:59,024 [trigger_monitor:trigger_monitor_widget.py:430] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 15:52:59,027 [trigger_monitor:trigger_monitor_widget.py:438] - new_left_table_value: [0, 1, 3, 2, 2, 3, 1, 0, 65516, 25, 54, 8, 8, 8, 1, 65530]
+[INFO] 2025-11-14 15:52:59,027 [trigger_monitor:trigger_monitor_widget.py:444] - 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+[INFO] 2025-11-14 15:52:59,031 [trigger_monitor:trigger_monitor_widget.py:452] - new_right_table_value: [0, 1, 3, 2, 2, 3, 1, 0, 65516, 25, 54, 8, 8, 8, 1, 65530]
+[INFO] 2025-11-14 15:54:29,028 [trigger_monitor:trigger_monitor_widget.py:400] - 트리거 감지 (카운트: 3)
+[INFO] 2025-11-14 15:55:04,462 [trigger_monitor:trigger_monitor_widget.py:322] - 트리거 모니터링 시작
+[INFO] 2025-11-14 15:55:05,472 [trigger_monitor:trigger_monitor_widget.py:400] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 16:03:02,232 [trigger_monitor:trigger_monitor_widget.py:329] - 트리거 모니터링 시작
+[INFO] 2025-11-14 16:03:03,242 [trigger_monitor:trigger_monitor_widget.py:407] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 16:03:18,233 [trigger_monitor:trigger_monitor_widget.py:423] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 16:03:18,238 [trigger_monitor:trigger_monitor_widget.py:437] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 16:03:18,242 [trigger_monitor:trigger_monitor_widget.py:445] - new_left_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+[INFO] 2025-11-14 16:03:18,243 [trigger_monitor:trigger_monitor_widget.py:451] - 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+[INFO] 2025-11-14 16:03:18,246 [trigger_monitor:trigger_monitor_widget.py:459] - new_right_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+[INFO] 2025-11-14 16:05:08,504 [trigger_monitor:trigger_monitor_widget.py:329] - 트리거 모니터링 시작
+[INFO] 2025-11-14 16:05:30,520 [trigger_monitor:trigger_monitor_widget.py:407] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 16:05:35,521 [trigger_monitor:trigger_monitor_widget.py:423] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 16:05:35,530 [trigger_monitor:trigger_monitor_widget.py:437] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 16:05:35,533 [trigger_monitor:trigger_monitor_widget.py:441] - new_left_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+[INFO] 2025-11-14 16:05:35,534 [trigger_monitor:trigger_monitor_widget.py:451] - 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+[INFO] 2025-11-14 16:05:35,537 [trigger_monitor:trigger_monitor_widget.py:455] - new_right_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+[INFO] 2025-11-14 16:23:39,255 [trigger_monitor:trigger_monitor_widget.py:331] - 트리거 모니터링 시작
+[INFO] 2025-11-14 16:23:50,589 [trigger_monitor:trigger_monitor_widget.py:336] - 트리거 모니터링 중지
+[INFO] 2025-11-14 16:27:49,730 [trigger_monitor:trigger_monitor_widget.py:331] - 트리거 모니터링 시작
+[INFO] 2025-11-14 16:27:50,728 [trigger_monitor:trigger_monitor_widget.py:409] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 16:27:56,744 [trigger_monitor:trigger_monitor_widget.py:425] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 16:27:56,751 [trigger_monitor:trigger_monitor_widget.py:439] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 16:27:56,754 [trigger_monitor:trigger_monitor_widget.py:443] - new_left_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+[INFO] 2025-11-14 16:27:56,755 [trigger_monitor:trigger_monitor_widget.py:453] - 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+[INFO] 2025-11-14 16:27:56,758 [trigger_monitor:trigger_monitor_widget.py:457] - new_right_table_value: [0, 1, 3, 2, 2, 3, 1, 0, -20, 25, 52, 7, 7, 7, 1, -6]
+[INFO] 2025-11-14 16:29:09,717 [trigger_monitor:trigger_monitor_widget.py:206] - restore_table - title=New Normal Temp Param, ary=[[0, 1, 3, 2, 2, 3, 1, 0], [-20, 25, 52, 7, 7, 7, 1, -6]]
+[INFO] 2025-11-14 16:29:09,768 [trigger_monitor:trigger_monitor_widget.py:251] - New Normal Temp Param 테이블 Restore 완료
+[INFO] 2025-11-14 16:29:11,038 [trigger_monitor:trigger_monitor_widget.py:206] - restore_table - title=New High Temp Param, ary=[[0, 1, 3, 2, 2, 3, 1, 0], [-20, 25, 52, 7, 7, 7, 1, -6]]
+[INFO] 2025-11-14 16:29:11,087 [trigger_monitor:trigger_monitor_widget.py:251] - New High Temp Param 테이블 Restore 완료
+[INFO] 2025-11-14 16:29:12,748 [trigger_monitor:trigger_monitor_widget.py:206] - restore_table - title=New High Temp Param, ary=[[0, 1, 3, 2, 2, 3, 1, 0], [-20, 25, 52, 7, 7, 7, 1, -6]]
+[INFO] 2025-11-14 16:29:12,802 [trigger_monitor:trigger_monitor_widget.py:251] - New High Temp Param 테이블 Restore 완료
+[INFO] 2025-11-14 16:33:12,650 [trigger_monitor:trigger_monitor_widget.py:331] - 트리거 모니터링 시작
+[INFO] 2025-11-14 16:33:17,664 [trigger_monitor:trigger_monitor_widget.py:409] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 16:33:18,670 [trigger_monitor:trigger_monitor_widget.py:425] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 16:33:18,679 [trigger_monitor:trigger_monitor_widget.py:439] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 16:33:18,681 [trigger_monitor:trigger_monitor_widget.py:447] - new_left_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+[INFO] 2025-11-14 16:33:18,681 [trigger_monitor:trigger_monitor_widget.py:453] - 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+[INFO] 2025-11-14 16:33:18,684 [trigger_monitor:trigger_monitor_widget.py:461] - new_right_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+[INFO] 2025-11-14 16:46:17,809 [trigger_monitor:trigger_monitor_widget.py:331] - 트리거 모니터링 시작
+[INFO] 2025-11-14 16:46:22,823 [trigger_monitor:trigger_monitor_widget.py:409] - 트리거 감지 (카운트: 1)
+[INFO] 2025-11-14 16:46:24,817 [trigger_monitor:trigger_monitor_widget.py:425] - trigger_released: tube_id=1, job_id=6588
+[INFO] 2025-11-14 16:46:24,823 [trigger_monitor:trigger_monitor_widget.py:439] - 최신 normal 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251114_081551.csv
+[INFO] 2025-11-14 16:46:24,827 [trigger_monitor:trigger_monitor_widget.py:447] - new_left_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]
+[INFO] 2025-11-14 16:46:24,827 [trigger_monitor:trigger_monitor_widget.py:453] - 최신 high 온도 로그: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251114_081551.csv
+[INFO] 2025-11-14 16:46:24,830 [trigger_monitor:trigger_monitor_widget.py:461] - new_right_table_value: [0, 2, 6, 4, 4, 6, 2, 0, -20, 25, 54, 8, 8, 8, 1, -6]

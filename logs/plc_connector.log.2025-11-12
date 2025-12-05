@@ -1,0 +1,81 @@
+[INFO] 2025-11-12 13:05:14,183 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 13:05:20,141 [plc_connector:plc_connector.py:16] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[ERROR] 2025-11-12 13:05:20,145 [plc_connector:plc_connector.py:35] - PLC 연결 중 오류 발생: 'PLCConnector' object has no attribute 'read_heartbeat'
+Traceback (most recent call last):
+  File "C:\Users\202202773-NB\PycharmProjects\DFHT\src\communication\plc_connector.py", line 24, in connect
+    test_result = self.read_heartbeat()
+                  ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PLCConnector' object has no attribute 'read_heartbeat'
+[INFO] 2025-11-12 13:08:07,785 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 13:08:10,667 [plc_connector:plc_connector.py:16] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[WARNING] 2025-11-12 13:08:10,673 [plc_connector:plc_connector.py:31] - PLC 연결 실패: Heartbeat 신호 없음 (IP: 172.22.80.1)
+[INFO] 2025-11-12 13:08:30,129 [plc_connector:plc_connector.py:16] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=189
+[WARNING] 2025-11-12 13:08:30,130 [plc_connector:plc_connector.py:31] - PLC 연결 실패: Heartbeat 신호 없음 (IP: 172.22.80.1)
+[INFO] 2025-11-12 13:08:30,535 [plc_connector:plc_connector.py:16] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=189
+[WARNING] 2025-11-12 13:08:30,549 [plc_connector:plc_connector.py:31] - PLC 연결 실패: Heartbeat 신호 없음 (IP: 172.22.80.1)
+[INFO] 2025-11-12 13:08:34,089 [plc_connector:plc_connector.py:16] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=189
+[WARNING] 2025-11-12 13:08:34,096 [plc_connector:plc_connector.py:31] - PLC 연결 실패: Heartbeat 신호 없음 (IP: 172.22.80.1)
+[INFO] 2025-11-12 13:12:51,794 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 13:12:57,046 [plc_connector:plc_connector.py:16] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[WARNING] 2025-11-12 13:12:57,049 [plc_connector:plc_connector.py:31] - PLC 연결 실패: Heartbeat 신호 없음 (IP: 172.22.80.1)
+[INFO] 2025-11-12 13:13:05,160 [plc_connector:plc_connector.py:16] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=189
+[WARNING] 2025-11-12 13:13:05,161 [plc_connector:plc_connector.py:31] - PLC 연결 실패: Heartbeat 신호 없음 (IP: 172.22.80.1)
+[INFO] 2025-11-12 13:21:21,830 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 13:21:23,518 [plc_connector:plc_connector.py:16] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[WARNING] 2025-11-12 13:21:23,522 [plc_connector:plc_connector.py:52] - fins UDP client 미생성
+[WARNING] 2025-11-12 13:21:23,523 [plc_connector:plc_connector.py:31] - PLC 연결 실패: Heartbeat 신호 없음 (IP: 172.22.80.1)
+[INFO] 2025-11-12 13:21:34,484 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 13:21:37,078 [plc_connector:plc_connector.py:16] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 13:21:37,088 [plc_connector:plc_connector.py:28] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-12 15:15:37,512 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 15:16:40,282 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 15:18:58,927 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 15:18:58,940 [plc_connector:plc_connector.py:30] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-12 15:24:27,061 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 15:24:30,312 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 15:24:30,323 [plc_connector:plc_connector.py:30] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-12 15:33:55,820 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 15:34:13,134 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 15:34:13,143 [plc_connector:plc_connector.py:30] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-12 15:34:53,684 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 15:35:02,861 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 15:35:05,160 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 15:35:05,168 [plc_connector:plc_connector.py:30] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-12 15:39:32,785 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 15:39:35,459 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 15:39:35,468 [plc_connector:plc_connector.py:30] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-12 15:53:43,670 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 15:54:13,909 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 16:58:53,870 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 17:02:21,815 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 17:05:20,050 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 17:26:13,479 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 18:31:24,575 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 18:31:28,502 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 18:31:28,511 [plc_connector:plc_connector.py:30] - PLC 연결 성공: 172.22.80.1
+[ERROR] 2025-11-12 18:32:10,511 [plc_connector:plc_connector.py:72] - 응답 비트 쓰기 실패: 'ellipsis' object cannot be interpreted as an integer
+[ERROR] 2025-11-12 18:34:46,538 [plc_connector:plc_connector.py:72] - 응답 비트 쓰기 실패: 'ellipsis' object cannot be interpreted as an integer
+[INFO] 2025-11-12 18:37:19,256 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 18:37:20,985 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 18:37:20,994 [plc_connector:plc_connector.py:30] - PLC 연결 성공: 172.22.80.1
+[ERROR] 2025-11-12 18:37:22,005 [plc_connector:plc_connector.py:72] - 응답 비트 쓰기 실패: 'ellipsis' object cannot be interpreted as an integer
+[INFO] 2025-11-12 18:41:24,269 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 18:41:34,456 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 18:41:34,465 [plc_connector:plc_connector.py:30] - PLC 연결 성공: 172.22.80.1
+[ERROR] 2025-11-12 18:41:48,590 [plc_connector:plc_connector.py:72] - 응답 비트 쓰기 실패: 'ellipsis' object cannot be interpreted as an integer
+[ERROR] 2025-11-12 18:42:50,600 [plc_connector:plc_connector.py:72] - 응답 비트 쓰기 실패: 'ellipsis' object cannot be interpreted as an integer
+[INFO] 2025-11-12 18:45:31,297 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 18:45:44,965 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 18:45:44,974 [plc_connector:plc_connector.py:30] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-12 18:57:26,368 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 18:57:40,364 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 19:20:29,539 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 19:43:04,117 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 19:51:52,345 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 19:53:41,451 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 19:53:52,428 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 19:53:54,831 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 19:53:54,841 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1
+[INFO] 2025-11-12 19:56:36,778 [plc_connector:plc_connector.py:12] - PLC Connector 초기화
+[INFO] 2025-11-12 19:56:38,300 [plc_connector:plc_connector.py:18] - PLC 연결 시도: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-11-12 19:56:38,311 [plc_connector:plc_connector.py:35] - PLC 연결 성공: 172.22.80.1

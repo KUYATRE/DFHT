@@ -1,0 +1,2 @@
+[INFO] 2025-11-17 09:53:06,169 [connection_widget:connection_widget.py:113] - PLC 연결 성공: 172.22.80.1:9600
+[INFO] 2025-11-17 18:43:59,970 [connection_widget:connection_widget.py:113] - PLC 연결 성공: 172.22.80.1:9600

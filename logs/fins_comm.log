@@ -1,0 +1,3 @@
+[INFO] 2025-12-04 09:40:09,319 [fins_comm:fins_comm.py:14] - FINS UDP 클라이언트 초기화: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+[INFO] 2025-12-04 09:40:09,323 [fins_comm:fins_comm.py:91] - command format merge completed: 0101af0000000001
+[ERROR] 2025-12-04 09:40:14,334 [fins_comm:fins_comm.py:63] - 통신 타임아웃: 172.22.80.1:9600

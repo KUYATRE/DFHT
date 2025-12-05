@@ -1,0 +1,56 @@
+[INFO] 2025-11-12 13:16:07,473 [fins_comm:fins_comm.py:14]
+Thread: MainThread
+Message: FINS UDP 클라이언트 초기화: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+
+[INFO] 2025-11-12 13:16:07,473 [fins_comm:fins_comm.py:91]
+Thread: MainThread
+Message: command format merge completed: 0101af0000000001
+
+[DEBUG] 2025-11-12 13:16:07,474 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000101af0000000001
+
+[DEBUG] 2025-11-12 13:16:07,480 [fins_comm:fins_comm.py:60]
+Thread: MainThread
+Message: 응답 수신: c0000200030000010000010100000001 from ('172.22.80.1', 9600)
+
+[INFO] 2025-11-12 13:16:07,493 [fins_comm:fins_comm.py:93]
+Thread: MainThread
+Message: response: c0000200030000010000010100000001
+
+[INFO] 2025-11-12 13:16:07,494 [fins_comm:fins_comm.py:105]
+Thread: MainThread
+Message: Read 175 0 0 = 1
+
+[INFO] 2025-11-12 13:16:07,495 [fins_comm:fins_comm.py:106]
+Thread: MainThread
+Message: Response: ENDCODE 0000
+
+[INFO] 2025-11-12 13:21:08,964 [fins_comm:fins_comm.py:14]
+Thread: MainThread
+Message: FINS UDP 클라이언트 초기화: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+
+[INFO] 2025-11-12 13:21:08,977 [fins_comm:fins_comm.py:91]
+Thread: MainThread
+Message: command format merge completed: 0101af0000000001
+
+[DEBUG] 2025-11-12 13:21:08,978 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000101af0000000001
+
+[DEBUG] 2025-11-12 13:21:08,984 [fins_comm:fins_comm.py:60]
+Thread: MainThread
+Message: 응답 수신: c0000200030000010000010100000001 from ('172.22.80.1', 9600)
+
+[INFO] 2025-11-12 13:21:08,984 [fins_comm:fins_comm.py:93]
+Thread: MainThread
+Message: response: c0000200030000010000010100000001
+
+[INFO] 2025-11-12 13:21:08,984 [fins_comm:fins_comm.py:105]
+Thread: MainThread
+Message: Read 175 0 0 = 1
+
+[INFO] 2025-11-12 13:21:08,985 [fins_comm:fins_comm.py:106]
+Thread: MainThread
+Message: Response: ENDCODE 0000
+

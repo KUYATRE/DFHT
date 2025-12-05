@@ -1,0 +1,4 @@
+[INFO] 2025-11-13 18:49:28,635 [temperature_logger:temperature_logger.py:74] - Temperature CSV Log Started: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_1_6588_normal_20251113_184928.csv
+[INFO] 2025-11-13 18:50:24,277 [temperature_logger:temperature_logger.py:74] - Temperature CSV Log Started: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251113_185024.csv
+[INFO] 2025-11-13 18:56:14,182 [temperature_logger:temperature_logger.py:74] - Temperature CSV Log Started: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_high_20251113_185614.csv
+[INFO] 2025-11-13 19:33:56,115 [temperature_logger:temperature_logger.py:74] - Temperature CSV Log Started: C:\Users\202202773-NB\PycharmProjects\DFHT\temperature_logs\temperature_T1_6588_normal_20251113_193356.csv
