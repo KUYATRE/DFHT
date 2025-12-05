@@ -72,8 +72,8 @@ class FinsUDPClient:
         response = self.send_command(cmd)
         logger.info(f"response: {response.hex()}")
 
-        if response is None or response[12:14] != b'\x00\x00':
-            return None
+        # if response is None or response[12:14] != b'\x00\x00':
+        #     return None
 
         if word_count == 1:
             return int.from_bytes(response[-2:], byteorder='big')

@@ -14,8 +14,12 @@ def max_ptc_zones(rows, zones=8):
     max_ptc_zone = []
     for i in range(zones):
         ptc_list = ptc_scrap(rows, i + 1)
-        if ptc_list:
-            max_ptc_zone.append(max(ptc_list))
+        if ptc_list and len(ptc_list) >= 3:
+            avg_list = [
+                (ptc_list[j] + ptc_list[j + 1] + ptc_list[j + 2]) / 3
+                for j in range(len(ptc_list) - 2)
+            ]
+            max_ptc_zone.append(max(avg_list))
         else:
             max_ptc_zone.append(0.0)
     return max_ptc_zone
