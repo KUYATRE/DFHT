@@ -214,16 +214,22 @@ def p_calculation(rows, zone_count = 8):
     rtn_ptc = retain_point_ptc_average(rows, zone_count)
 
     adjust_p1 = []
+    adjust_p2 = []
     for i in range(zone_count):
         delta = ptc[i] - sp[i]
         # logger.debug(f"ptc[{i}] - sp[{i}]: {delta}")
-        if delta <= 1:
+        if abs(delta) <= 1:
             adjust_p1.append(0)
-        elif delta > 1:
+        elif abs(delta) > 1:
             adjust_p1.append(int(delta))
 
+        if rtn_ptc[i] - sp[i] <= 0:
+            adjust_p2.append(int(rtn_ptc[i] - sp[i]))
+        elif rtn_ptc[i] - sp[i] > 0:
+            adjust_p2.append(int(abs(delta)))
+
     initial_p2 = [int(sp[i] - ctc[i] + 3) for i in range(zone_count)]
-    adjust_p2 = [int(rtn_ptc[i] - sp[i]) for i in range(zone_count)]
+    # adjust_p2 = [int(rtn_ptc[i] - sp[i]) for i in range(zone_count)]
 
     logger.debug(f"P1 adjustment values: {adjust_p1}")
     logger.debug(f"Initial P2 values: {initial_p2}")
