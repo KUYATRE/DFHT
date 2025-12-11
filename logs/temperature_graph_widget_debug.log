@@ -202,3 +202,19 @@ Message: Zone 2 선택
 Thread: MainThread
 Message: Zone 1 선택
 
+[INFO] 2025-12-06 00:42:07,660 [temperature_graph_widget:temperature_graph_widget.py:82]
+Thread: MainThread
+Message: Zone 2 선택
+
+[INFO] 2025-12-06 00:42:08,876 [temperature_graph_widget:temperature_graph_widget.py:82]
+Thread: MainThread
+Message: Zone 1 선택
+
+[INFO] 2025-12-06 00:42:07,660 [temperature_graph_widget:temperature_graph_widget.py:82]
+Thread: MainThread
+Message: Zone 2 선택
+
+[INFO] 2025-12-06 00:42:08,876 [temperature_graph_widget:temperature_graph_widget.py:82]
+Thread: MainThread
+Message: Zone 1 선택
+
