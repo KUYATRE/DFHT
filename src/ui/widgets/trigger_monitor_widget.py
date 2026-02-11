@@ -44,10 +44,20 @@ class TriggerMonitorWidget(QGroupBox):
             [(841, 0xA0), (846, 0xA0), (851, 0xA0), (856, 0xA0), (861, 0xA0), (866, 0xA0), (871, 0xA0), (876, 0xA0)]
         ]
 
+        self.new_left_table_addresses = [
+            [(17600, 0xA0), (17605, 0xA0), (17610, 0xA0), (17615, 0xA0), (17620, 0xA0), (17625, 0xA0), (17630, 0xA0), (17635, 0xA0)],
+            [(17601, 0xA0), (17606, 0xA0), (17611, 0xA0), (17616, 0xA0), (17621, 0xA0), (17626, 0xA0), (17631, 0xA0), (17636, 0xA0)]
+        ]
+
         self.right_table_addresses = [
             # [(행0열0 주소, 메모리영역), (행0열1 주소, 메모리영역), ...]
             [(842, 0xA0), (847, 0xA0), (852, 0xA0), (857, 0xA0), (862, 0xA0), (867, 0xA0), (872, 0xA0), (877, 0xA0)],
             [(843, 0xA0), (848, 0xA0), (853, 0xA0), (858, 0xA0), (863, 0xA0), (868, 0xA0), (873, 0xA0), (878, 0xA0)]
+        ]
+
+        self.new_right_table_addresses = [
+            [(17602, 0xA0), (17607, 0xA0), (17612, 0xA0), (17617, 0xA0), (17622, 0xA0), (17627, 0xA0), (17632, 0xA0), (17637, 0xA0)],
+            [(17603, 0xA0), (17608, 0xA0), (17613, 0xA0), (17618, 0xA0), (17623, 0xA0), (17628, 0xA0), (17633, 0xA0), (17638, 0xA0)]
         ]
 
         self.init_ui()
@@ -171,6 +181,8 @@ class TriggerMonitorWidget(QGroupBox):
 
         # 버튼 클릭 시 이 테이블 초기화하는 슬롯 연결 (예시)
         restore_button.clicked.connect(lambda _, t=table: self.restore_table(t,title))
+        if (title == "New Normal Temp Param") or (title == "New High Temp Param"):
+            self.restore_table(table,title)
 
         # 버튼을 세로 중앙 정렬하고 싶으면 위아래로 stretch
         button_layout.addStretch()
@@ -211,13 +223,15 @@ class TriggerMonitorWidget(QGroupBox):
             addr_table = self.left_table_addresses
         elif title == "New Normal Temp Param":
             self.new_norm_param = ary
-            addr_table = self.left_table_addresses
+            # addr_table = self.left_table_addresses
+            addr_table = self.new_left_table_addresses
         elif title == "Prev High Temp Param":
             self.prev_high_param = ary
             addr_table = self.right_table_addresses
         elif title == "New High Temp Param":
             self.new_high_param = ary
-            addr_table = self.right_table_addresses
+            # addr_table = self.right_table_addresses
+            addr_table = self.new_right_table_addresses
         else:
             logger.error(f"알 수 없는 테이블 제목: {title}")
             return

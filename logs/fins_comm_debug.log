@@ -49038,3 +49038,19 @@ Message: Read 175 0 0 = 1
 Thread: MainThread
 Message: Response: ENDCODE 0040
 
+[INFO] 2026-02-04 09:40:13,615 [fins_comm:fins_comm.py:14]
+Thread: MainThread
+Message: FINS UDP 클라이언트 초기화: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+
+[INFO] 2026-02-04 09:40:13,617 [fins_comm:fins_comm.py:91]
+Thread: MainThread
+Message: command format merge completed: 0101af0000000001
+
+[DEBUG] 2026-02-04 09:40:13,617 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000101af0000000001
+
+[ERROR] 2026-02-04 09:40:18,619 [fins_comm:fins_comm.py:63]
+Thread: MainThread
+Message: 통신 타임아웃: 172.22.80.1:9600
+
