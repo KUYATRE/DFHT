@@ -214,3 +214,7 @@ Message: PLC 연결 성공: 172.22.80.1:9600
 Thread: MainThread
 Message: PLC 연결 실패
 
+[ERROR] 2026-06-01 16:56:06,022 [connection_widget:connection_widget.py:118]
+Thread: MainThread
+Message: PLC 연결 실패
+
