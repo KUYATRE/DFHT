@@ -3,7 +3,13 @@ QWidget {
     background-color: #0b0d12;
     color: #e6edf3;
     font-family: "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
-    font-size: 12px;
+    font-size: 13px;
+}
+
+QLabel {
+    background-color: transparent;
+    color: #dbe4ee;
+    font-size: 13px;
 }
 
 QWidget#appRoot {
@@ -27,14 +33,14 @@ QWidget#heroBar {
 
 QLabel#appTitle {
     color: #f8fafc;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 800;
     letter-spacing: -0.4px;
 }
 
 QLabel#appSubtitle {
-    color: #8b949e;
-    font-size: 12px;
+    color: #9aa7b5;
+    font-size: 14px;
 }
 
 QLabel#statusPill {
@@ -43,25 +49,29 @@ QLabel#statusPill {
     border: 1px solid #263856;
     border-radius: 14px;
     padding: 7px 14px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 800;
 }
 
 QGroupBox {
     background-color: #11151d;
     border: 1px solid #252b36;
     border-radius: 16px;
-    margin-top: 18px;
-    padding: 18px 12px 12px 12px;
-    font-weight: 600;
+    margin-top: 22px;
+    padding: 22px 12px 12px 12px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 QGroupBox::title {
     subcontrol-origin: margin;
     subcontrol-position: top left;
     left: 14px;
-    padding: 2px 8px;
-    color: #c9d1d9;
+    padding: 3px 10px;
+    color: #f0f6fc;
     background-color: #11151d;
+    font-size: 15px;
+    font-weight: 800;
 }
 
 QLineEdit,
@@ -71,6 +81,7 @@ QSpinBox {
     border: 1px solid #30363d;
     border-radius: 10px;
     padding: 7px 10px;
+    font-size: 13px;
     selection-background-color: #1f6feb;
 }
 
@@ -86,7 +97,8 @@ QPushButton {
     border: 1px solid #30363d;
     border-radius: 10px;
     padding: 8px 12px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 QPushButton:hover {
@@ -144,13 +156,15 @@ QTabWidget::pane {
 
 QTabBar::tab {
     background-color: #11151d;
-    color: #8b949e;
+    color: #9aa7b5;
     border: 1px solid #252b36;
     border-bottom-color: #252b36;
-    padding: 8px 16px;
+    padding: 9px 18px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-right: 4px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 QTabBar::tab:selected {
@@ -177,12 +191,13 @@ QTableWidget#dataTable::item {
 
 QHeaderView::section {
     background-color: #161b22;
-    color: #c9d1d9;
+    color: #f0f6fc;
     border: 0;
     border-right: 1px solid #30363d;
     border-bottom: 1px solid #30363d;
-    padding: 7px;
-    font-weight: 700;
+    padding: 8px;
+    font-size: 13px;
+    font-weight: 800;
 }
 
 QScrollBar:vertical,
