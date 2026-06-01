@@ -1370,3 +1370,87 @@ Message: 윈도우 크기: 1920x1050
 Thread: MainThread
 Message: UI 초기화 완료
 
+[INFO] 2026-06-01 16:46:57,787 [main_window:main_window.py:18]
+Thread: MainThread
+Message: PLC 모니터링 애플리케이션 시작
+
+[INFO] 2026-06-01 16:46:58,877 [main_window:main_window.py:118]
+Thread: MainThread
+Message: 윈도우 크기: 1920x1050
+
+[INFO] 2026-06-01 16:46:58,877 [main_window:main_window.py:119]
+Thread: MainThread
+Message: UI 초기화 완료
+
+[INFO] 2026-06-01 16:47:55,565 [main_window:main_window.py:18]
+Thread: MainThread
+Message: PLC 모니터링 애플리케이션 시작
+
+[INFO] 2026-06-01 16:47:56,434 [main_window:main_window.py:118]
+Thread: MainThread
+Message: 윈도우 크기: 1920x1050
+
+[INFO] 2026-06-01 16:47:56,434 [main_window:main_window.py:119]
+Thread: MainThread
+Message: UI 초기화 완료
+
+[INFO] 2026-06-01 16:55:48,652 [main_window:main_window.py:18]
+Thread: MainThread
+Message: PLC 모니터링 애플리케이션 시작
+
+[INFO] 2026-06-01 16:55:49,599 [main_window:main_window.py:134]
+Thread: MainThread
+Message: 윈도우 크기: 1920x1050
+
+[INFO] 2026-06-01 16:55:49,599 [main_window:main_window.py:135]
+Thread: MainThread
+Message: UI 초기화 완료
+
+[INFO] 2026-06-01 16:56:39,418 [main_window:main_window.py:18]
+Thread: MainThread
+Message: PLC 모니터링 애플리케이션 시작
+
+[INFO] 2026-06-01 16:56:40,261 [main_window:main_window.py:134]
+Thread: MainThread
+Message: 윈도우 크기: 1920x1050
+
+[INFO] 2026-06-01 16:56:40,261 [main_window:main_window.py:135]
+Thread: MainThread
+Message: UI 초기화 완료
+
+[INFO] 2026-06-01 17:02:16,432 [main_window:main_window.py:18]
+Thread: MainThread
+Message: PLC 모니터링 애플리케이션 시작
+
+[INFO] 2026-06-01 17:02:17,480 [main_window:main_window.py:134]
+Thread: MainThread
+Message: 윈도우 크기: 1920x1050
+
+[INFO] 2026-06-01 17:02:17,480 [main_window:main_window.py:135]
+Thread: MainThread
+Message: UI 초기화 완료
+
+[INFO] 2026-06-01 17:03:44,361 [main_window:main_window.py:18]
+Thread: MainThread
+Message: PLC 모니터링 애플리케이션 시작
+
+[INFO] 2026-06-01 17:03:45,242 [main_window:main_window.py:134]
+Thread: MainThread
+Message: 윈도우 크기: 1920x1050
+
+[INFO] 2026-06-01 17:03:45,242 [main_window:main_window.py:135]
+Thread: MainThread
+Message: UI 초기화 완료
+
+[INFO] 2026-06-01 17:34:54,831 [main_window:main_window.py:18]
+Thread: MainThread
+Message: PLC 모니터링 애플리케이션 시작
+
+[INFO] 2026-06-01 17:34:55,935 [main_window:main_window.py:137]
+Thread: MainThread
+Message: 윈도우 크기: 1920x1050
+
+[INFO] 2026-06-01 17:34:55,935 [main_window:main_window.py:138]
+Thread: MainThread
+Message: UI 초기화 완료
+
