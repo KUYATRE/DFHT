@@ -455,11 +455,13 @@ class TriggerMonitorWidget(QGroupBox):
             if is_all_zero(self.prev_left_table_value):
                 self.new_left_table_value = self.normal_p1 + self.normal_init_p2
                 logger.info(f"new_left_table_value: {self.new_left_table_value}")
-                self.update_table_values(self.new_left_table, self.new_left_table_value)
+                table = self.update_table_values(self.new_left_table, self.new_left_table_value)
+                self.restore_table(table,"New Normal Temp Param")
             else:
                 self.new_left_table_value = ary_sum(self.normal_p1, self.normal_p2, self.prev_left_table_value)
                 logger.info(f"new_left_table_value: {self.new_left_table_value}")
-                self.update_table_values(self.new_left_table, self.new_left_table_value)
+                table = self.update_table_values(self.new_left_table, self.new_left_table_value)
+                self.restore_table(table,"New Normal Temp Param")
         else:
             logger.info("해당 tube/job에 대한 normal 온도 로그 없음")
 
@@ -469,11 +471,13 @@ class TriggerMonitorWidget(QGroupBox):
             if is_all_zero(self.prev_right_table_value):
                 self.new_right_table_value = self.high_p1 + self.high_init_p2
                 logger.info(f"new_right_table_value: {self.new_right_table_value}")
-                self.update_table_values(self.new_right_table, self.new_right_table_value)
+                table = self.update_table_values(self.new_right_table, self.new_right_table_value)
+                self.restore_table(table,"New High Temp Param")
             else:
                 self.new_right_table_value = ary_sum(self.high_p1, self.high_p2, self.prev_right_table_value)
                 logger.info(f"new_right_table_value: {self.new_right_table_value}")
-                self.update_table_values(self.new_right_table, self.new_right_table_value)
+                table = self.update_table_values(self.new_right_table, self.new_right_table_value)
+                self.restore_table(table,"New High Temp Param")
         else:
             logger.info("해당 tube/job에 대한 high 온도 로그 없음")
 
