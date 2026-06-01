@@ -218,3 +218,11 @@ Message: Zone 2 선택
 Thread: MainThread
 Message: Zone 1 선택
 
+[INFO] 2026-06-01 18:42:54,010 [temperature_graph_widget:temperature_graph_widget.py:151]
+Thread: MainThread
+Message: Tube 1 Zone 2 선택
+
+[INFO] 2026-06-01 18:42:55,890 [temperature_graph_widget:temperature_graph_widget.py:151]
+Thread: MainThread
+Message: Tube 1 Zone 1 선택
+

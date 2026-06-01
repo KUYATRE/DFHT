@@ -20,7 +20,7 @@ class PLCMonitoringApp(QMainWindow):
         self.init_ui()
 
     def init_ui(self):
-        self.setWindowTitle("PLC 모니터링 시스템")
+        self.setWindowTitle("DFHT")
         
         # 윈도우 크기 설정: 기본 크기는 1920x1050을 사용하되 사용자가 조절 가능하게 유지
         default_width = 800  # 기본값 설정

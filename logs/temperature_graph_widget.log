@@ -31,3 +31,5 @@
 [INFO] 2025-12-06 00:42:08,876 [temperature_graph_widget:temperature_graph_widget.py:82] - Zone 1 선택
 [INFO] 2025-12-06 00:42:07,660 [temperature_graph_widget:temperature_graph_widget.py:82] - Zone 2 선택
 [INFO] 2025-12-06 00:42:08,876 [temperature_graph_widget:temperature_graph_widget.py:82] - Zone 1 선택
+[INFO] 2026-06-01 18:42:54,010 [temperature_graph_widget:temperature_graph_widget.py:151] - Tube 1 Zone 2 선택
+[INFO] 2026-06-01 18:42:55,890 [temperature_graph_widget:temperature_graph_widget.py:151] - Tube 1 Zone 1 선택
