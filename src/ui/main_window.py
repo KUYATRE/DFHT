@@ -38,9 +38,6 @@ class PLCMonitoringApp(QMainWindow):
             self.height()
         )
 
-        # 윈도우 플래그 설정 - 항상 최상위에 표시
-        self.setWindowFlags(self.windowFlags() | Qt.WindowType.WindowStaysOnTopHint)
-
         # 메인 위젯 설정: 컨텐츠 높이가 창보다 커질 수 있으므로 QScrollArea를 중앙 위젯으로 사용
         scroll_area = QScrollArea()
         scroll_area.setObjectName("mainScrollArea")
@@ -118,6 +115,12 @@ class PLCMonitoringApp(QMainWindow):
         self.trigger_monitor.temperature_log_updated.connect(
             self.on_temperature_log_updated
         )
+        self.trigger_monitor.tube_tab_changed.connect(
+            self.graph_widget.set_current_tube_index
+        )
+        self.graph_widget.tube_tab_changed.connect(
+            self.trigger_monitor.set_current_tube_index
+        )
 
         # 연결 상태에 따른 트리거 모니터링 제어
         self.connection_widget.connection_status_changed.connect(self.handle_connection_status)
@@ -148,8 +151,6 @@ class PLCMonitoringApp(QMainWindow):
     def showEvent(self, event):
         super().showEvent(event)
         self.center_on_screen()
-        self.raise_()
-        self.activateWindow()
 
     def handle_connection_status(self, is_connected):
         if is_connected:
@@ -159,6 +160,5 @@ class PLCMonitoringApp(QMainWindow):
             self.trigger_monitor.stop_monitoring()
             logger.info("모니터링 중지")
 
-    def on_temperature_log_updated(self, normal_rows, high_rows):
-        self.graph_widget.set_normal_rows(normal_rows)
-        self.graph_widget.set_high_rows(high_rows)
+    def on_temperature_log_updated(self, tube_id, normal_rows, high_rows):
+        self.graph_widget.set_temperature_rows(tube_id, normal_rows, high_rows)

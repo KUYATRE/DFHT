@@ -72,7 +72,8 @@ class TubeMonitorState:
 
 
 class TriggerMonitorWidget(QGroupBox):
-    temperature_log_updated = pyqtSignal(list, list)
+    temperature_log_updated = pyqtSignal(int, list, list)
+    tube_tab_changed = pyqtSignal(int)
 
     PARAM_TABLE_KEYS = {
         "Prev Normal Temp Param": "prev_normal",
@@ -190,6 +191,20 @@ class TriggerMonitorWidget(QGroupBox):
         target.blockSignals(True)
         target.setCurrentIndex(index)
         target.blockSignals(False)
+        self.tube_tab_changed.emit(index)
+
+    def set_current_tube_index(self, index):
+        if index < 0 or index >= self.tables_container.count():
+            return
+        if self.tables_container.currentIndex() == index and self.new_tables_container.currentIndex() == index:
+            return
+
+        self.tables_container.blockSignals(True)
+        self.new_tables_container.blockSignals(True)
+        self.tables_container.setCurrentIndex(index)
+        self.new_tables_container.setCurrentIndex(index)
+        self.tables_container.blockSignals(False)
+        self.new_tables_container.blockSignals(False)
 
     def _create_status_row(self, state: TubeMonitorState):
         row = QHBoxLayout()
@@ -522,8 +537,9 @@ class TriggerMonitorWidget(QGroupBox):
         else:
             logger.info(f"Tube {state.tube_id} 해당 tube/job에 대한 high 온도 로그 없음")
 
-        if state.latest_normal_log_path and state.latest_high_log_path:
+        if state.latest_normal_log_path or state.latest_high_log_path:
             self.temperature_log_updated.emit(
+                state.tube_id,
                 state.latest_normal_log_rows or [],
                 state.latest_high_log_rows or []
             )
