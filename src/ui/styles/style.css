@@ -10,6 +10,15 @@ QWidget#appRoot {
     background: #0b0d12;
 }
 
+QScrollArea#mainScrollArea {
+    background-color: #0b0d12;
+    border: none;
+}
+
+QScrollArea#mainScrollArea > QWidget > QWidget {
+    background-color: #0b0d12;
+}
+
 QWidget#heroBar {
     background-color: #11151d;
     border: 1px solid #252b36;

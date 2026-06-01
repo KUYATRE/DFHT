@@ -135,16 +135,23 @@ class TriggerMonitorWidget(QGroupBox):
         main_layout = QVBoxLayout()
 
         self.status_container = QGroupBox("트리거 모니터링")
+        self.status_container.setMinimumHeight(230)
         status_layout = QVBoxLayout(self.status_container)
+        status_layout.setSpacing(10)
         for state in self.tube_states:
             status_layout.addLayout(self._create_status_row(state))
 
         self.tables_container = QTabWidget()
+        self.tables_container.setMinimumHeight(300)
         self.new_tables_container = QTabWidget()
+        self.new_tables_container.setMinimumHeight(300)
 
         for state in self.tube_states:
             prev_tab = QWidget()
+            prev_tab.setMinimumHeight(260)
             prev_layout = QHBoxLayout(prev_tab)
+            prev_layout.setContentsMargins(10, 10, 10, 10)
+            prev_layout.setSpacing(12)
             state.left_table = self.create_table(state, "Prev Normal Temp Param")
             state.right_table = self.create_table(state, "Prev High Temp Param")
             prev_layout.addWidget(state.left_table)
@@ -152,7 +159,10 @@ class TriggerMonitorWidget(QGroupBox):
             self.tables_container.addTab(prev_tab, f"Tube {state.tube_id} Prev")
 
             new_tab = QWidget()
+            new_tab.setMinimumHeight(260)
             new_layout = QHBoxLayout(new_tab)
+            new_layout.setContentsMargins(10, 10, 10, 10)
+            new_layout.setSpacing(12)
             state.new_left_table = self.create_table(state, "New Normal Temp Param")
             state.new_right_table = self.create_table(state, "New High Temp Param")
             new_layout.addWidget(state.new_left_table)
@@ -206,11 +216,13 @@ class TriggerMonitorWidget(QGroupBox):
     def create_table(self, state: TubeMonitorState, title, rows=2, cols=None):
         cols = cols or self.zone_count
         group = QGroupBox(f"Tube {state.tube_id} {title}")
+        group.setMinimumHeight(230)
         main_layout = QHBoxLayout()
         table_layout = QVBoxLayout()
 
         table = QTableWidget(rows, cols)
         table.setObjectName("dataTable")
+        table.setMinimumHeight(150)
         table.setHorizontalHeaderLabels([f'Z{i}' for i in range(1, cols + 1)])
         table.setVerticalHeaderLabels(['P1', 'P2'])
 

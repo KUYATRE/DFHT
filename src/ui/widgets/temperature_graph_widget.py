@@ -21,6 +21,7 @@ class TemperatureGraphWidget(QGroupBox):
     def __init__(self, parent=None):
         super().__init__("온도 그래프")
         self.parent = parent
+        self.setMinimumHeight(560)
 
         self.current_zone = 1
         self.normal_rows = None
@@ -60,6 +61,7 @@ class TemperatureGraphWidget(QGroupBox):
         # Normal graph
         self.normal_fig = Figure(figsize=(4, 3), facecolor="#11151d")
         self.normal_canvas = FigureCanvas(self.normal_fig)
+        self.normal_canvas.setMinimumHeight(420)
         self.normal_ax = self.normal_fig.add_subplot(111)
         self._style_axis(self.normal_ax)
         self.normal_ax.set_title("Normal 온도 그래프")
@@ -69,6 +71,7 @@ class TemperatureGraphWidget(QGroupBox):
         # High graph
         self.high_fig = Figure(figsize=(4, 3), facecolor="#11151d")
         self.high_canvas = FigureCanvas(self.high_fig)
+        self.high_canvas.setMinimumHeight(420)
         self.high_ax = self.high_fig.add_subplot(111)
         self._style_axis(self.high_ax)
         self.high_ax.set_title("High 온도 그래프")
