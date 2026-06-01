@@ -10034,3 +10034,679 @@ Message: PLC write -> tube=4, title=New High Temp Param, r=1, c=5, mem_area=0xA0
 Thread: MainThread
 Message: Tube 4 New High Temp Param 테이블 Restore 완료
 
+[DEBUG] 2026-06-01 17:44:15,041 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=0, c=0, mem_area=0xA0, word_addr=17600, value=0
+
+[DEBUG] 2026-06-01 17:44:15,041 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=0, c=1, mem_area=0xA0, word_addr=17605, value=0
+
+[DEBUG] 2026-06-01 17:44:15,041 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=0, c=2, mem_area=0xA0, word_addr=17610, value=0
+
+[DEBUG] 2026-06-01 17:44:15,042 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=0, c=3, mem_area=0xA0, word_addr=17615, value=0
+
+[DEBUG] 2026-06-01 17:44:15,042 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=0, c=4, mem_area=0xA0, word_addr=17620, value=0
+
+[DEBUG] 2026-06-01 17:44:15,042 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=0, c=5, mem_area=0xA0, word_addr=17625, value=0
+
+[DEBUG] 2026-06-01 17:44:15,042 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=1, c=0, mem_area=0xA0, word_addr=17601, value=0
+
+[DEBUG] 2026-06-01 17:44:15,042 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=1, c=1, mem_area=0xA0, word_addr=17606, value=0
+
+[DEBUG] 2026-06-01 17:44:15,042 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=1, c=2, mem_area=0xA0, word_addr=17611, value=0
+
+[DEBUG] 2026-06-01 17:44:15,042 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=1, c=3, mem_area=0xA0, word_addr=17616, value=0
+
+[DEBUG] 2026-06-01 17:44:15,042 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=1, c=4, mem_area=0xA0, word_addr=17621, value=0
+
+[DEBUG] 2026-06-01 17:44:15,042 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New Normal Temp Param, r=1, c=5, mem_area=0xA0, word_addr=17626, value=0
+
+[INFO] 2026-06-01 17:44:15,042 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 1 New Normal Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:44:15,044 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=0, c=0, mem_area=0xA0, word_addr=17602, value=0
+
+[DEBUG] 2026-06-01 17:44:15,046 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=0, c=1, mem_area=0xA0, word_addr=17607, value=0
+
+[DEBUG] 2026-06-01 17:44:15,046 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=0, c=2, mem_area=0xA0, word_addr=17612, value=0
+
+[DEBUG] 2026-06-01 17:44:15,046 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=0, c=3, mem_area=0xA0, word_addr=17617, value=0
+
+[DEBUG] 2026-06-01 17:44:15,046 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=0, c=4, mem_area=0xA0, word_addr=17622, value=0
+
+[DEBUG] 2026-06-01 17:44:15,047 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=0, c=5, mem_area=0xA0, word_addr=17627, value=0
+
+[DEBUG] 2026-06-01 17:44:15,047 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=1, c=0, mem_area=0xA0, word_addr=17603, value=0
+
+[DEBUG] 2026-06-01 17:44:15,047 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=1, c=1, mem_area=0xA0, word_addr=17608, value=0
+
+[DEBUG] 2026-06-01 17:44:15,047 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=1, c=2, mem_area=0xA0, word_addr=17613, value=0
+
+[DEBUG] 2026-06-01 17:44:15,047 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=1, c=3, mem_area=0xA0, word_addr=17618, value=0
+
+[DEBUG] 2026-06-01 17:44:15,047 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=1, c=4, mem_area=0xA0, word_addr=17623, value=0
+
+[DEBUG] 2026-06-01 17:44:15,047 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=1, title=New High Temp Param, r=1, c=5, mem_area=0xA0, word_addr=17628, value=0
+
+[INFO] 2026-06-01 17:44:15,047 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 1 New High Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:44:15,060 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=0, mem_area=0xA0, word_addr=18600, value=0
+
+[DEBUG] 2026-06-01 17:44:15,060 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=1, mem_area=0xA0, word_addr=18605, value=0
+
+[DEBUG] 2026-06-01 17:44:15,060 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=2, mem_area=0xA0, word_addr=18610, value=0
+
+[DEBUG] 2026-06-01 17:44:15,061 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=3, mem_area=0xA0, word_addr=18615, value=0
+
+[DEBUG] 2026-06-01 17:44:15,061 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=4, mem_area=0xA0, word_addr=18620, value=0
+
+[DEBUG] 2026-06-01 17:44:15,061 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=5, mem_area=0xA0, word_addr=18625, value=0
+
+[DEBUG] 2026-06-01 17:44:15,061 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=0, mem_area=0xA0, word_addr=18601, value=0
+
+[DEBUG] 2026-06-01 17:44:15,061 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=1, mem_area=0xA0, word_addr=18606, value=0
+
+[DEBUG] 2026-06-01 17:44:15,061 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=2, mem_area=0xA0, word_addr=18611, value=0
+
+[DEBUG] 2026-06-01 17:44:15,061 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=3, mem_area=0xA0, word_addr=18616, value=0
+
+[DEBUG] 2026-06-01 17:44:15,061 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=4, mem_area=0xA0, word_addr=18621, value=0
+
+[DEBUG] 2026-06-01 17:44:15,061 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=5, mem_area=0xA0, word_addr=18626, value=0
+
+[INFO] 2026-06-01 17:44:15,061 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 2 New Normal Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:44:15,064 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=0, mem_area=0xA0, word_addr=18602, value=0
+
+[DEBUG] 2026-06-01 17:44:15,064 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=1, mem_area=0xA0, word_addr=18607, value=0
+
+[DEBUG] 2026-06-01 17:44:15,064 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=2, mem_area=0xA0, word_addr=18612, value=0
+
+[DEBUG] 2026-06-01 17:44:15,064 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=3, mem_area=0xA0, word_addr=18617, value=0
+
+[DEBUG] 2026-06-01 17:44:15,064 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=4, mem_area=0xA0, word_addr=18622, value=0
+
+[DEBUG] 2026-06-01 17:44:15,064 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=5, mem_area=0xA0, word_addr=18627, value=0
+
+[DEBUG] 2026-06-01 17:44:15,064 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=0, mem_area=0xA0, word_addr=18603, value=0
+
+[DEBUG] 2026-06-01 17:44:15,064 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=1, mem_area=0xA0, word_addr=18608, value=0
+
+[DEBUG] 2026-06-01 17:44:15,065 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=2, mem_area=0xA0, word_addr=18613, value=0
+
+[DEBUG] 2026-06-01 17:44:15,065 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=3, mem_area=0xA0, word_addr=18618, value=0
+
+[DEBUG] 2026-06-01 17:44:15,065 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=4, mem_area=0xA0, word_addr=18623, value=0
+
+[DEBUG] 2026-06-01 17:44:15,065 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=5, mem_area=0xA0, word_addr=18628, value=0
+
+[INFO] 2026-06-01 17:44:15,065 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 2 New High Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:44:15,076 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=0, c=0, mem_area=0xA0, word_addr=19600, value=0
+
+[DEBUG] 2026-06-01 17:44:15,076 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=0, c=1, mem_area=0xA0, word_addr=19605, value=0
+
+[DEBUG] 2026-06-01 17:44:15,076 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=0, c=2, mem_area=0xA0, word_addr=19610, value=0
+
+[DEBUG] 2026-06-01 17:44:15,076 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=0, c=3, mem_area=0xA0, word_addr=19615, value=0
+
+[DEBUG] 2026-06-01 17:44:15,076 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=0, c=4, mem_area=0xA0, word_addr=19620, value=0
+
+[DEBUG] 2026-06-01 17:44:15,076 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=0, c=5, mem_area=0xA0, word_addr=19625, value=0
+
+[DEBUG] 2026-06-01 17:44:15,076 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=1, c=0, mem_area=0xA0, word_addr=19601, value=0
+
+[DEBUG] 2026-06-01 17:44:15,076 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=1, c=1, mem_area=0xA0, word_addr=19606, value=0
+
+[DEBUG] 2026-06-01 17:44:15,076 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=1, c=2, mem_area=0xA0, word_addr=19611, value=0
+
+[DEBUG] 2026-06-01 17:44:15,077 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=1, c=3, mem_area=0xA0, word_addr=19616, value=0
+
+[DEBUG] 2026-06-01 17:44:15,077 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=1, c=4, mem_area=0xA0, word_addr=19621, value=0
+
+[DEBUG] 2026-06-01 17:44:15,077 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New Normal Temp Param, r=1, c=5, mem_area=0xA0, word_addr=19626, value=0
+
+[INFO] 2026-06-01 17:44:15,077 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 3 New Normal Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:44:15,079 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=0, c=0, mem_area=0xA0, word_addr=19602, value=0
+
+[DEBUG] 2026-06-01 17:44:15,081 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=0, c=1, mem_area=0xA0, word_addr=19607, value=0
+
+[DEBUG] 2026-06-01 17:44:15,081 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=0, c=2, mem_area=0xA0, word_addr=19612, value=0
+
+[DEBUG] 2026-06-01 17:44:15,082 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=0, c=3, mem_area=0xA0, word_addr=19617, value=0
+
+[DEBUG] 2026-06-01 17:44:15,082 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=0, c=4, mem_area=0xA0, word_addr=19622, value=0
+
+[DEBUG] 2026-06-01 17:44:15,082 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=0, c=5, mem_area=0xA0, word_addr=19627, value=0
+
+[DEBUG] 2026-06-01 17:44:15,082 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=1, c=0, mem_area=0xA0, word_addr=19603, value=0
+
+[DEBUG] 2026-06-01 17:44:15,082 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=1, c=1, mem_area=0xA0, word_addr=19608, value=0
+
+[DEBUG] 2026-06-01 17:44:15,082 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=1, c=2, mem_area=0xA0, word_addr=19613, value=0
+
+[DEBUG] 2026-06-01 17:44:15,082 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=1, c=3, mem_area=0xA0, word_addr=19618, value=0
+
+[DEBUG] 2026-06-01 17:44:15,082 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=1, c=4, mem_area=0xA0, word_addr=19623, value=0
+
+[DEBUG] 2026-06-01 17:44:15,082 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=3, title=New High Temp Param, r=1, c=5, mem_area=0xA0, word_addr=19628, value=0
+
+[INFO] 2026-06-01 17:44:15,082 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 3 New High Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:44:15,092 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=0, c=0, mem_area=0xA0, word_addr=20600, value=0
+
+[DEBUG] 2026-06-01 17:44:15,092 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=0, c=1, mem_area=0xA0, word_addr=20605, value=0
+
+[DEBUG] 2026-06-01 17:44:15,093 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=0, c=2, mem_area=0xA0, word_addr=20610, value=0
+
+[DEBUG] 2026-06-01 17:44:15,093 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=0, c=3, mem_area=0xA0, word_addr=20615, value=0
+
+[DEBUG] 2026-06-01 17:44:15,093 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=0, c=4, mem_area=0xA0, word_addr=20620, value=0
+
+[DEBUG] 2026-06-01 17:44:15,093 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=0, c=5, mem_area=0xA0, word_addr=20625, value=0
+
+[DEBUG] 2026-06-01 17:44:15,093 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=1, c=0, mem_area=0xA0, word_addr=20601, value=0
+
+[DEBUG] 2026-06-01 17:44:15,093 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=1, c=1, mem_area=0xA0, word_addr=20606, value=0
+
+[DEBUG] 2026-06-01 17:44:15,093 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=1, c=2, mem_area=0xA0, word_addr=20611, value=0
+
+[DEBUG] 2026-06-01 17:44:15,093 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=1, c=3, mem_area=0xA0, word_addr=20616, value=0
+
+[DEBUG] 2026-06-01 17:44:15,093 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=1, c=4, mem_area=0xA0, word_addr=20621, value=0
+
+[DEBUG] 2026-06-01 17:44:15,093 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New Normal Temp Param, r=1, c=5, mem_area=0xA0, word_addr=20626, value=0
+
+[INFO] 2026-06-01 17:44:15,093 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 4 New Normal Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:44:15,095 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=0, c=0, mem_area=0xA0, word_addr=20602, value=0
+
+[DEBUG] 2026-06-01 17:44:15,097 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=0, c=1, mem_area=0xA0, word_addr=20607, value=0
+
+[DEBUG] 2026-06-01 17:44:15,097 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=0, c=2, mem_area=0xA0, word_addr=20612, value=0
+
+[DEBUG] 2026-06-01 17:44:15,097 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=0, c=3, mem_area=0xA0, word_addr=20617, value=0
+
+[DEBUG] 2026-06-01 17:44:15,098 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=0, c=4, mem_area=0xA0, word_addr=20622, value=0
+
+[DEBUG] 2026-06-01 17:44:15,098 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=0, c=5, mem_area=0xA0, word_addr=20627, value=0
+
+[DEBUG] 2026-06-01 17:44:15,098 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=1, c=0, mem_area=0xA0, word_addr=20603, value=0
+
+[DEBUG] 2026-06-01 17:44:15,098 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=1, c=1, mem_area=0xA0, word_addr=20608, value=0
+
+[DEBUG] 2026-06-01 17:44:15,098 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=1, c=2, mem_area=0xA0, word_addr=20613, value=0
+
+[DEBUG] 2026-06-01 17:44:15,098 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=1, c=3, mem_area=0xA0, word_addr=20618, value=0
+
+[DEBUG] 2026-06-01 17:44:15,098 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=1, c=4, mem_area=0xA0, word_addr=20623, value=0
+
+[DEBUG] 2026-06-01 17:44:15,098 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=4, title=New High Temp Param, r=1, c=5, mem_area=0xA0, word_addr=20628, value=0
+
+[INFO] 2026-06-01 17:44:15,098 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 4 New High Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:44:43,979 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=0, mem_area=0xA0, word_addr=18600, value=0
+
+[DEBUG] 2026-06-01 17:44:43,980 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=1, mem_area=0xA0, word_addr=18605, value=0
+
+[DEBUG] 2026-06-01 17:44:43,980 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=2, mem_area=0xA0, word_addr=18610, value=0
+
+[DEBUG] 2026-06-01 17:44:43,980 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=3, mem_area=0xA0, word_addr=18615, value=0
+
+[DEBUG] 2026-06-01 17:44:43,981 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=4, mem_area=0xA0, word_addr=18620, value=0
+
+[DEBUG] 2026-06-01 17:44:43,981 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=5, mem_area=0xA0, word_addr=18625, value=0
+
+[DEBUG] 2026-06-01 17:44:43,981 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=0, mem_area=0xA0, word_addr=18601, value=0
+
+[DEBUG] 2026-06-01 17:44:43,981 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=1, mem_area=0xA0, word_addr=18606, value=0
+
+[DEBUG] 2026-06-01 17:44:43,981 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=2, mem_area=0xA0, word_addr=18611, value=0
+
+[DEBUG] 2026-06-01 17:44:43,982 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=3, mem_area=0xA0, word_addr=18616, value=0
+
+[DEBUG] 2026-06-01 17:44:43,982 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=4, mem_area=0xA0, word_addr=18621, value=0
+
+[DEBUG] 2026-06-01 17:44:43,982 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=5, mem_area=0xA0, word_addr=18626, value=0
+
+[INFO] 2026-06-01 17:44:43,982 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 2 New Normal Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:46:05,159 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=0, mem_area=0xA0, word_addr=18600, value=0
+
+[DEBUG] 2026-06-01 17:46:05,159 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=1, mem_area=0xA0, word_addr=18605, value=0
+
+[DEBUG] 2026-06-01 17:46:05,159 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=2, mem_area=0xA0, word_addr=18610, value=0
+
+[DEBUG] 2026-06-01 17:46:05,159 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=3, mem_area=0xA0, word_addr=18615, value=0
+
+[DEBUG] 2026-06-01 17:46:05,159 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=4, mem_area=0xA0, word_addr=18620, value=0
+
+[DEBUG] 2026-06-01 17:46:05,160 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=0, c=5, mem_area=0xA0, word_addr=18625, value=0
+
+[DEBUG] 2026-06-01 17:46:05,160 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=0, mem_area=0xA0, word_addr=18601, value=0
+
+[DEBUG] 2026-06-01 17:46:05,160 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=1, mem_area=0xA0, word_addr=18606, value=0
+
+[DEBUG] 2026-06-01 17:46:05,160 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=2, mem_area=0xA0, word_addr=18611, value=0
+
+[DEBUG] 2026-06-01 17:46:05,160 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=3, mem_area=0xA0, word_addr=18616, value=0
+
+[DEBUG] 2026-06-01 17:46:05,160 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=4, mem_area=0xA0, word_addr=18621, value=0
+
+[DEBUG] 2026-06-01 17:46:05,160 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New Normal Temp Param, r=1, c=5, mem_area=0xA0, word_addr=18626, value=0
+
+[INFO] 2026-06-01 17:46:05,160 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 2 New Normal Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:46:07,826 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=0, mem_area=0xA0, word_addr=18602, value=0
+
+[DEBUG] 2026-06-01 17:46:07,826 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=1, mem_area=0xA0, word_addr=18607, value=0
+
+[DEBUG] 2026-06-01 17:46:07,826 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=2, mem_area=0xA0, word_addr=18612, value=0
+
+[DEBUG] 2026-06-01 17:46:07,827 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=3, mem_area=0xA0, word_addr=18617, value=0
+
+[DEBUG] 2026-06-01 17:46:07,827 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=4, mem_area=0xA0, word_addr=18622, value=0
+
+[DEBUG] 2026-06-01 17:46:07,827 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=0, c=5, mem_area=0xA0, word_addr=18627, value=0
+
+[DEBUG] 2026-06-01 17:46:07,827 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=0, mem_area=0xA0, word_addr=18603, value=0
+
+[DEBUG] 2026-06-01 17:46:07,827 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=1, mem_area=0xA0, word_addr=18608, value=0
+
+[DEBUG] 2026-06-01 17:46:07,827 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=2, mem_area=0xA0, word_addr=18613, value=0
+
+[DEBUG] 2026-06-01 17:46:07,827 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=3, mem_area=0xA0, word_addr=18618, value=0
+
+[DEBUG] 2026-06-01 17:46:07,827 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=4, mem_area=0xA0, word_addr=18623, value=0
+
+[DEBUG] 2026-06-01 17:46:07,827 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=New High Temp Param, r=1, c=5, mem_area=0xA0, word_addr=18628, value=0
+
+[INFO] 2026-06-01 17:46:07,827 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 2 New High Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:46:10,731 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=0, c=0, mem_area=0xA0, word_addr=1842, value=0
+
+[DEBUG] 2026-06-01 17:46:10,731 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=0, c=1, mem_area=0xA0, word_addr=1847, value=0
+
+[DEBUG] 2026-06-01 17:46:10,731 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=0, c=2, mem_area=0xA0, word_addr=1852, value=0
+
+[DEBUG] 2026-06-01 17:46:10,731 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=0, c=3, mem_area=0xA0, word_addr=1857, value=0
+
+[DEBUG] 2026-06-01 17:46:10,731 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=0, c=4, mem_area=0xA0, word_addr=1862, value=0
+
+[DEBUG] 2026-06-01 17:46:10,731 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=0, c=5, mem_area=0xA0, word_addr=1867, value=0
+
+[DEBUG] 2026-06-01 17:46:10,732 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=1, c=0, mem_area=0xA0, word_addr=1843, value=0
+
+[DEBUG] 2026-06-01 17:46:10,732 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=1, c=1, mem_area=0xA0, word_addr=1848, value=0
+
+[DEBUG] 2026-06-01 17:46:10,732 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=1, c=2, mem_area=0xA0, word_addr=1853, value=0
+
+[DEBUG] 2026-06-01 17:46:10,732 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=1, c=3, mem_area=0xA0, word_addr=1858, value=0
+
+[DEBUG] 2026-06-01 17:46:10,732 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=1, c=4, mem_area=0xA0, word_addr=1863, value=0
+
+[DEBUG] 2026-06-01 17:46:10,732 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev High Temp Param, r=1, c=5, mem_area=0xA0, word_addr=1868, value=0
+
+[INFO] 2026-06-01 17:46:10,732 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 2 Prev High Temp Param 테이블 Restore 완료
+
+[DEBUG] 2026-06-01 17:46:12,032 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=0, c=0, mem_area=0xA0, word_addr=1840, value=0
+
+[DEBUG] 2026-06-01 17:46:12,032 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=0, c=1, mem_area=0xA0, word_addr=1845, value=0
+
+[DEBUG] 2026-06-01 17:46:12,033 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=0, c=2, mem_area=0xA0, word_addr=1850, value=0
+
+[DEBUG] 2026-06-01 17:46:12,033 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=0, c=3, mem_area=0xA0, word_addr=1855, value=0
+
+[DEBUG] 2026-06-01 17:46:12,033 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=0, c=4, mem_area=0xA0, word_addr=1860, value=0
+
+[DEBUG] 2026-06-01 17:46:12,033 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=0, c=5, mem_area=0xA0, word_addr=1865, value=0
+
+[DEBUG] 2026-06-01 17:46:12,033 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=1, c=0, mem_area=0xA0, word_addr=1841, value=0
+
+[DEBUG] 2026-06-01 17:46:12,033 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=1, c=1, mem_area=0xA0, word_addr=1846, value=0
+
+[DEBUG] 2026-06-01 17:46:12,033 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=1, c=2, mem_area=0xA0, word_addr=1851, value=0
+
+[DEBUG] 2026-06-01 17:46:12,034 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=1, c=3, mem_area=0xA0, word_addr=1856, value=0
+
+[DEBUG] 2026-06-01 17:46:12,034 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=1, c=4, mem_area=0xA0, word_addr=1861, value=0
+
+[DEBUG] 2026-06-01 17:46:12,034 [trigger_monitor:trigger_monitor_widget.py:327]
+Thread: MainThread
+Message: PLC write -> tube=2, title=Prev Normal Temp Param, r=1, c=5, mem_area=0xA0, word_addr=1866, value=0
+
+[INFO] 2026-06-01 17:46:12,034 [trigger_monitor:trigger_monitor_widget.py:337]
+Thread: MainThread
+Message: Tube 2 Prev Normal Temp Param 테이블 Restore 완료
+
