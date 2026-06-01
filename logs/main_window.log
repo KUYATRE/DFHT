@@ -1,3 +1,9 @@
-[INFO] 2026-02-04 09:40:18,853 [main_window:main_window.py:19] - PLC 모니터링 애플리케이션 시작
-[INFO] 2026-02-04 09:40:19,185 [main_window:main_window.py:93] - 윈도우 크기: 1920x1050
-[INFO] 2026-02-04 09:40:19,186 [main_window:main_window.py:94] - UI 초기화 완료
+[INFO] 2026-06-01 15:28:03,995 [main_window:main_window.py:19] - PLC 모니터링 애플리케이션 시작
+[INFO] 2026-06-01 15:28:04,407 [main_window:main_window.py:93] - 윈도우 크기: 1920x1050
+[INFO] 2026-06-01 15:28:04,407 [main_window:main_window.py:94] - UI 초기화 완료
+[INFO] 2026-06-01 16:09:56,339 [main_window:main_window.py:19] - PLC 모니터링 애플리케이션 시작
+[INFO] 2026-06-01 16:09:56,764 [main_window:main_window.py:93] - 윈도우 크기: 1920x1050
+[INFO] 2026-06-01 16:09:56,765 [main_window:main_window.py:94] - UI 초기화 완료
+[INFO] 2026-06-01 16:23:39,577 [main_window:main_window.py:19] - PLC 모니터링 애플리케이션 시작
+[INFO] 2026-06-01 16:23:39,992 [main_window:main_window.py:93] - 윈도우 크기: 1920x1050
+[INFO] 2026-06-01 16:23:39,992 [main_window:main_window.py:94] - UI 초기화 완료

@@ -49054,3 +49054,19 @@ Message: 명령 전송: 800002000100000300000101af0000000001
 Thread: MainThread
 Message: 통신 타임아웃: 172.22.80.1:9600
 
+[INFO] 2026-06-01 15:27:58,636 [fins_comm:fins_comm.py:14]
+Thread: MainThread
+Message: FINS UDP 클라이언트 초기화: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+
+[INFO] 2026-06-01 15:27:58,637 [fins_comm:fins_comm.py:91]
+Thread: MainThread
+Message: command format merge completed: 0101af0000000001
+
+[DEBUG] 2026-06-01 15:27:58,637 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000101af0000000001
+
+[ERROR] 2026-06-01 15:28:03,638 [fins_comm:fins_comm.py:63]
+Thread: MainThread
+Message: 통신 타임아웃: 172.22.80.1:9600
+
