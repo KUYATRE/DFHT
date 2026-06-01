@@ -1,203 +1,285 @@
 # src/ui/widgets/trigger_monitor_widget.py
-from PyQt6.QtWidgets import QWidget, QHBoxLayout, QGroupBox, QVBoxLayout, QLabel, QTableWidget, QTableWidgetItem, QPushButton, QFrame
-from PyQt6.QtCore import QTimer, Qt, pyqtSignal
+from dataclasses import dataclass, field
+from typing import Any
+
+from PyQt6.QtWidgets import (
+    QWidget,
+    QHBoxLayout,
+    QGroupBox,
+    QVBoxLayout,
+    QLabel,
+    QTableWidget,
+    QTableWidgetItem,
+    QPushButton,
+    QFrame,
+    QTabWidget,
+)
+from PyQt6.QtCore import QTimer, pyqtSignal
+
+from src.config.settings import TUBE_SETTINGS
 from src.utils.logger_config import setup_logger
-from src.utils.temperature_logger import init_plc_csv_logger, append_temperature_log, job_info_read, get_latest_temperature_logs
-from src.utils.data_processor_tuning import p_calculation, is_all_zero, ary_sum, to_int16
+from src.utils.temperature_logger import (
+    init_plc_csv_logger,
+    append_temperature_log,
+    job_info_read,
+    get_latest_temperature_logs,
+)
+from src.utils.data_processor_tuning import p_calculation, is_all_zero, ary_sum
 
 logger = setup_logger('trigger_monitor')
 
+
+@dataclass(frozen=True)
+class TriggerAddress:
+    mem_area: int
+    word_addr: int
+    bit_offset: int
+
+
+@dataclass
+class TubeMonitorState:
+    tube_id: int
+    param_trigger: TriggerAddress
+    temp_trigger: TriggerAddress
+    temp_normal: TriggerAddress
+    temp_high: TriggerAddress
+    trigger_count: int = 0
+    prev_trigger_state: bool = False
+    prev_temp_trigger_state: bool = False
+    active_temp_area: str | None = None
+    log_writer: Any = None
+    log_file: Any = None
+    log_file_path: str | None = None
+    job_id: int | None = None
+    latest_normal_log_path: Any = None
+    latest_normal_log_rows: list | None = None
+    latest_high_log_path: Any = None
+    latest_high_log_rows: list | None = None
+    prev_left_table_value: list[int] = field(default_factory=list)
+    prev_right_table_value: list[int] = field(default_factory=list)
+    new_left_table_value: list[int] = field(default_factory=list)
+    new_right_table_value: list[int] = field(default_factory=list)
+    left_table: QGroupBox | None = None
+    right_table: QGroupBox | None = None
+    new_left_table: QGroupBox | None = None
+    new_right_table: QGroupBox | None = None
+    status_label: QLabel | None = None
+    trigger_count_label: QLabel | None = None
+    trigger_indicator: QFrame | None = None
+    temp_trigger_state: QLabel | None = None
+    temp_indicator_normal: QFrame | None = None
+    temp_indicator_high: QFrame | None = None
+
+
 class TriggerMonitorWidget(QGroupBox):
-    temperature_log_updated = pyqtSignal(list, list)
+    temperature_log_updated = pyqtSignal(int, list, list)
+    tube_tab_changed = pyqtSignal(int)
+
+    PARAM_TABLE_KEYS = {
+        "Prev Normal Temp Param": "prev_normal",
+        "Prev High Temp Param": "prev_high",
+        "New Normal Temp Param": "new_normal",
+        "New High Temp Param": "new_high",
+    }
 
     def __init__(self, plc_connector):
         super().__init__("트리거 모니터링")
         self.plc_connector = plc_connector
-        self.prev_trigger_state = False
-        self.prev_temp_trigger_state = False
-        self.prev_norm_param = None
-        self.prev_high_param = None
-        self.log_writer = None
-        self.log_file = None
-        self.log_file_path = None
-        self.tube_id = None
-        self.job_id = None
-        self.latest_normal_log_path = None
-        self.latest_normal_log_rows = None
-        self.latest_high_log_path = None
-        self.latest_high_log_rows = None
-        self.prev_left_table_value = None
-        self.prev_right_table_value = None
-        self.normal_p1 = None
-        self.normal_p2 = None
-        self.normal_init_p2 = None
-        self.high_p1 = None
-        self.high_p2 = None
-        self.high_init_p2 = None
-        self.new_left_table_value = None
-        self.new_right_table_value = None
-
-        # PLC 주소 매핑 정의
-        self.left_table_addresses = [
-            # [(행0열0 주소, 메모리영역), (행0열1 주소, 메모리영역), ...]
-            [(840, 0xA0), (845, 0xA0), (850, 0xA0), (855, 0xA0), (860, 0xA0), (865, 0xA0), (870, 0xA0), (875, 0xA0)],
-            [(841, 0xA0), (846, 0xA0), (851, 0xA0), (856, 0xA0), (861, 0xA0), (866, 0xA0), (871, 0xA0), (876, 0xA0)]
-        ]
-
-        self.new_left_table_addresses = [
-            [(17600, 0xA0), (17605, 0xA0), (17610, 0xA0), (17615, 0xA0), (17620, 0xA0), (17625, 0xA0), (17630, 0xA0), (17635, 0xA0)],
-            [(17601, 0xA0), (17606, 0xA0), (17611, 0xA0), (17616, 0xA0), (17621, 0xA0), (17626, 0xA0), (17631, 0xA0), (17636, 0xA0)]
-        ]
-
-        self.right_table_addresses = [
-            # [(행0열0 주소, 메모리영역), (행0열1 주소, 메모리영역), ...]
-            [(842, 0xA0), (847, 0xA0), (852, 0xA0), (857, 0xA0), (862, 0xA0), (867, 0xA0), (872, 0xA0), (877, 0xA0)],
-            [(843, 0xA0), (848, 0xA0), (853, 0xA0), (858, 0xA0), (863, 0xA0), (868, 0xA0), (873, 0xA0), (878, 0xA0)]
-        ]
-
-        self.new_right_table_addresses = [
-            [(17602, 0xA0), (17607, 0xA0), (17612, 0xA0), (17617, 0xA0), (17622, 0xA0), (17627, 0xA0), (17632, 0xA0), (17637, 0xA0)],
-            [(17603, 0xA0), (17608, 0xA0), (17613, 0xA0), (17618, 0xA0), (17623, 0xA0), (17628, 0xA0), (17633, 0xA0), (17638, 0xA0)]
-        ]
-
+        self.tube_count = int(TUBE_SETTINGS.get('TUBE_COUNT', 4))
+        self.zone_count = int(TUBE_SETTINGS.get('ZONE_COUNT', 8))
+        self.tube_states = [self._create_tube_state(tube_id) for tube_id in range(1, self.tube_count + 1)]
         self.init_ui()
+
+    def _create_tube_state(self, tube_id: int) -> TubeMonitorState:
+        return TubeMonitorState(
+            tube_id=tube_id,
+            param_trigger=self._trigger_address(tube_id, 'PARAM_TRIGGER_BIT_OFFSET'),
+            temp_trigger=self._trigger_address(tube_id, 'TEMP_TRIGGER_BIT_OFFSET'),
+            temp_normal=self._trigger_address(tube_id, 'TEMP_NORMAL_BIT_OFFSET'),
+            temp_high=self._trigger_address(tube_id, 'TEMP_HIGH_BIT_OFFSET'),
+        )
+
+    def _trigger_address(self, tube_id: int, offset_key: str) -> TriggerAddress:
+        explicit_map = TUBE_SETTINGS.get('TRIGGER_ADDRESS_MAP', {})
+        tube_map = explicit_map.get(tube_id) or explicit_map.get(str(tube_id)) or {}
+        key_map = {
+            'PARAM_TRIGGER_BIT_OFFSET': 'param',
+            'TEMP_TRIGGER_BIT_OFFSET': 'temperature',
+            'TEMP_NORMAL_BIT_OFFSET': 'normal',
+            'TEMP_HIGH_BIT_OFFSET': 'high',
+        }
+        explicit_address = tube_map.get(key_map[offset_key])
+        if explicit_address:
+            return TriggerAddress(
+                mem_area=explicit_address.get('mem_area', TUBE_SETTINGS['TRIGGER_MEMORY_AREA']),
+                word_addr=explicit_address.get('word_addr', TUBE_SETTINGS['TRIGGER_WORD_ADDR_BASE']),
+                bit_offset=explicit_address.get('bit_offset', TUBE_SETTINGS[offset_key]),
+            )
+
+        return TriggerAddress(
+            mem_area=TUBE_SETTINGS['TRIGGER_MEMORY_AREA'],
+            word_addr=TUBE_SETTINGS['TRIGGER_WORD_ADDR_BASE'] + (tube_id - 1) * TUBE_SETTINGS['TRIGGER_WORD_STRIDE'],
+            bit_offset=TUBE_SETTINGS[offset_key],
+        )
+
+    def _param_addresses(self, tube_id: int, table_key: str):
+        base = TUBE_SETTINGS['PARAM_ADDRESS_BASES'][table_key] + (tube_id - 1) * TUBE_SETTINGS['PARAM_ADDRESS_STRIDE']
+        mem_area = TUBE_SETTINGS['PARAM_MEMORY_AREA']
+        row_offsets = TUBE_SETTINGS['PARAM_ROW_OFFSETS'][table_key]
+        zone_stride = TUBE_SETTINGS['PARAM_ZONE_STRIDE']
+        return [
+            [(base + row_offset + col * zone_stride, mem_area) for col in range(self.zone_count)]
+            for row_offset in row_offsets
+        ]
 
     def init_ui(self):
         main_layout = QVBoxLayout()
 
-        # 상단 상태 표시 영역을 별도의 GroupBox로 생성
         self.status_container = QGroupBox("트리거 모니터링")
+        self.status_container.setMinimumHeight(230)
         status_layout = QVBoxLayout(self.status_container)
+        status_layout.setSpacing(10)
+        for state in self.tube_states:
+            status_layout.addLayout(self._create_status_row(state))
 
-        # --- Parameter Trigger Row ---
-        param_row = QHBoxLayout()
+        self.tables_container = QTabWidget()
+        self.tables_container.setObjectName("prevParameterTabs")
+        self.tables_container.setMinimumHeight(300)
+        self.new_tables_container = QTabWidget()
+        self.new_tables_container.setObjectName("newParameterTabs")
+        self.new_tables_container.setMinimumHeight(300)
 
-        self.status_label = QLabel("Parameter read trigger")
-        self.trigger_count_label = QLabel("트리거 카운트: 0")
+        for state in self.tube_states:
+            prev_tab = QWidget()
+            prev_tab.setMinimumHeight(260)
+            prev_layout = QHBoxLayout(prev_tab)
+            prev_layout.setContentsMargins(10, 10, 10, 10)
+            prev_layout.setSpacing(12)
+            state.left_table = self.create_table(state, "Prev Normal Temp Param")
+            state.right_table = self.create_table(state, "Prev High Temp Param")
+            prev_layout.addWidget(state.left_table)
+            prev_layout.addWidget(state.right_table)
+            self.tables_container.addTab(prev_tab, f"Tube {state.tube_id}")
 
-        self.trigger_indicator = QFrame()
-        self.trigger_indicator.setFixedSize(15, 15)
-        self.trigger_indicator.setStyleSheet(
-            "background-color: red; border-radius: 7px;"
-        )
+            new_tab = QWidget()
+            new_tab.setMinimumHeight(260)
+            new_layout = QHBoxLayout(new_tab)
+            new_layout.setContentsMargins(10, 10, 10, 10)
+            new_layout.setSpacing(12)
+            state.new_left_table = self.create_table(state, "New Normal Temp Param")
+            state.new_right_table = self.create_table(state, "New High Temp Param")
+            new_layout.addWidget(state.new_left_table)
+            new_layout.addWidget(state.new_right_table)
+            self.new_tables_container.addTab(new_tab, f"Tube {state.tube_id}")
 
-        param_row.addWidget(self.status_label)
-        param_row.addWidget(self.trigger_count_label)
-        param_row.addWidget(self.trigger_indicator)
-        param_row.addStretch()
+        self.tables_container.currentChanged.connect(self._sync_parameter_tabs)
+        self.new_tables_container.currentChanged.connect(self._sync_parameter_tabs)
 
-        # --- Temperature Trigger Row ---
-        temp_row = QHBoxLayout()
-
-        self.temp_trigger_label = QLabel("Temperature read trigger")
-        self.temp_trigger_state = QLabel("OFF")
-
-        self.temp_indicator_normal = QFrame()
-        self.temp_indicator_normal.setFixedSize(15, 15)
-        self.temp_indicator_normal.setStyleSheet(
-            "background-color: red; border-radius: 7px;"
-        )
-        self.temp_indicator_high = QFrame()
-        self.temp_indicator_high.setFixedSize(15, 15)
-        self.temp_indicator_high.setStyleSheet(
-            "background-color: red; border-radius: 7px;"
-        )
-
-        temp_row.addWidget(self.temp_trigger_label)
-        temp_row.addWidget(self.temp_trigger_state)
-        temp_row.addWidget(self.temp_indicator_normal)
-        temp_row.addWidget(self.temp_indicator_high)
-        temp_row.addStretch()
-
-        # 두 줄을 status_container에 삽입
-        status_layout.addLayout(param_row)
-        status_layout.addLayout(temp_row)
-
-        # 테이블 컨테이너1 생성
-        self.tables_container = QWidget()
-        tables_layout = QHBoxLayout(self.tables_container)
-
-        # 테이블 생성
-        self.left_table = self.create_table("Prev Normal Temp Param")
-        self.right_table = self.create_table("Prev High Temp Param")
-
-        tables_layout.addWidget(self.left_table)
-        tables_layout.addWidget(self.right_table)
-
-        # 테이블 컨테이너2 생성
-        self.new_tables_container = QWidget()
-        new_tables_layout = QHBoxLayout(self.new_tables_container)
-
-        # 테이블 생성
-        self.new_left_table = self.create_table("New Normal Temp Param")
-        self.new_right_table = self.create_table("New High Temp Param")
-
-        new_tables_layout.addWidget(self.new_left_table)
-        new_tables_layout.addWidget(self.new_right_table)
-
-        # 메인 레이아웃 설정
         main_layout.addWidget(self.tables_container)
         main_layout.addWidget(self.new_tables_container)
         self.setLayout(main_layout)
 
-        # 모니터링 타이머 설정
         self.monitor_timer = QTimer()
-        self.monitor_timer.timeout.connect(self.check_trigger)
-        self.monitor_timer.timeout.connect(self.check_trigger_temperature)
-        self.trigger_count = 0
+        self.monitor_timer.timeout.connect(self.check_triggers)
 
-    def create_table(self, title, rows=2, cols=8):
-        group = QGroupBox(title)
+    def _sync_parameter_tabs(self, index):
+        sender = self.sender()
+        target = self.new_tables_container if sender == self.tables_container else self.tables_container
+        if target.currentIndex() == index:
+            return
 
-        # 바깥쪽은 가로 레이아웃: [테이블][Restore 버튼]
+        target.blockSignals(True)
+        target.setCurrentIndex(index)
+        target.blockSignals(False)
+        self.tube_tab_changed.emit(index)
+
+    def set_current_tube_index(self, index):
+        if index < 0 or index >= self.tables_container.count():
+            return
+        if self.tables_container.currentIndex() == index and self.new_tables_container.currentIndex() == index:
+            return
+
+        self.tables_container.blockSignals(True)
+        self.new_tables_container.blockSignals(True)
+        self.tables_container.setCurrentIndex(index)
+        self.new_tables_container.setCurrentIndex(index)
+        self.tables_container.blockSignals(False)
+        self.new_tables_container.blockSignals(False)
+
+    def _create_status_row(self, state: TubeMonitorState):
+        row = QHBoxLayout()
+
+        state.status_label = QLabel(f"Tube {state.tube_id} Parameter read trigger")
+        state.trigger_count_label = QLabel("트리거 카운트: 0")
+        state.trigger_indicator = self._create_indicator()
+
+        temp_label = QLabel("Temperature read trigger")
+        state.temp_trigger_state = QLabel("OFF")
+        state.temp_indicator_normal = self._create_indicator()
+        state.temp_indicator_high = self._create_indicator()
+
+        row.addWidget(state.status_label)
+        row.addWidget(state.trigger_count_label)
+        row.addWidget(state.trigger_indicator)
+        row.addSpacing(20)
+        row.addWidget(temp_label)
+        row.addWidget(state.temp_trigger_state)
+        row.addWidget(QLabel("Normal"))
+        row.addWidget(state.temp_indicator_normal)
+        row.addWidget(QLabel("High"))
+        row.addWidget(state.temp_indicator_high)
+        row.addStretch()
+        return row
+
+    def _create_indicator(self):
+        indicator = QFrame()
+        indicator.setFixedSize(15, 15)
+        self._set_indicator(indicator, False)
+        return indicator
+
+    @staticmethod
+    def _set_indicator(indicator, is_on: bool):
+        indicator.setStyleSheet(
+            "background-color: green; border-radius: 7px;" if is_on else "background-color: red; border-radius: 7px;"
+        )
+
+    def create_table(self, state: TubeMonitorState, title, rows=2, cols=None):
+        cols = cols or self.zone_count
+        group = QGroupBox(f"Tube {state.tube_id} {title}")
+        group.setMinimumHeight(230)
         main_layout = QHBoxLayout()
-
-        # 테이블 쪽은 세로 레이아웃 (필요하면 라벨 등을 추가할 수 있음)
         table_layout = QVBoxLayout()
 
         table = QTableWidget(rows, cols)
         table.setObjectName("dataTable")
+        table.setMinimumHeight(150)
+        table.setHorizontalHeaderLabels([f'Z{i}' for i in range(1, cols + 1)])
+        table.setVerticalHeaderLabels(['P1', 'P2'])
 
-        # 열 헤더 설정
-        horizontal_headers = ['Z1', 'Z2', 'Z3', 'Z4', 'Z5', 'Z6', 'Z7', 'Z8']
-        table.setHorizontalHeaderLabels(horizontal_headers)
-
-        # 행 헤더 설정
-        vertical_headers = ['P1', 'P2']
-        table.setVerticalHeaderLabels(vertical_headers)
-
-        # 기본 셀 값 설정
         for row in range(rows):
             for col in range(cols):
                 table.setItem(row, col, QTableWidgetItem("0"))
 
         table_layout.addWidget(table)
 
-        # 오른쪽 Restore 버튼
         button_layout = QVBoxLayout()
         restore_button = QPushButton("Restore")
-        # 필요하면 objectName으로 어떤 테이블인지 구분
-        restore_button.setObjectName(f"{title}_restore_button")
+        restore_button.setObjectName(f"tube_{state.tube_id}_{title}_restore_button")
+        restore_button.clicked.connect(lambda _, s=state, t=table, table_title=title: self.restore_table(s, t, table_title))
+        if title in ("New Normal Temp Param", "New High Temp Param"):
+            self.restore_table(state, table, title)
 
-        # 버튼 클릭 시 이 테이블 초기화하는 슬롯 연결 (예시)
-        restore_button.clicked.connect(lambda _, t=table: self.restore_table(t,title))
-        if (title == "New Normal Temp Param") or (title == "New High Temp Param"):
-            self.restore_table(table,title)
-
-        # 버튼을 세로 중앙 정렬하고 싶으면 위아래로 stretch
         button_layout.addStretch()
         button_layout.addWidget(restore_button)
         button_layout.addStretch()
 
-        # 전체 레이아웃 구성
         main_layout.addLayout(table_layout)
         main_layout.addLayout(button_layout)
         group.setLayout(main_layout)
 
         return group
 
-    def restore_table(self, table, title):
-        # 1) 테이블 → 2차원 배열로 추출
+    def restore_table(self, state: TubeMonitorState, table, title):
         rows = table.rowCount()
         cols = table.columnCount()
 
@@ -208,131 +290,94 @@ class TriggerMonitorWidget(QGroupBox):
                 item = table.item(r, c)
                 text = item.text() if item else "0"
                 try:
-                    value = int(text)  # 안전하게 int 변환
+                    value = int(text)
                 except ValueError:
-                    logger.warning(f"테이블 값이 정수가 아님: row={r}, col={c}, text='{text}', 0으로 처리")
+                    logger.warning(f"Tube {state.tube_id} 테이블 값이 정수가 아님: row={r}, col={c}, text='{text}', 0으로 처리")
                     value = 0
                 row_data.append(value)
             ary.append(row_data)
 
-        logger.info(f"restore_table - title={title}, ary={ary}")
-
-        # 2) 어떤 주소 테이블을 쓸지 결정
-        if title == "Prev Normal Temp Param":
-            self.prev_norm_param = ary
-            addr_table = self.left_table_addresses
-        elif title == "New Normal Temp Param":
-            self.new_norm_param = ary
-            # addr_table = self.left_table_addresses
-            addr_table = self.new_left_table_addresses
-        elif title == "Prev High Temp Param":
-            self.prev_high_param = ary
-            addr_table = self.right_table_addresses
-        elif title == "New High Temp Param":
-            self.new_high_param = ary
-            # addr_table = self.right_table_addresses
-            addr_table = self.new_right_table_addresses
-        else:
+        table_key = self.PARAM_TABLE_KEYS.get(title)
+        if not table_key:
             logger.error(f"알 수 없는 테이블 제목: {title}")
             return
 
-        # 3) 주소/값 길이 체크 (예방 차원)
+        addr_table = self._param_addresses(state.tube_id, table_key)
+        if title == "Prev Normal Temp Param":
+            state.prev_left_table_value = [value for row in ary for value in row]
+        elif title == "Prev High Temp Param":
+            state.prev_right_table_value = [value for row in ary for value in row]
+        elif title == "New Normal Temp Param":
+            state.new_left_table_value = [value for row in ary for value in row]
+        elif title == "New High Temp Param":
+            state.new_right_table_value = [value for row in ary for value in row]
+
         if len(ary) != len(addr_table) or any(len(ary[r]) != len(addr_table[r]) for r in range(len(ary))):
             logger.error(
-                f"테이블 크기 불일치: 값={len(ary)}x{len(ary[0]) if ary else 0}, "
+                f"Tube {state.tube_id} 테이블 크기 불일치: 값={len(ary)}x{len(ary[0]) if ary else 0}, "
                 f"주소={len(addr_table)}x{len(addr_table[0]) if addr_table else 0}"
             )
             return
 
-        # 4) 실제 PLC write 수행
         try:
             for r in range(len(addr_table)):
                 for c in range(len(addr_table[r])):
                     word_addr, mem_area = addr_table[r][c]
                     value = ary[r][c]
-
                     logger.debug(
-                        f"PLC write -> title={title}, r={r}, c={c}, "
+                        f"PLC write -> tube={state.tube_id}, title={title}, r={r}, c={c}, "
                         f"mem_area=0x{mem_area:X}, word_addr={word_addr}, value={value}"
                     )
-
                     self.plc_connector.write_word(
                         mem_area=mem_area,
                         word_addr=word_addr,
                         word_value=value,
                     )
 
-            logger.info(f"{title} 테이블 Restore 완료")
+            logger.info(f"Tube {state.tube_id} {title} 테이블 Restore 완료")
 
         except Exception as e:
-            logger.exception(f"{title} Restore 중 예외 발생: {e}")
+            logger.exception(f"Tube {state.tube_id} {title} Restore 중 예외 발생: {e}")
 
-    def update_plc_data(self):
-        """PLC에서 데이터 읽어와서 테이블 업데이트"""
+    def update_plc_data(self, state: TubeMonitorState):
         try:
-            # 왼쪽 테이블 데이터 읽기
-            left_values = []
-            for row in self.left_table_addresses:
-                row_values = []
-                for addr, mem_area in row:
-                    value = self.plc_connector.read_word(
-                        word_addr=addr,
-                        mem_area=mem_area,
-                        word_count=1
-                    )
-                    if value is None:
-                        row_values.append(0)
-                    else:
-                        # ★ signed INT16 변환 적용
-                        row_values.append(
-                            value - 65536 if value >= 32768 else value
-                        )
-                left_values.extend(row_values)
+            left_values = self._read_param_values(state.tube_id, 'prev_normal')
+            right_values = self._read_param_values(state.tube_id, 'prev_high')
 
-            # 오른쪽 테이블 데이터 읽기
-            right_values = []
-            for row in self.right_table_addresses:
-                row_values = []
-                for addr, mem_area in row:
-                    value = self.plc_connector.read_word(
-                        word_addr=addr,
-                        mem_area=mem_area,
-                        word_count=1
-                    )
-                    if value is None:
-                        row_values.append(0)
-                    else:
-                        # ★ signed INT16 변환 적용
-                        row_values.append(
-                            value - 65536 if value >= 32768 else value
-                        )
-                right_values.extend(row_values)
+            self.update_table_values(state.left_table, left_values)
+            state.prev_left_table_value = left_values
+            logger.debug(f"Tube {state.tube_id} left_values: {state.prev_left_table_value}")
 
-            # 테이블 업데이트
-            self.update_table_values(self.left_table, left_values)
-            self.prev_left_table_value = left_values
-            logger.debug(f"left_values: {self.prev_left_table_value}")
-
-            self.update_table_values(self.right_table, right_values)
-            self.prev_right_table_value = right_values
-            logger.debug(f"right_values: {self.prev_right_table_value}")
+            self.update_table_values(state.right_table, right_values)
+            state.prev_right_table_value = right_values
+            logger.debug(f"Tube {state.tube_id} right_values: {state.prev_right_table_value}")
 
         except Exception as e:
-            logger.error(f"PLC 데이터 읽기 실패: {str(e)}")
+            logger.error(f"Tube {state.tube_id} PLC 데이터 읽기 실패: {str(e)}")
 
+    def _read_param_values(self, tube_id: int, table_key: str):
+        values = []
+        for row in self._param_addresses(tube_id, table_key):
+            for addr, mem_area in row:
+                value = self.plc_connector.read_word(
+                    word_addr=addr,
+                    mem_area=mem_area,
+                    word_count=1
+                )
+                if isinstance(value, (list, tuple)):
+                    value = value[0] if value else 0
+                values.append(0 if value is None else value - 65536 if value >= 32768 else value)
+        return values
 
     def update_table_values(self, group_box, data):
-        """테이블 값 업데이트"""
-        if not data:
-            return
+        if not data or not group_box:
+            return None
 
         table = group_box.findChild(QTableWidget)
         if not table:
-            return
+            return None
 
-        # 1차원 리스트를 2차원으로 변환 (8열 기준)
-        rows = [data[i:i + 8] for i in range(0, len(data), 8)]
-
+        rows = [data[i:i + self.zone_count] for i in range(0, len(data), self.zone_count)]
         for row_idx, row_data in enumerate(rows):
             for col_idx, value in enumerate(row_data):
                 table.setItem(row_idx, col_idx, QTableWidgetItem(str(value)))
@@ -340,160 +385,175 @@ class TriggerMonitorWidget(QGroupBox):
         return table
 
     def start_monitoring(self):
-        """트리거 모니터링 시작"""
-        self.monitor_timer.start(1000)  # 1000ms 간격으로 체크
-        logger.info("트리거 모니터링 시작")
-        
+        self.monitor_timer.start(1000)
+        logger.info(f"{self.tube_count}개 튜브 트리거 모니터링 시작")
+
     def stop_monitoring(self):
-        """트리거 모니터링 중지"""
         self.monitor_timer.stop()
+        for state in self.tube_states:
+            self._close_temperature_log(state)
         logger.info("트리거 모니터링 중지")
-        
-    def check_trigger(self):
-        """트리거 비트 상태 확인"""
-        trigger_state = self.plc_connector.read_trigger_bit(mem_area=0xAF, word_addr=1, bit_offset=1)
-        
-        if trigger_state is None:
-            self.status_label.setText("트리거 상태: 통신 오류")
-            self.status_label.setStyleSheet("color: red;")
-            return
-            
-        # Rising edge 감지 (0 → 1)
-        if trigger_state and not self.prev_trigger_state:
-            self.trigger_detected()
-        elif not trigger_state and self.prev_trigger_state:
-            self.trigger_released()
-            
-        self.prev_trigger_state = trigger_state
-        self.trigger_indicator.setStyleSheet(
-            "background-color: green; border-radius: 7px;" if trigger_state else "background-color: red; border-radius: 7px;"
+
+    def check_triggers(self):
+        for state in self.tube_states:
+            self.check_trigger(state)
+            self.check_trigger_temperature(state)
+
+    def _read_trigger(self, address: TriggerAddress):
+        return self.plc_connector.read_trigger_bit(
+            mem_area=address.mem_area,
+            word_addr=address.word_addr,
+            bit_offset=address.bit_offset,
         )
 
-    def check_trigger_temperature(self):
-        trigger_state = self.plc_connector.read_trigger_bit(mem_area=0xAF, word_addr=1, bit_offset=2)
-        temp_area_normal = self.plc_connector.read_trigger_bit(mem_area=0xAF, word_addr=1, bit_offset=3)
-        temp_area_high = self.plc_connector.read_trigger_bit(mem_area=0xAF, word_addr=1, bit_offset=4)
+    def check_trigger(self, state: TubeMonitorState):
+        trigger_state = self._read_trigger(state.param_trigger)
 
         if trigger_state is None:
-            self.temp_trigger_state.setText("오류")
-            self.temp_trigger_state.setStyleSheet("color: red;")
+            state.status_label.setText(f"Tube {state.tube_id} 트리거 상태: 통신 오류")
+            state.status_label.setStyleSheet("color: red;")
             return
 
+        if trigger_state and not state.prev_trigger_state:
+            self.trigger_detected(state)
+        elif not trigger_state and state.prev_trigger_state:
+            self.trigger_released(state)
+
+        state.prev_trigger_state = trigger_state
+        self._set_indicator(state.trigger_indicator, trigger_state)
+        state.status_label.setText(f"Tube {state.tube_id} Parameter read trigger")
+        state.status_label.setStyleSheet("")
+
+    def check_trigger_temperature(self, state: TubeMonitorState):
+        trigger_state = self._read_trigger(state.temp_trigger)
+        temp_area_normal = self._read_trigger(state.temp_normal)
+        temp_area_high = self._read_trigger(state.temp_high)
+
+        if trigger_state is None:
+            state.temp_trigger_state.setText("오류")
+            state.temp_trigger_state.setStyleSheet("color: red;")
+            return
+
+        requested_area = None
         if trigger_state and temp_area_normal:
-            if not self.prev_temp_trigger_state:
-                self.log_file, self.log_writer, self.log_file_path = init_plc_csv_logger("normal")
-            self.prev_temp_trigger_state = True
-            append_temperature_log(self.log_file, self.log_writer)
-            self.temp_trigger_state.setText("ON")
-            self.temp_trigger_state.setStyleSheet("color: green;")
-            self.temp_indicator_normal.setStyleSheet("background-color: green; border-radius: 7px;")
-
+            requested_area = "normal"
         elif trigger_state and temp_area_high:
-            if not self.prev_temp_trigger_state:
-                self.log_file, self.log_writer, self.log_file_path = init_plc_csv_logger("high")
-            self.prev_temp_trigger_state = True
-            append_temperature_log(self.log_file, self.log_writer)
-            self.temp_trigger_state.setText("ON")
-            self.temp_trigger_state.setStyleSheet("color: green;")
-            self.temp_indicator_high.setStyleSheet("background-color: green; border-radius: 7px;")
+            requested_area = "high"
 
-        else:
-            # 트리거가 1 -> 0 으로 떨어지는 순간에만 파일 닫기
-            if self.prev_temp_trigger_state and self.log_file:
-                try:
-                    self.log_file.close()
-                    logger.info(f"Temperature CSV Log 종료: {self.log_file_path}")
-                except Exception as e:
-                    logger.exception(f"로그 파일 종료 중 예외 발생: {e}")
-                finally:
-                    self.log_file = None
-                    self.log_writer = None
-                    self.log_file_path = None
+        if requested_area:
+            if (not state.prev_temp_trigger_state) or state.active_temp_area != requested_area:
+                self._close_temperature_log(state)
+                job_id = self._read_job_id_for_tube(state.tube_id)
+                state.job_id = job_id
+                state.log_file, state.log_writer, state.log_file_path = init_plc_csv_logger(
+                    requested_area,
+                    tube_id=state.tube_id,
+                    job_id=job_id,
+                    plc_connector=self.plc_connector,
+                )
+                state.active_temp_area = requested_area
 
-            self.prev_temp_trigger_state = False
-            self.temp_trigger_state.setText("OFF")
-            self.temp_trigger_state.setStyleSheet("color: red;")
-            self.temp_indicator_normal.setStyleSheet("background-color: red; border-radius: 7px;")
-            self.temp_indicator_high.setStyleSheet("background-color: red; border-radius: 7px;")
-
-    def trigger_detected(self):
-        """트리거 감지시 처리"""
-        self.trigger_count += 1
-        self.trigger_count_label.setText(f"트리거 카운트: {self.trigger_count}")
-        logger.info(f"트리거 감지 (카운트: {self.trigger_count})")
-        
-        # 데이터 읽기 처리
-        self.handle_data_read()
-
-    def trigger_released(self):
-        try:
-            self.tube_id, self.job_id = job_info_read()
-        except Exception as e:
-            logger.exception(f"job_info_read() 호출 중 예외 발생: {e}")
+            state.prev_temp_trigger_state = True
+            append_temperature_log(
+                state.log_file,
+                state.log_writer,
+                tube_id=state.tube_id,
+                job_id=state.job_id,
+                plc_connector=self.plc_connector,
+            )
+            state.temp_trigger_state.setText(f"ON ({requested_area})")
+            state.temp_trigger_state.setStyleSheet("color: green;")
+            self._set_indicator(state.temp_indicator_normal, requested_area == "normal")
+            self._set_indicator(state.temp_indicator_high, requested_area == "high")
             return
 
-        if self.tube_id is None or self.job_id is None:
-            logger.warning("trigger_released: tube_id 또는 job_id가 None 입니다.")
+        if state.prev_temp_trigger_state:
+            self._close_temperature_log(state)
+
+        state.prev_temp_trigger_state = False
+        state.active_temp_area = None
+        state.temp_trigger_state.setText("OFF")
+        state.temp_trigger_state.setStyleSheet("color: red;")
+        self._set_indicator(state.temp_indicator_normal, False)
+        self._set_indicator(state.temp_indicator_high, False)
+
+    def _close_temperature_log(self, state: TubeMonitorState):
+        if state.log_file:
+            try:
+                state.log_file.close()
+                logger.info(f"Tube {state.tube_id} Temperature CSV Log 종료: {state.log_file_path}")
+            except Exception as e:
+                logger.exception(f"Tube {state.tube_id} 로그 파일 종료 중 예외 발생: {e}")
+            finally:
+                state.log_file = None
+                state.log_writer = None
+                state.log_file_path = None
+
+    def trigger_detected(self, state: TubeMonitorState):
+        state.trigger_count += 1
+        state.trigger_count_label.setText(f"트리거 카운트: {state.trigger_count}")
+        logger.info(f"Tube {state.tube_id} 트리거 감지 (카운트: {state.trigger_count})")
+        self.handle_data_read(state)
+
+    def trigger_released(self, state: TubeMonitorState):
+        job_id = self._read_job_id_for_tube(state.tube_id)
+        if job_id is None:
+            logger.warning(f"Tube {state.tube_id} trigger_released: job_id가 None 입니다.")
             return
 
-        logger.info(f"trigger_released: tube_id={self.tube_id}, job_id={self.job_id}")
+        state.job_id = job_id
+        logger.info(f"trigger_released: tube_id={state.tube_id}, job_id={state.job_id}")
 
-        logs = get_latest_temperature_logs(self.tube_id, self.job_id)
-
+        logs = get_latest_temperature_logs(state.tube_id, state.job_id)
         normal = logs.get("normal", {})
         high = logs.get("high", {})
 
-        self.latest_normal_log_path = normal.get("path")
-        self.latest_normal_log_rows = normal.get("rows")
+        state.latest_normal_log_path = normal.get("path")
+        state.latest_normal_log_rows = normal.get("rows")
+        state.latest_high_log_path = high.get("path")
+        state.latest_high_log_rows = high.get("rows")
 
-        self.latest_high_log_path = high.get("path")
-        self.latest_high_log_rows = high.get("rows")
-
-        if self.latest_normal_log_path:
-            logger.info(f"최신 normal 온도 로그: {self.latest_normal_log_path}")
-            self.normal_p1, self.normal_init_p2, self.normal_p2 = p_calculation(self.latest_normal_log_rows)
-            if is_all_zero(self.prev_left_table_value):
-                self.new_left_table_value = self.normal_p1 + self.normal_init_p2
-                logger.info(f"new_left_table_value: {self.new_left_table_value}")
-                table = self.update_table_values(self.new_left_table, self.new_left_table_value)
-                self.restore_table(table,"New Normal Temp Param")
+        if state.latest_normal_log_path:
+            logger.info(f"Tube {state.tube_id} 최신 normal 온도 로그: {state.latest_normal_log_path}")
+            normal_p1, normal_init_p2, normal_p2 = p_calculation(state.latest_normal_log_rows, self.zone_count)
+            if is_all_zero(state.prev_left_table_value):
+                state.new_left_table_value = normal_p1 + normal_init_p2
             else:
-                self.new_left_table_value = ary_sum(self.normal_p1, self.normal_p2, self.prev_left_table_value)
-                logger.info(f"new_left_table_value: {self.new_left_table_value}")
-                table = self.update_table_values(self.new_left_table, self.new_left_table_value)
-                self.restore_table(table,"New Normal Temp Param")
+                state.new_left_table_value = ary_sum(normal_p1, normal_p2, state.prev_left_table_value)
+            table = self.update_table_values(state.new_left_table, state.new_left_table_value)
+            self.restore_table(state, table, "New Normal Temp Param")
         else:
-            logger.info("해당 tube/job에 대한 normal 온도 로그 없음")
+            logger.info(f"Tube {state.tube_id} 해당 tube/job에 대한 normal 온도 로그 없음")
 
-        if self.latest_high_log_path:
-            logger.info(f"최신 high 온도 로그: {self.latest_high_log_path}")
-            self.high_p1, self.high_init_p2, self.high_p2 = p_calculation(self.latest_high_log_rows)
-            if is_all_zero(self.prev_right_table_value):
-                self.new_right_table_value = self.high_p1 + self.high_init_p2
-                logger.info(f"new_right_table_value: {self.new_right_table_value}")
-                table = self.update_table_values(self.new_right_table, self.new_right_table_value)
-                self.restore_table(table,"New High Temp Param")
+        if state.latest_high_log_path:
+            logger.info(f"Tube {state.tube_id} 최신 high 온도 로그: {state.latest_high_log_path}")
+            high_p1, high_init_p2, high_p2 = p_calculation(state.latest_high_log_rows, self.zone_count)
+            if is_all_zero(state.prev_right_table_value):
+                state.new_right_table_value = high_p1 + high_init_p2
             else:
-                self.new_right_table_value = ary_sum(self.high_p1, self.high_p2, self.prev_right_table_value)
-                logger.info(f"new_right_table_value: {self.new_right_table_value}")
-                table = self.update_table_values(self.new_right_table, self.new_right_table_value)
-                self.restore_table(table,"New High Temp Param")
+                state.new_right_table_value = ary_sum(high_p1, high_p2, state.prev_right_table_value)
+            table = self.update_table_values(state.new_right_table, state.new_right_table_value)
+            self.restore_table(state, table, "New High Temp Param")
         else:
-            logger.info("해당 tube/job에 대한 high 온도 로그 없음")
+            logger.info(f"Tube {state.tube_id} 해당 tube/job에 대한 high 온도 로그 없음")
 
-        if self.latest_normal_log_path and self.latest_high_log_path:
+        if state.latest_normal_log_path or state.latest_high_log_path:
             self.temperature_log_updated.emit(
-                self.latest_normal_log_rows or [],
-                self.latest_high_log_rows or []
+                state.tube_id,
+                state.latest_normal_log_rows or [],
+                state.latest_high_log_rows or []
             )
-        else:
-            logger.info("해당 tube/job에 대한 high 온도 로그 없음")
 
-    def handle_data_read(self):
-        """트리거 감지시 데이터 읽기 처리"""
+    def _read_job_id_for_tube(self, tube_id: int):
         try:
-            # PLC 데이터 업데이트
-            self.update_plc_data()
-
+            _, job_id = job_info_read(tube_id=tube_id, plc_connector=self.plc_connector)
+            return job_id
         except Exception as e:
-            logger.error(f"데이터 읽기 처리 중 오류 발생: {str(e)}")
+            logger.exception(f"Tube {tube_id} job_info_read() 호출 중 예외 발생: {e}")
+            return None
+
+    def handle_data_read(self, state: TubeMonitorState):
+        try:
+            self.update_plc_data(state)
+        except Exception as e:
+            logger.error(f"Tube {state.tube_id} 데이터 읽기 처리 중 오류 발생: {str(e)}")
