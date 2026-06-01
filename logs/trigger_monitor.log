@@ -19,3 +19,11 @@
 [INFO] 2026-06-01 18:42:16,486 [trigger_monitor:trigger_monitor_widget.py:337] - Tube 4 New Normal Temp Param 테이블 Restore 완료
 [INFO] 2026-06-01 18:42:16,489 [trigger_monitor:trigger_monitor_widget.py:337] - Tube 4 New High Temp Param 테이블 Restore 완료
 [INFO] 2026-06-01 18:43:25,209 [trigger_monitor:trigger_monitor_widget.py:337] - Tube 1 New Normal Temp Param 테이블 Restore 완료
+[INFO] 2026-06-01 18:53:15,138 [trigger_monitor:trigger_monitor_widget.py:337] - Tube 1 New Normal Temp Param 테이블 Restore 완료
+[INFO] 2026-06-01 18:53:15,141 [trigger_monitor:trigger_monitor_widget.py:337] - Tube 1 New High Temp Param 테이블 Restore 완료
+[INFO] 2026-06-01 18:53:15,154 [trigger_monitor:trigger_monitor_widget.py:337] - Tube 2 New Normal Temp Param 테이블 Restore 완료
+[INFO] 2026-06-01 18:53:15,158 [trigger_monitor:trigger_monitor_widget.py:337] - Tube 2 New High Temp Param 테이블 Restore 완료
+[INFO] 2026-06-01 18:53:15,170 [trigger_monitor:trigger_monitor_widget.py:337] - Tube 3 New Normal Temp Param 테이블 Restore 완료
+[INFO] 2026-06-01 18:53:15,173 [trigger_monitor:trigger_monitor_widget.py:337] - Tube 3 New High Temp Param 테이블 Restore 완료
+[INFO] 2026-06-01 18:53:15,184 [trigger_monitor:trigger_monitor_widget.py:337] - Tube 4 New Normal Temp Param 테이블 Restore 완료
+[INFO] 2026-06-01 18:53:15,187 [trigger_monitor:trigger_monitor_widget.py:337] - Tube 4 New High Temp Param 테이블 Restore 완료

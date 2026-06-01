@@ -4778,3 +4778,395 @@ Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
 Thread: MainThread
 Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
 
+[INFO] 2026-06-01 18:53:14,349 [plc_connector:plc_connector.py:12]
+Thread: MainThread
+Message: PLC Connector 초기화
+
+[INFO] 2026-06-01 18:53:14,668 [plc_connector:plc_connector.py:12]
+Thread: MainThread
+Message: PLC Connector 초기화
+
+[ERROR] 2026-06-01 18:53:15,136 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,136 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,136 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,136 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,137 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,137 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,137 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,137 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,138 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,138 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,138 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,138 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,140 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,140 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,140 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,140 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,141 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,141 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,141 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,141 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,141 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,141 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,141 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,141 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,153 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,154 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,154 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,154 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,154 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,154 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,154 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,154 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,154 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,154 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,154 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,154 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,157 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,157 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,157 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,157 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,157 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,157 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,157 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,157 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,157 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,157 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,157 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,158 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,169 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,169 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,169 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,169 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,169 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,169 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,169 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,170 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,170 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,170 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,170 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,170 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,172 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,172 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,172 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,172 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,172 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,172 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,172 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,172 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,172 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,172 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,173 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,173 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,183 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,183 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,183 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,183 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,183 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,183 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,184 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,184 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,184 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,184 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,184 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,184 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
+[ERROR] 2026-06-01 18:53:15,186 [plc_connector:plc_connector.py:90]
+Thread: MainThread
+Message: PLC write data 실패: 'NoneType' object has no attribute 'write_word'
+
