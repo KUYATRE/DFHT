@@ -49054,3 +49054,91 @@ Message: 명령 전송: 800002000100000300000101af0000000001
 Thread: MainThread
 Message: 통신 타임아웃: 172.22.80.1:9600
 
+[INFO] 2026-06-01 16:56:01,018 [fins_comm:fins_comm.py:14]
+Thread: MainThread
+Message: FINS UDP 클라이언트 초기화: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+
+[INFO] 2026-06-01 16:56:01,019 [fins_comm:fins_comm.py:91]
+Thread: MainThread
+Message: command format merge completed: 0101af0000000001
+
+[DEBUG] 2026-06-01 16:56:01,019 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000101af0000000001
+
+[ERROR] 2026-06-01 16:56:06,021 [fins_comm:fins_comm.py:63]
+Thread: MainThread
+Message: 통신 타임아웃: 172.22.80.1:9600
+
+[DEBUG] 2026-06-01 16:56:14,928 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000102a003480000010000
+
+[ERROR] 2026-06-01 16:56:19,929 [fins_comm:fins_comm.py:63]
+Thread: MainThread
+Message: 통신 타임아웃: 172.22.80.1:9600
+
+[DEBUG] 2026-06-01 16:56:19,930 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000102a0034d0000010000
+
+[ERROR] 2026-06-01 16:56:24,930 [fins_comm:fins_comm.py:63]
+Thread: MainThread
+Message: 통신 타임아웃: 172.22.80.1:9600
+
+[DEBUG] 2026-06-01 16:56:24,931 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000102a003520000010000
+
+[ERROR] 2026-06-01 16:56:29,932 [fins_comm:fins_comm.py:63]
+Thread: MainThread
+Message: 통신 타임아웃: 172.22.80.1:9600
+
+[DEBUG] 2026-06-01 16:56:29,932 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000102a003570000010000
+
+[INFO] 2026-06-01 16:56:01,018 [fins_comm:fins_comm.py:14]
+Thread: MainThread
+Message: FINS UDP 클라이언트 초기화: IP=172.22.80.1, Port=9600, PLC Node=1, PC Node=3
+
+[INFO] 2026-06-01 16:56:01,019 [fins_comm:fins_comm.py:91]
+Thread: MainThread
+Message: command format merge completed: 0101af0000000001
+
+[DEBUG] 2026-06-01 16:56:01,019 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000101af0000000001
+
+[ERROR] 2026-06-01 16:56:06,021 [fins_comm:fins_comm.py:63]
+Thread: MainThread
+Message: 통신 타임아웃: 172.22.80.1:9600
+
+[DEBUG] 2026-06-01 16:56:14,928 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000102a003480000010000
+
+[ERROR] 2026-06-01 16:56:19,929 [fins_comm:fins_comm.py:63]
+Thread: MainThread
+Message: 통신 타임아웃: 172.22.80.1:9600
+
+[DEBUG] 2026-06-01 16:56:19,930 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000102a0034d0000010000
+
+[ERROR] 2026-06-01 16:56:24,930 [fins_comm:fins_comm.py:63]
+Thread: MainThread
+Message: 통신 타임아웃: 172.22.80.1:9600
+
+[DEBUG] 2026-06-01 16:56:24,931 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000102a003520000010000
+
+[ERROR] 2026-06-01 16:56:29,932 [fins_comm:fins_comm.py:63]
+Thread: MainThread
+Message: 통신 타임아웃: 172.22.80.1:9600
+
+[DEBUG] 2026-06-01 16:56:29,932 [fins_comm:fins_comm.py:57]
+Thread: MainThread
+Message: 명령 전송: 800002000100000300000102a003570000010000
+

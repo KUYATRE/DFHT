@@ -27,7 +27,7 @@ LOGGING_SETTINGS = {
 TUBE_SETTINGS = {
     # Tube 수를 늘릴 때는 이 값과, 필요 시 아래 주소/비트 stride 또는 TRIGGER_ADDRESS_MAP만 조정합니다.
     'TUBE_COUNT': 4,
-    'ZONE_COUNT': 8,
+    'ZONE_COUNT': 6,
 
     # 튜브별 Trigger bit 기본 매핑: TRIGGER_WORD_ADDR_BASE + (tube_id - 1) * TRIGGER_WORD_STRIDE
     # 기본값은 Tube 1=AF1, Tube 2=AF2, Tube 3=AF3, Tube 4=AF4에서 동일 bit offset을 사용합니다.

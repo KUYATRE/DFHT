@@ -72,7 +72,8 @@ class TubeMonitorState:
 
 
 class TriggerMonitorWidget(QGroupBox):
-    temperature_log_updated = pyqtSignal(list, list)
+    temperature_log_updated = pyqtSignal(int, list, list)
+    tube_tab_changed = pyqtSignal(int)
 
     PARAM_TABLE_KEYS = {
         "Prev Normal Temp Param": "prev_normal",
@@ -135,29 +136,44 @@ class TriggerMonitorWidget(QGroupBox):
         main_layout = QVBoxLayout()
 
         self.status_container = QGroupBox("트리거 모니터링")
+        self.status_container.setMinimumHeight(230)
         status_layout = QVBoxLayout(self.status_container)
+        status_layout.setSpacing(10)
         for state in self.tube_states:
             status_layout.addLayout(self._create_status_row(state))
 
         self.tables_container = QTabWidget()
+        self.tables_container.setObjectName("prevParameterTabs")
+        self.tables_container.setMinimumHeight(300)
         self.new_tables_container = QTabWidget()
+        self.new_tables_container.setObjectName("newParameterTabs")
+        self.new_tables_container.setMinimumHeight(300)
 
         for state in self.tube_states:
             prev_tab = QWidget()
+            prev_tab.setMinimumHeight(260)
             prev_layout = QHBoxLayout(prev_tab)
+            prev_layout.setContentsMargins(10, 10, 10, 10)
+            prev_layout.setSpacing(12)
             state.left_table = self.create_table(state, "Prev Normal Temp Param")
             state.right_table = self.create_table(state, "Prev High Temp Param")
             prev_layout.addWidget(state.left_table)
             prev_layout.addWidget(state.right_table)
-            self.tables_container.addTab(prev_tab, f"Tube {state.tube_id} Prev")
+            self.tables_container.addTab(prev_tab, f"Tube {state.tube_id}")
 
             new_tab = QWidget()
+            new_tab.setMinimumHeight(260)
             new_layout = QHBoxLayout(new_tab)
+            new_layout.setContentsMargins(10, 10, 10, 10)
+            new_layout.setSpacing(12)
             state.new_left_table = self.create_table(state, "New Normal Temp Param")
             state.new_right_table = self.create_table(state, "New High Temp Param")
             new_layout.addWidget(state.new_left_table)
             new_layout.addWidget(state.new_right_table)
-            self.new_tables_container.addTab(new_tab, f"Tube {state.tube_id} New")
+            self.new_tables_container.addTab(new_tab, f"Tube {state.tube_id}")
+
+        self.tables_container.currentChanged.connect(self._sync_parameter_tabs)
+        self.new_tables_container.currentChanged.connect(self._sync_parameter_tabs)
 
         main_layout.addWidget(self.tables_container)
         main_layout.addWidget(self.new_tables_container)
@@ -165,6 +181,30 @@ class TriggerMonitorWidget(QGroupBox):
 
         self.monitor_timer = QTimer()
         self.monitor_timer.timeout.connect(self.check_triggers)
+
+    def _sync_parameter_tabs(self, index):
+        sender = self.sender()
+        target = self.new_tables_container if sender == self.tables_container else self.tables_container
+        if target.currentIndex() == index:
+            return
+
+        target.blockSignals(True)
+        target.setCurrentIndex(index)
+        target.blockSignals(False)
+        self.tube_tab_changed.emit(index)
+
+    def set_current_tube_index(self, index):
+        if index < 0 or index >= self.tables_container.count():
+            return
+        if self.tables_container.currentIndex() == index and self.new_tables_container.currentIndex() == index:
+            return
+
+        self.tables_container.blockSignals(True)
+        self.new_tables_container.blockSignals(True)
+        self.tables_container.setCurrentIndex(index)
+        self.new_tables_container.setCurrentIndex(index)
+        self.tables_container.blockSignals(False)
+        self.new_tables_container.blockSignals(False)
 
     def _create_status_row(self, state: TubeMonitorState):
         row = QHBoxLayout()
@@ -206,11 +246,13 @@ class TriggerMonitorWidget(QGroupBox):
     def create_table(self, state: TubeMonitorState, title, rows=2, cols=None):
         cols = cols or self.zone_count
         group = QGroupBox(f"Tube {state.tube_id} {title}")
+        group.setMinimumHeight(230)
         main_layout = QHBoxLayout()
         table_layout = QVBoxLayout()
 
         table = QTableWidget(rows, cols)
         table.setObjectName("dataTable")
+        table.setMinimumHeight(150)
         table.setHorizontalHeaderLabels([f'Z{i}' for i in range(1, cols + 1)])
         table.setVerticalHeaderLabels(['P1', 'P2'])
 
@@ -495,8 +537,9 @@ class TriggerMonitorWidget(QGroupBox):
         else:
             logger.info(f"Tube {state.tube_id} 해당 tube/job에 대한 high 온도 로그 없음")
 
-        if state.latest_normal_log_path and state.latest_high_log_path:
+        if state.latest_normal_log_path or state.latest_high_log_path:
             self.temperature_log_updated.emit(
+                state.tube_id,
                 state.latest_normal_log_rows or [],
                 state.latest_high_log_rows or []
             )

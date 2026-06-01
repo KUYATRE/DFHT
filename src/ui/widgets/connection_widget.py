@@ -59,6 +59,7 @@ class ConnectionWidget(QGroupBox):
         self.log_path_input = QLineEdit()
         self.log_path_input.setPlaceholderText("예: C:/logs/")
         log_browse_btn = QPushButton("찾기")
+        log_browse_btn.setObjectName("browse_button")
 
         # 파일/폴더 선택 다이얼로그
         log_browse_btn.clicked.connect(self.browse_log_path)
@@ -70,7 +71,9 @@ class ConnectionWidget(QGroupBox):
         # 버튼 그룹
         button_layout = QHBoxLayout()
         self.connect_button = QPushButton("통신 시작")
+        self.connect_button.setObjectName("connect_button")
         self.disconnect_button = QPushButton("통신 중단")
+        self.disconnect_button.setObjectName("disconnect_button")
         self.disconnect_button.setEnabled(False)
 
         button_layout.addWidget(self.connect_button)
