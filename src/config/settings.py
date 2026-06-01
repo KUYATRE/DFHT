@@ -51,7 +51,7 @@ TUBE_SETTINGS = {
     # 온도 데이터 블록: tube별 base = TEMPERATURE_DATA_BASE + (tube_id - 1) * TEMPERATURE_DATA_STRIDE
     'TEMPERATURE_MEMORY_AREA': 0xA0,
     'TEMPERATURE_DATA_BASE': 17550,
-    'TEMPERATURE_DATA_STRIDE': 800,
+    'TEMPERATURE_DATA_STRIDE': 1000,
     'TEMPERATURE_BLOCK_OFFSETS': {
         'ptc': 0,
         'ctc': 10,
@@ -61,7 +61,7 @@ TUBE_SETTINGS = {
 
     # 파라미터 테이블 주소: table base + (tube_id - 1) * PARAM_ADDRESS_STRIDE + row_offset + zone * PARAM_ZONE_STRIDE
     'PARAM_MEMORY_AREA': 0xA0,
-    'PARAM_ADDRESS_STRIDE': 800,
+    'PARAM_ADDRESS_STRIDE': 1000,
     'PARAM_ZONE_STRIDE': 5,
     'PARAM_ADDRESS_BASES': {
         'prev_normal': 840,
