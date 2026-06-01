@@ -142,8 +142,10 @@ class TriggerMonitorWidget(QGroupBox):
             status_layout.addLayout(self._create_status_row(state))
 
         self.tables_container = QTabWidget()
+        self.tables_container.setObjectName("prevParameterTabs")
         self.tables_container.setMinimumHeight(300)
         self.new_tables_container = QTabWidget()
+        self.new_tables_container.setObjectName("newParameterTabs")
         self.new_tables_container.setMinimumHeight(300)
 
         for state in self.tube_states:
@@ -156,7 +158,7 @@ class TriggerMonitorWidget(QGroupBox):
             state.right_table = self.create_table(state, "Prev High Temp Param")
             prev_layout.addWidget(state.left_table)
             prev_layout.addWidget(state.right_table)
-            self.tables_container.addTab(prev_tab, f"Tube {state.tube_id} Prev")
+            self.tables_container.addTab(prev_tab, f"Tube {state.tube_id}")
 
             new_tab = QWidget()
             new_tab.setMinimumHeight(260)
@@ -167,7 +169,10 @@ class TriggerMonitorWidget(QGroupBox):
             state.new_right_table = self.create_table(state, "New High Temp Param")
             new_layout.addWidget(state.new_left_table)
             new_layout.addWidget(state.new_right_table)
-            self.new_tables_container.addTab(new_tab, f"Tube {state.tube_id} New")
+            self.new_tables_container.addTab(new_tab, f"Tube {state.tube_id}")
+
+        self.tables_container.currentChanged.connect(self._sync_parameter_tabs)
+        self.new_tables_container.currentChanged.connect(self._sync_parameter_tabs)
 
         main_layout.addWidget(self.tables_container)
         main_layout.addWidget(self.new_tables_container)
@@ -175,6 +180,16 @@ class TriggerMonitorWidget(QGroupBox):
 
         self.monitor_timer = QTimer()
         self.monitor_timer.timeout.connect(self.check_triggers)
+
+    def _sync_parameter_tabs(self, index):
+        sender = self.sender()
+        target = self.new_tables_container if sender == self.tables_container else self.tables_container
+        if target.currentIndex() == index:
+            return
+
+        target.blockSignals(True)
+        target.setCurrentIndex(index)
+        target.blockSignals(False)
 
     def _create_status_row(self, state: TubeMonitorState):
         row = QHBoxLayout()
