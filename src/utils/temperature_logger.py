@@ -3,54 +3,53 @@ import os
 from pathlib import Path
 from datetime import datetime
 from src.communication.plc_connector import PLCConnector
+from src.config.settings import PLC_SETTINGS, TUBE_SETTINGS
 from src.utils.logger_config import setup_logger
 
 logger = setup_logger('temperature_logger')
 plc_connector = PLCConnector()
-plc_connector.connect(
-    ip_address="172.22.80.1",
-    plc_port=9600,
-    plc_node=1,
-    pc_node=3
-)
 
-def init_plc_csv_logger(temp_area: str):
+
+def _connector(connector=None):
+    if connector is not None:
+        return connector
+    if not plc_connector.is_connected():
+        plc_connector.connect(
+            ip_address=PLC_SETTINGS['DEFAULT_IP'],
+            plc_port=PLC_SETTINGS['DEFAULT_PORT'],
+            plc_node=PLC_SETTINGS['DEFAULT_PLC_NODE'],
+            pc_node=PLC_SETTINGS['DEFAULT_PC_NODE'],
+        )
+    return plc_connector
+
+
+def _normalize_words(words, count):
+    if words is None:
+        return [0] * count
+    if isinstance(words, int):
+        words = [words]
+    else:
+        words = list(words)
+    if len(words) < count:
+        words += [0] * (count - len(words))
+    elif len(words) > count:
+        words = words[:count]
+    return words
+
+
+def init_plc_csv_logger(temp_area: str, tube_id: int | None = None, job_id: int | None = None, plc_connector=None):
     """
-    temp_area = "Normal" / "High" 같은 문자열
+    temp_area = "normal" / "high" 같은 문자열
     CSV 로그 파일 생성 + writer 반환
     """
-
-    # ------------------------------
-    # 1) 로그 디렉토리 생성
-    # ------------------------------
     log_dir = os.path.join(os.getcwd(), "temperature_logs")
     os.makedirs(log_dir, exist_ok=True)
 
-    # ------------------------------
-    # 2) Job 정보 읽기
-    # ------------------------------
-    job_info = plc_connector.read_word(
-        mem_area=0xAF,
-        word_addr=500,
-        word_count=2
-    )
+    if tube_id is None or job_id is None:
+        read_tube_id, read_job_id = job_info_read(tube_id=tube_id, plc_connector=plc_connector)
+        tube_id = tube_id or read_tube_id
+        job_id = job_id if job_id is not None else read_job_id
 
-    # 예외 처리
-    if job_info is None:
-        logger.warning("job_info 읽기 실패 → 기본값으로 로그 생성")
-        job_info = [0, 0]
-
-    # 리스트 보정
-    if isinstance(job_info, int):
-        job_info = [job_info, 0]
-    elif isinstance(job_info, (list, tuple)) and len(job_info) < 2:
-        job_info = list(job_info) + [0] * (2 - len(job_info))
-
-    tube_id, job_id = job_info[:2]
-
-    # ------------------------------
-    # 3) 파일 생성
-    # ------------------------------
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = f"temperature_T{tube_id}_{job_id}_{temp_area}_{timestamp}.csv"
     file_path = os.path.join(log_dir, filename)
@@ -58,69 +57,44 @@ def init_plc_csv_logger(temp_area: str):
     log_file = open(file_path, mode="w", newline="", encoding="utf-8")
     log_writer = csv.writer(log_file)
 
-    # ------------------------------
-    # 4) 헤더 생성
-    # ------------------------------
-    header = [
-        "time", "tube", "job",
-        "PTC1", "PTC2", "PTC3", "PTC4", "PTC5", "PTC6", "PTC7", "PTC8",
-        "CTC1", "CTC2", "CTC3", "CTC4", "CTC5", "CTC6", "CTC7", "CTC8",
-        "SP1", "SP2", "SP3", "SP4", "SP5", "SP6", "SP7", "SP8",
-        "MV1", "MV2", "MV3", "MV4", "MV5", "MV6", "MV7", "MV8"
-    ]
+    zone_count = TUBE_SETTINGS.get('ZONE_COUNT', 8)
+    header = ["time", "tube", "job"]
+    for prefix in ("PTC", "CTC", "SP", "MV"):
+        header.extend(f"{prefix}{zone}" for zone in range(1, zone_count + 1))
 
     log_writer.writerow(header)
     log_file.flush()
 
     logger.info(f"Temperature CSV Log Started: {file_path}")
-
-    # ------------------------------
-    # 5) 호출자에게 writer 반환
-    # ------------------------------
     return log_file, log_writer, file_path
 
-def data_read():
-    # 1) Job 정보 읽기
-    job_info = plc_connector.read_word(
-        mem_area=0xAF,
-        word_addr=500,
-        word_count=2
-    )
 
-    if job_info is None:
-        logger.warning("job_info 읽기 실패 → 기본값 [0, 0] 사용")
-        job_info = [0, 0]
+def data_read(tube_id: int | None = None, job_id: int | None = None, plc_connector=None):
+    connector = _connector(plc_connector)
 
-    if isinstance(job_info, int):
-        job_info = [job_info, 0]
-    elif isinstance(job_info, (list, tuple)) and len(job_info) < 2:
-        job_info = list(job_info) + [0] * (2 - len(job_info))
+    if tube_id is None or job_id is None:
+        read_tube_id, read_job_id = job_info_read(tube_id=tube_id, plc_connector=connector)
+        tube_id = tube_id or read_tube_id
+        job_id = job_id if job_id is not None else read_job_id
 
-    tube_id, job_id = job_info[:2]
+    zone_count = TUBE_SETTINGS.get('ZONE_COUNT', 8)
+    base = TUBE_SETTINGS['TEMPERATURE_DATA_BASE'] + (tube_id - 1) * TUBE_SETTINGS['TEMPERATURE_DATA_STRIDE']
+    mem_area = TUBE_SETTINGS['TEMPERATURE_MEMORY_AREA']
+    offsets = TUBE_SETTINGS['TEMPERATURE_BLOCK_OFFSETS']
 
-    # 2) PTC/CTC/SP/MV 블록 읽기
-    base = 17550 + (tube_id - 1) * 800
+    ptc = [v / 10 for v in read_block(mem_area, base + offsets['ptc'], zone_count, connector)]
+    ctc = [v / 10 for v in read_block(mem_area, base + offsets['ctc'], zone_count, connector)]
+    sp = [v / 10 for v in read_block(mem_area, base + offsets['sp'], zone_count, connector)]
+    mv = read_block(mem_area, base + offsets['mv'], zone_count, connector)
 
-    ptc = [v / 10 for v in read_block(0xA0, base + 0, 8)]   # 17550 ~
-    ctc = [v / 10 for v in read_block(0xA0, base + 10, 8)]  # 17560 ~
-    sp  = [v / 10 for v in read_block(0xA0, base + 20, 8)]  # 17570 ~
-    mv  = read_block(0xA0, base + 30, 8)                    # 17580 ~
-
-    # 3) CSV row에 딱 맞는 평탄화 리스트로 반환
-    #    [tube, job, PTC 8개, CTC 8개, SP 8개, MV 8개]
     row_values = [tube_id, job_id] + ptc + ctc + sp + mv
-
     logger.debug(f"data_read row_values: {row_values}")
-
     return row_values
 
 
-def read_block(mem_area, word_addr: int, count: int) -> list[int]:
-    """
-    PLC에서 특정 word_addr부터 count개 읽어서
-    항상 길이 count인 리스트로 반환
-    """
-    data = plc_connector.read_word(
+def read_block(mem_area, word_addr: int, count: int, plc_connector=None) -> list[int]:
+    connector = _connector(plc_connector)
+    data = connector.read_word(
         mem_area=mem_area,
         word_addr=word_addr,
         word_count=count
@@ -130,32 +104,18 @@ def read_block(mem_area, word_addr: int, count: int) -> list[int]:
         logger.warning(f"read_block: addr={word_addr}, count={count} → None 반환, 0으로 대체")
         return [0] * count
 
-    # int 하나만 오는 경우
-    if isinstance(data, int):
-        return [data] + [0] * (count - 1)
+    return _normalize_words(data, count)
 
-    # 리스트/튜플인 경우 길이 보정
-    data = list(data)
-    if len(data) < count:
-        data += [0] * (count - len(data))
-    elif len(data) > count:
-        data = data[:count]
 
-    return data
-
-def append_temperature_log(log_file, log_writer):
-    # log_file 또는 log_writer가 아직 초기화 안 된 경우
+def append_temperature_log(log_file, log_writer, tube_id: int | None = None, job_id: int | None = None, plc_connector=None):
     if log_file is None or log_writer is None:
         logger.warning("append_temperature_log: log_file 또는 log_writer가 None 입니다. (초기화 안 됨)")
         return
 
-    # 값 읽기
-    values = data_read()
+    values = data_read(tube_id=tube_id, job_id=job_id, plc_connector=plc_connector)
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
     row = [timestamp] + values
 
-    # CSV append
     try:
         log_writer.writerow(row)
         log_file.flush()
@@ -163,41 +123,37 @@ def append_temperature_log(log_file, log_writer):
     except Exception as e:
         logger.exception(f"append_temperature_log 중 예외 발생: {e}")
 
-def job_info_read():
-    # 1) Job 정보 읽기
-    job_info = plc_connector.read_word(
-        mem_area=0xAF,
-        word_addr=500,
+
+def job_info_read(tube_id: int | None = None, plc_connector=None):
+    connector = _connector(plc_connector)
+    word_addr = TUBE_SETTINGS['JOB_INFO_WORD_ADDR_BASE']
+    if tube_id is not None:
+        word_addr += (tube_id - 1) * TUBE_SETTINGS['JOB_INFO_WORD_STRIDE']
+
+    job_info = connector.read_word(
+        mem_area=TUBE_SETTINGS['JOB_INFO_MEMORY_AREA'],
+        word_addr=word_addr,
         word_count=2
     )
 
     if job_info is None:
-        logger.warning("job_info 읽기 실패 → 기본값 [0, 0] 사용")
-        job_info = [0, 0]
+        logger.warning("job_info 읽기 실패 → 기본값 [tube_id or 0, 0] 사용")
+        return tube_id or 0, 0
 
-    if isinstance(job_info, int):
-        job_info = [job_info, 0]
-    elif isinstance(job_info, (list, tuple)) and len(job_info) < 2:
-        job_info = list(job_info) + [0] * (2 - len(job_info))
+    job_info = _normalize_words(job_info, 2)
+    read_tube_id, job_id = job_info[:2]
 
-    tube_id, job_id = job_info[:2]
+    if tube_id is not None:
+        read_tube_id = tube_id
 
-    return tube_id, job_id
+    return read_tube_id, job_id
 
 
 def _get_log_dir() -> Path:
-    """
-    temperature_logs 디렉토리 Path 반환
-    (없으면 None 대신 경로만 반환하고, 사용하는 쪽에서 존재 여부 확인)
-    """
     return Path(os.getcwd()) / "temperature_logs"
 
 
 def _read_csv_rows(path: Path):
-    """
-    주어진 CSV 파일을 모두 읽어서 list[list[str]] 형태로 반환.
-    읽기 실패 시 None 반환.
-    """
     try:
         rows = []
         with path.open("r", encoding="utf-8", newline="") as f:
@@ -212,15 +168,6 @@ def _read_csv_rows(path: Path):
 
 
 def get_latest_temperature_log(tube_id: int, job_id: int, temp_area: str):
-    """
-    특정 tube_id, job_id, temp_area("normal" 또는 "high")에 대해
-    temperature_logs 폴더에서
-      temperature_T{tube_id}_{job_id}_{temp_area}_*.csv
-    패턴에 해당하는 파일 중 가장 최신 파일을 찾아
-    (Path, rows) 튜플로 반환한다.
-
-    파일이 없으면 (None, None) 반환.
-    """
     log_dir = _get_log_dir()
 
     if not log_dir.exists():
@@ -241,21 +188,10 @@ def get_latest_temperature_log(tube_id: int, job_id: int, temp_area: str):
 
 
 def get_latest_temperature_logs(tube_id: int, job_id: int):
-    """
-    편의 함수:
-    주어진 tube_id, job_id에 대해
-    normal, high 각각의 최신 로그를 찾아 한 번에 반환.
-
-    return:
-        {
-            "normal": {"path": Path | None, "rows": list[list[str]] | None},
-            "high":   {"path": Path | None, "rows": list[list[str]] | None},
-        }
-    """
     normal_path, normal_rows = get_latest_temperature_log(tube_id, job_id, "normal")
-    high_path,   high_rows   = get_latest_temperature_log(tube_id, job_id, "high")
+    high_path, high_rows = get_latest_temperature_log(tube_id, job_id, "high")
 
     return {
         "normal": {"path": normal_path, "rows": normal_rows},
-        "high":   {"path": high_path,   "rows": high_rows},
+        "high": {"path": high_path, "rows": high_rows},
     }

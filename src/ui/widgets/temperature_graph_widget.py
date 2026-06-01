@@ -25,6 +25,11 @@ class TemperatureGraphWidget(QGroupBox):
         self.current_zone = 1
         self.normal_rows = None
         self.high_rows = None
+        self.plot_colors = {
+            "SP": "#7dd3fc",
+            "PTC": "#a78bfa",
+            "CTC": "#34d399",
+        }
 
         self._init_ui()
 
@@ -39,6 +44,7 @@ class TemperatureGraphWidget(QGroupBox):
         self.zone_buttons = []
         for i in range(8):
             btn = QPushButton(f"Z{i+1}")
+            btn.setObjectName("zoneButton")
             btn.setCheckable(True)
             if i == 0:
                 btn.setChecked(True)
@@ -52,17 +58,19 @@ class TemperatureGraphWidget(QGroupBox):
         graph_row = QHBoxLayout()
 
         # Normal graph
-        self.normal_fig = Figure(figsize=(4, 3))
+        self.normal_fig = Figure(figsize=(4, 3), facecolor="#11151d")
         self.normal_canvas = FigureCanvas(self.normal_fig)
         self.normal_ax = self.normal_fig.add_subplot(111)
+        self._style_axis(self.normal_ax)
         self.normal_ax.set_title("Normal 온도 그래프")
         self.normal_ax.set_xlabel("Time (index)")
         self.normal_ax.set_ylabel("Temperature")
 
         # High graph
-        self.high_fig = Figure(figsize=(4, 3))
+        self.high_fig = Figure(figsize=(4, 3), facecolor="#11151d")
         self.high_canvas = FigureCanvas(self.high_fig)
         self.high_ax = self.high_fig.add_subplot(111)
+        self._style_axis(self.high_ax)
         self.high_ax.set_title("High 온도 그래프")
         self.high_ax.set_xlabel("Time (index)")
         self.high_ax.set_ylabel("Temperature")
@@ -71,6 +79,20 @@ class TemperatureGraphWidget(QGroupBox):
         graph_row.addWidget(self.high_canvas)
 
         main_layout.addLayout(graph_row)
+
+    def _style_axis(self, ax):
+        ax.set_facecolor("#0d1117")
+        ax.tick_params(colors="#8b949e")
+        ax.xaxis.label.set_color("#c9d1d9")
+        ax.yaxis.label.set_color("#c9d1d9")
+        ax.title.set_color("#f0f6fc")
+        for spine in ax.spines.values():
+            spine.set_color("#30363d")
+
+    def _style_legend(self, ax):
+        legend = ax.legend(facecolor="#11151d", edgecolor="#30363d")
+        for text in legend.get_texts():
+            text.set_color("#c9d1d9")
 
     # ----------------- 버튼 핸들러 -----------------
     def _make_zone_clicked_handler(self, zone: int):
@@ -134,6 +156,7 @@ class TemperatureGraphWidget(QGroupBox):
     @pyqtSlot()
     def update_normal_graph(self):
         self.normal_ax.clear()
+        self._style_axis(self.normal_ax)
 
         if not self.normal_rows:
             self.normal_ax.set_title("Normal 온도 그래프 (데이터 없음)")
@@ -161,17 +184,17 @@ class TemperatureGraphWidget(QGroupBox):
         ptc = pad(ptc)
         ctc = pad(ctc)
 
-        self.normal_ax.plot(x, sp, label="SP")
-        self.normal_ax.plot(x, ptc, label="PTC")
-        self.normal_ax.plot(x, ctc, label="CTC")
+        self.normal_ax.plot(x, sp, label="SP", color=self.plot_colors["SP"], linewidth=1.8)
+        self.normal_ax.plot(x, ptc, label="PTC", color=self.plot_colors["PTC"], linewidth=1.8)
+        self.normal_ax.plot(x, ctc, label="CTC", color=self.plot_colors["CTC"], linewidth=1.8)
 
         # 그리드 켜기
-        self.normal_ax.grid(True, which="both", linestyle="--", alpha=0.4)
+        self.normal_ax.grid(True, which="both", linestyle="--", alpha=0.25, color="#30363d")
 
         self.normal_ax.set_title(f"Normal 온도 그래프 - Z{self.current_zone}")
         self.normal_ax.set_xlabel("Index")
         self.normal_ax.set_ylabel("Temperature")
-        self.normal_ax.legend()
+        self._style_legend(self.normal_ax)
 
         # PTC 최대값 텍스트로 표시 (좌측 상단)
         if max_ptc is not None:
@@ -179,7 +202,9 @@ class TemperatureGraphWidget(QGroupBox):
                 0.02, 0.95,
                 f"PTC max: {max_ptc:.1f}",
                 transform=self.normal_ax.transAxes,
-                va="top"
+                va="top",
+                color="#f0f6fc",
+                bbox={"boxstyle": "round,pad=0.35", "facecolor": "#161b22", "edgecolor": "#30363d"}
             )
 
         self.normal_canvas.draw()
@@ -187,6 +212,7 @@ class TemperatureGraphWidget(QGroupBox):
     @pyqtSlot()
     def update_high_graph(self):
         self.high_ax.clear()
+        self._style_axis(self.high_ax)
 
         if not self.high_rows:
             self.high_ax.set_title("High 온도 그래프 (데이터 없음)")
@@ -210,17 +236,17 @@ class TemperatureGraphWidget(QGroupBox):
         ptc = pad(ptc)
         ctc = pad(ctc)
 
-        self.high_ax.plot(x, sp, label="SP")
-        self.high_ax.plot(x, ptc, label="PTC")
-        self.high_ax.plot(x, ctc, label="CTC")
+        self.high_ax.plot(x, sp, label="SP", color=self.plot_colors["SP"], linewidth=1.8)
+        self.high_ax.plot(x, ptc, label="PTC", color=self.plot_colors["PTC"], linewidth=1.8)
+        self.high_ax.plot(x, ctc, label="CTC", color=self.plot_colors["CTC"], linewidth=1.8)
 
         # 그리드 켜기
-        self.high_ax.grid(True, which="both", linestyle="--", alpha=0.4)
+        self.high_ax.grid(True, which="both", linestyle="--", alpha=0.25, color="#30363d")
 
         self.high_ax.set_title(f"High 온도 그래프 - Z{self.current_zone}")
         self.high_ax.set_xlabel("Index")
         self.high_ax.set_ylabel("Temperature")
-        self.high_ax.legend()
+        self._style_legend(self.high_ax)
 
         # PTC 최대값 텍스트 표시
         if max_ptc is not None:
@@ -228,7 +254,9 @@ class TemperatureGraphWidget(QGroupBox):
                 0.02, 0.95,
                 f"PTC max: {max_ptc:.1f}",
                 transform=self.high_ax.transAxes,
-                va="top"
+                va="top",
+                color="#f0f6fc",
+                bbox={"boxstyle": "round,pad=0.35", "facecolor": "#161b22", "edgecolor": "#30363d"}
             )
 
         self.high_canvas.draw()

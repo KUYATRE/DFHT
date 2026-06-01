@@ -1,8 +1,7 @@
 # src/ui/main_window.py
-from PyQt6.QtWidgets import QMainWindow, QWidget, QHBoxLayout, QVBoxLayout
+from PyQt6.QtWidgets import QMainWindow, QWidget, QHBoxLayout, QVBoxLayout, QLabel
 from PyQt6.QtCore import Qt  # Qt 추가
 from PyQt6.QtGui import QGuiApplication
-from src.communication.plc_connector import PLCConnector
 from src.ui.widgets.connection_widget import ConnectionWidget
 from src.ui.widgets.heartbeat_widget import HeartbeatWidget
 from src.ui.widgets.trigger_monitor_widget import TriggerMonitorWidget
@@ -44,16 +43,42 @@ class PLCMonitoringApp(QMainWindow):
 
         # 메인 위젯 설정
         main_widget = QWidget()
+        main_widget.setObjectName("appRoot")
         self.setCentralWidget(main_widget)
 
         # 메인 레이아웃을 수직 레이아웃으로 변경
         main_layout = QVBoxLayout(main_widget)
-        main_layout.setContentsMargins(10, 10, 10, 10)  # 여백 추가
+        main_layout.setContentsMargins(14, 14, 14, 14)  # 여백 추가
+        main_layout.setSpacing(12)
+
+        # Codex 느낌의 상단 헤더
+        hero_bar = QWidget()
+        hero_bar.setObjectName("heroBar")
+        hero_layout = QHBoxLayout(hero_bar)
+        hero_layout.setContentsMargins(18, 14, 18, 14)
+
+        title_column = QVBoxLayout()
+        title_label = QLabel("DFHT Temperature Monitor")
+        title_label.setObjectName("appTitle")
+        subtitle_label = QLabel("4-Tube independent trigger logging · parameter tuning console")
+        subtitle_label.setObjectName("appSubtitle")
+        title_column.addWidget(title_label)
+        title_column.addWidget(subtitle_label)
+
+        tube_pill = QLabel("4 TUBE READY")
+        tube_pill.setObjectName("statusPill")
+        tube_pill.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        hero_layout.addLayout(title_column)
+        hero_layout.addStretch()
+        hero_layout.addWidget(tube_pill)
+        main_layout.addWidget(hero_bar)
 
         # 상단 위젯들을 위한 수평 레이아웃 컨테이너
         top_container = QWidget()
         top_layout = QHBoxLayout(top_container)
-        top_layout.setSpacing(10)  # 위젯 간 간격 설정
+        top_layout.setContentsMargins(0, 0, 0, 0)
+        top_layout.setSpacing(12)  # 위젯 간 간격 설정
 
         # 상단 위젯 추가
         self.connection_widget = ConnectionWidget()
